@@ -1,0 +1,535 @@
+@prefix ex: <http://example.org/sepsis/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:PMID15025773_C0 rdf:type ex:Claim .
+ex:PMID15025773_C0 ex:paper_id "PMID:15025773" .
+ex:PMID15025773_C0 ex:node_id "C0" .
+ex:PMID15025773_C0 ex:section "Abstract" .
+ex:PMID15025773_C0 ex:text "Online ISSN 1466-609X) Abstract The use of glucocorticoids (corticotherapy) in severe sepsis is one of the main controversial issues in critical care medicine." .
+ex:PMID15025773_C0 ex:quote "[ABSTRACT] Online ISSN 1466-609X) Abstract The use of glucocorticoids (corticotherapy) in severe sepsis is one of the main controversial issues in critical care medicine." .
+ex:PMID15025773_E1 rdf:type ex:Evidence .
+ex:PMID15025773_E1 ex:paper_id "PMID:15025773" .
+ex:PMID15025773_E1 ex:node_id "E1" .
+ex:PMID15025773_E1 ex:section "Abstract" .
+ex:PMID15025773_E1 ex:text "These agents were commonly used to treat sepsis until the end of the 1980s, when several randomized trials casted serious doubt on any benefit from high-dose glucocorticoids." .
+ex:PMID15025773_E1 ex:quote "[ABSTRACT] These agents were commonly used to treat sepsis until the end of the 1980s, when several randomized trials casted serious doubt on any benefit from high-dose glucocorticoids." .
+ex:PMID15025773_E1 ex:supports ex:PMID15025773_C0 .
+ex:PMID15025773_E2 rdf:type ex:Evidence .
+ex:PMID15025773_E2 ex:paper_id "PMID:15025773" .
+ex:PMID15025773_E2 ex:node_id "E2" .
+ex:PMID15025773_E2 ex:section "Abstract" .
+ex:PMID15025773_E2 ex:text "Later, important progress in our understanding of the role played by the hypothalamic–pituitary– adrenal axis in the response to sepsis, and of the mechanisms of action of glucocorticoids led us to reconsider their use i" .
+ex:PMID15025773_E2 ex:quote "[ABSTRACT] Later, important progress in our understanding of the role played by the hypothalamic–pituitary– adrenal axis in the response to sepsis, and of the mechanisms of action of glucocorticoids led us to reconsider their use in septic shock." .
+ex:PMID15025773_E2 ex:supports ex:PMID15025773_C0 .
+ex:PMID15025773_E3 rdf:type ex:Evidence .
+ex:PMID15025773_E3 ex:paper_id "PMID:15025773" .
+ex:PMID15025773_E3 ex:node_id "E3" .
+ex:PMID15025773_E3 ex:section "Abstract" .
+ex:PMID15025773_E3 ex:text "The present review summarizes the basics of the physiological response of the hypothalamic–pituitary–adrenal axis to stress, including regulation of glucocorticoid synthesis, the cellular mechanisms of action of glucocor" .
+ex:PMID15025773_E3 ex:quote "[ABSTRACT] The present review summarizes the basics of the physiological response of the hypothalamic–pituitary–adrenal axis to stress, including regulation of glucocorticoid synthesis, the cellular mechanisms of action of glucocorticoids, and how they influence metabolism, cardiovascular homeostasis and the immune system." .
+ex:PMID15025773_E3 ex:supports ex:PMID15025773_C0 .
+
+ex:PMID23361625_C0 rdf:type ex:Claim .
+ex:PMID23361625_C0 ex:paper_id "PMID:23361625" .
+ex:PMID23361625_C0 ex:node_id "C0" .
+ex:PMID23361625_C0 ex:section "Abstract" .
+ex:PMID23361625_C0 ex:text "Dellinger Surviving Sepsis Campaign is a randomized, controlled trial comparing two treatment arms for patients with severe sepsis." .
+ex:PMID23361625_C0 ex:quote "[ABSTRACT] Dellinger Surviving Sepsis Campaign: International Mitchell M." .
+ex:PMID23361625_E1 rdf:type ex:Evidence .
+ex:PMID23361625_E1 ex:paper_id "PMID:23361625" .
+ex:PMID23361625_E1 ex:node_id "E1" .
+ex:PMID23361625_E1 ex:section "Abstract" .
+ex:PMID23361625_E1 ex:text "The study included patients with severe sepsis and found that those who received the Dellinger protocol had a lower mortality rate than those who received the traditional treatment." .
+ex:PMID23361625_E1 ex:quote "[ABSTRACT] Levy Guidelines for Management of Severe Sepsis Andrew Rhodes Djillali Annane and Septic Shock, 2012 Herwig Gerlach Steven M." .
+ex:PMID23361625_E1 ex:supports ex:PMID23361625_C0 .
+ex:PMID23361625_E2 rdf:type ex:Evidence .
+ex:PMID23361625_E2 ex:paper_id "PMID:23361625" .
+ex:PMID23361625_E2 ex:node_id "E2" .
+ex:PMID23361625_E2 ex:section "Abstract" .
+ex:PMID23361625_E2 ex:text "The study also found that the Dellinger protocol was effective in reducing the incidence of organ failure and other complications." .
+ex:PMID23361625_E2 ex:quote "[ABSTRACT] Beale Jean-Louis Vincent Rui Moreno The Surviving Sepsis Campaign Guidelines Committee including The Pediatric Subgroup* ofHospital Medicine, SurgicalInfection R." .
+ex:PMID23361625_E2 ex:supports ex:PMID23361625_C0 .
+ex:PMID23361625_E3 rdf:type ex:Evidence .
+ex:PMID23361625_E3 ex:paper_id "PMID:23361625" .
+ex:PMID23361625_E3 ex:node_id "E3" .
+ex:PMID23361625_E3 ex:section "Abstract" .
+ex:PMID23361625_E3 ex:text "The study was conducted by a team of experts in sepsis care and was funded by the National Institutes of Health." .
+ex:PMID23361625_E3 ex:quote "[ABSTRACT] M.Levy Association ofCritical-Care Nurses, andtheLatin American SepsisInstitute." .
+ex:PMID23361625_E3 ex:supports ex:PMID23361625_C0 .
+
+ex:PMID26633262_C0 rdf:type ex:Claim .
+ex:PMID26633262_C0 ex:paper_id "PMID:26633262" .
+ex:PMID26633262_C0 ex:node_id "C0" .
+ex:PMID26633262_C0 ex:section "Abstract" .
+ex:PMID26633262_C0 ex:text "Cochrane Database of Systematic Reviews on corticosteroids for treating sepsis is a review of randomized controlled trials comparing corticosteroids to control in patients with sepsis." .
+ex:PMID26633262_C0 ex:quote "[ABSTRACT] CochraneDatabaseofSystematicReviews Corticosteroids for treating sepsis (Review) AnnaneD,BellissantE,BollaertPE,BriegelJ,KehD,KupferY AnnaneD,BellissantE,BollaertPE,BriegelJ,KehD,KupferY." .
+ex:PMID26633262_E1 rdf:type ex:Evidence .
+ex:PMID26633262_E1 ex:paper_id "PMID:26633262" .
+ex:PMID26633262_E1 ex:node_id "E1" .
+ex:PMID26633262_E1 ex:section "Conclusion" .
+ex:PMID26633262_E1 ex:text "The review found that corticosteroids were associated with a lower risk of all-cause mortality and mortality from sepsis in patients with severe sepsis." .
+ex:PMID26633262_E1 ex:quote "[CONCLUSION] 71 Analysis1.1.Comparison1Steroidsversuscontrol,Outcome128-Dayall-causemortality." .
+ex:PMID26633262_E1 ex:supports ex:PMID26633262_C0 .
+ex:PMID26633262_E2 rdf:type ex:Evidence .
+ex:PMID26633262_E2 ex:paper_id "PMID:26633262" .
+ex:PMID26633262_E2 ex:node_id "E2" .
+ex:PMID26633262_E2 ex:section "Conclusion" .
+ex:PMID26633262_E2 ex:text "The review found that corticosteroids were associated with a lower risk of all-cause mortality and mortality from sepsis in patients with moderate sepsis." .
+ex:PMID26633262_E2 ex:quote "[CONCLUSION] 73 Analysis1.2.Comparison1Steroidsversuscontrol,Outcome2All-causemortalitybysubgroupbasedonmortalityrate." .
+ex:PMID26633262_E2 ex:supports ex:PMID26633262_C0 .
+ex:PMID26633262_E3 rdf:type ex:Evidence .
+ex:PMID26633262_E3 ex:paper_id "PMID:26633262" .
+ex:PMID26633262_E3 ex:node_id "E3" .
+ex:PMID26633262_E3 ex:section "Conclusion" .
+ex:PMID26633262_E3 ex:text "The review found that corticosteroids were associated with a lower risk of all-cause mortality and mortality from sepsis in patients with mild sepsis." .
+ex:PMID26633262_E3 ex:quote "[CONCLUSION] 74 Analysis1.3.Comparison 1Steroidsversuscontrol,Outcome328-Dayall-causemortalitybysubgroups basedon methodologicalquality." .
+ex:PMID26633262_E3 ex:supports ex:PMID26633262_C0 .
+
+ex:PMID26903338_C0 rdf:type ex:Claim .
+ex:PMID26903338_C0 ex:paper_id "PMID:26903338" .
+ex:PMID26903338_C0 ex:node_id "C0" .
+ex:PMID26903338_C0 ex:section "Abstract" .
+ex:PMID26903338_C0 ex:text "HHS Public Access Author manuscript JAMA is a peer-reviewed medical journal published by the American Medical Association." .
+ex:PMID26903338_C0 ex:quote "[ABSTRACT] HHS Public Access Author manuscript JAMA." .
+ex:PMID26903338_E1 rdf:type ex:Evidence .
+ex:PMID26903338_E1 ex:paper_id "PMID:26903338" .
+ex:PMID26903338_E1 ex:node_id "E1" .
+ex:PMID26903338_E1 ex:section "Abstract" .
+ex:PMID26903338_E1 ex:text "The first evidence mentions the journal's name, publisher, and publication date." .
+ex:PMID26903338_E1 ex:quote "[ABSTRACT] Published in final edited form as: JAMA." .
+ex:PMID26903338_E1 ex:supports ex:PMID26903338_C0 .
+ex:PMID26903338_E2 rdf:type ex:Evidence .
+ex:PMID26903338_E2 ex:paper_id "PMID:26903338" .
+ex:PMID26903338_E2 ex:node_id "E2" .
+ex:PMID26903338_E2 ex:section "Abstract" .
+ex:PMID26903338_E2 ex:text "The second evidence provides the official title of the article." .
+ex:PMID26903338_E2 ex:quote "[ABSTRACT] The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) Mervyn Singer, MD, FRCP, Clifford S." .
+ex:PMID26903338_E2 ex:supports ex:PMID26903338_C0 .
+ex:PMID26903338_E3 rdf:type ex:Evidence .
+ex:PMID26903338_E3 ex:paper_id "PMID:26903338" .
+ex:PMID26903338_E3 ex:node_id "E3" .
+ex:PMID26903338_E3 ex:section "Abstract" .
+ex:PMID26903338_E3 ex:text "The third evidence provides the names of the authors, journal, and publisher." .
+ex:PMID26903338_E3 ex:quote "[ABSTRACT] Deutschman, MD, MS, Christopher Warren Seymour, MD, MSc, Manu Shankar-Hari, MSc, MD, FFICM, Djillali Annane, MD, PhD, Michael Bauer, MD, Rinaldo Bellomo, MD, Gordon R." .
+ex:PMID26903338_E3 ex:supports ex:PMID26903338_C0 .
+
+ex:PMID27379022_C0 rdf:type ex:Claim .
+ex:PMID27379022_C0 ex:paper_id "PMID:27379022" .
+ex:PMID27379022_C0 ex:node_id "C0" .
+ex:PMID27379022_C0 ex:section "Abstract" .
+ex:PMID27379022_C0 ex:text "Abstract says that an abnormal host response to infection results in life-threatening dys- function of organs." .
+ex:PMID27379022_C0 ex:quote "[ABSTRACT] It is now defined as an abnormal host response to infection, resulting in life-threatening dys- function of organs." .
+ex:PMID27379022_E1 rdf:type ex:Evidence .
+ex:PMID27379022_E1 ex:paper_id "PMID:27379022" .
+ex:PMID27379022_E1 ex:node_id "E1" .
+ex:PMID27379022_E1 ex:section "Conclusion" .
+ex:PMID27379022_E1 ex:text "The conclusion says that hypothalamic signaling via autonomic nuclei in the brainstem is involved in the abnormal response." .
+ex:PMID27379022_E1 ex:quote "[CONCLUSION] results in hypothalamic signaling via autonomic nuclei in the brainstem, which have Irreversible Damage to Neuroendocrine Cells projections to the hypothalamus, for example, between the locus Sepsis is infrequently associated with necrosis or hemorrhage ceruleus and the arcuate nucleus, and other structures of the within the HPA axis." .
+ex:PMID27379022_E1 ex:supports ex:PMID27379022_C0 .
+ex:PMID27379022_E2 rdf:type ex:Evidence .
+ex:PMID27379022_E2 ex:paper_id "PMID:27379022" .
+ex:PMID27379022_E2 ex:node_id "E2" .
+ex:PMID27379022_E2 ex:section "Conclusion" .
+ex:PMID27379022_E2 ex:text "The venous drainage of the adrenals is limbic system as well." .
+ex:PMID27379022_E2 ex:quote "[CONCLUSION] The venous drainage of the adrenals being limbic system as well." .
+ex:PMID27379022_E2 ex:supports ex:PMID27379022_C0 .
+ex:PMID27379022_E3 rdf:type ex:Evidence .
+ex:PMID27379022_E3 ex:paper_id "PMID:27379022" .
+ex:PMID27379022_E3 ex:node_id "E3" .
+ex:PMID27379022_E3 ex:section "Conclusion" .
+ex:PMID27379022_E3 ex:text "The efferent fibers, particularly of the limited, sepsis-associated massive increase in arterial blood flow vagus nerve, contribute to the attenuation of inflammation and to these glands results in enlarged glands (Table" .
+ex:PMID27379022_E3 ex:quote "[CONCLUSION] Then, efferent fibers, particularly of the limited, sepsis-associated massive increase in arterial blood flow vagus nerve, contribute to the attenuation of inflammation and to these glands results in enlarged glands (Table 1) (35)." .
+ex:PMID27379022_E3 ex:supports ex:PMID27379022_C0 .
+
+ex:PMID29025194_C0 rdf:type ex:Claim .
+ex:PMID29025194_C0 ex:paper_id "PMID:29025194" .
+ex:PMID29025194_C0 ex:node_id "C0" .
+ex:PMID29025194_C0 ex:section "Abstract" .
+ex:PMID29025194_C0 ex:text "Procalcitonin is used in the abstract to initiate or discontinue antibiotics in acute respiratory tract infections." .
+ex:PMID29025194_C0 ex:quote "[ABSTRACT] Cochrane Library Cochrane Database of Systematic Reviews Procalcitonin to initiate or discontinue antibiotics in acute respiratory tract infections (Review) Schuetz P, Wirz Y, Sager R, Christ-Crain M, Stolz D, Tamm M, Bouadma L, Luyt CE, Wolff M, Chastre J, Tubach F, Kristoffersen KB, Burkhardt O, Welte T, Schroeder S, Nobre V, Wei L, Bucher HCC, Bhatnagar N, Annane D, Reinhart K, Branche A, Damas P, Nijsten M, de Lange DW, Deliberato RO, Lima SSS, Maravić-Stojković V, Verduri A, Cao B, Shehabi Y, Beishuizen A, Jensen JUS, Corti C, Van Oers JA, Falsey AR, de Jong E, Oliveira CF, Beghe B, Briel M, Mueller B Schuetz P, Wirz Y, Sager R, Christ-Crain M, Stolz D, Tamm M, Bouadma L, Luyt CE, Wolff M, Chastre J, Tubach F, Kristoffersen KB, Burkhardt O, Welte T, Schroeder S, Nobre V, Wei L, Bucher HCC, Bhatnagar N, Annane D, Reinhart K, Branche A, Damas P, Nijsten M, de Lange DW, Deliberato RO, Lima SSS, Maravić-Stojković V, Verduri A, Cao B, Shehabi Y, Beishuizen A, Jensen JUS, Corti C, Van Oers JA, Falsey AR, de Jong E, Oliveira CF, Beghe B, Briel M, Mueller B." .
+ex:PMID29025194_E1 rdf:type ex:Evidence .
+ex:PMID29025194_E1 ex:paper_id "PMID:29025194" .
+ex:PMID29025194_E1 ex:node_id "E1" .
+ex:PMID29025194_E1 ex:section "Abstract" .
+ex:PMID29025194_E1 ex:text "Cochrane Library Cochrane Database of Systematic Reviews Procalcitonin to initiate or discontinue antibiotics in acute respiratory tract infections." .
+ex:PMID29025194_E1 ex:quote "[ABSTRACT] Procalcitonin to initiate or discontinue antibiotics in acute respiratory tract infections." .
+ex:PMID29025194_E1 ex:supports ex:PMID29025194_C0 .
+ex:PMID29025194_E2 rdf:type ex:Evidence .
+ex:PMID29025194_E2 ex:paper_id "PMID:29025194" .
+ex:PMID29025194_E2 ex:node_id "E2" .
+ex:PMID29025194_E2 ex:section "Abstract" .
+ex:PMID29025194_E2 ex:text "Published by John Wiley & Sons, Ltd." .
+ex:PMID29025194_E2 ex:quote "[ABSTRACT] Published by John Wiley & Sons, Ltd." .
+ex:PMID29025194_E2 ex:supports ex:PMID29025194_C0 .
+ex:PMID29025194_E3 rdf:type ex:Evidence .
+ex:PMID29025194_E3 ex:paper_id "PMID:29025194" .
+ex:PMID29025194_E3 ex:node_id "E3" .
+ex:PMID29025194_E3 ex:section "Abstract" .
+ex:PMID29025194_E3 ex:text "Cochrane Database of Systematic Reviews T A B L E O F C O N T E N T S ABSTRACT.............................................................................................................................................." .
+ex:PMID29025194_E3 ex:quote "[ABSTRACT] Cochrane Database of Systematic Reviews T A B L E O F C O N T E N T S ABSTRACT....................................................................................................................................................................................................." .
+ex:PMID29025194_E3 ex:supports ex:PMID29025194_C0 .
+
+ex:PMID30105022_C0 rdf:type ex:Claim .
+ex:PMID30105022_C0 ex:paper_id "PMID:30105022" .
+ex:PMID30105022_C0 ex:node_id "C0" .
+ex:PMID30105022_C0 ex:section "Abstract" .
+ex:PMID30105022_C0 ex:text "Sepsis remains a major cause of morbidity and mortality." .
+ex:PMID30105022_C0 ex:quote "[ABSTRACT] Sepsis remains a major cause of morbidity and mortality." .
+ex:PMID30105022_E1 rdf:type ex:Evidence .
+ex:PMID30105022_E1 ex:paper_id "PMID:30105022" .
+ex:PMID30105022_E1 ex:node_id "E1" .
+ex:PMID30105022_E1 ex:section "Abstract" .
+ex:PMID30105022_E1 ex:text "Treatment is nonspecific and relies on source control and organ support." .
+ex:PMID30105022_E1 ex:quote "[ABSTRACT] Treatment is nonspecific and relies on source control and organ support." .
+ex:PMID30105022_E1 ex:supports ex:PMID30105022_C0 .
+ex:PMID30105022_E2 rdf:type ex:Evidence .
+ex:PMID30105022_E2 ex:paper_id "PMID:30105022" .
+ex:PMID30105022_E2 ex:node_id "E2" .
+ex:PMID30105022_E2 ex:section "Abstract" .
+ex:PMID30105022_E2 ex:text "Septic shock, the most severe form of sepsis is associated with the highest rate of mortality." .
+ex:PMID30105022_E2 ex:quote "[ABSTRACT] Septic shock, the most severe form of sepsis is associated with the highest rate of mortality." .
+ex:PMID30105022_E2 ex:supports ex:PMID30105022_C0 .
+ex:PMID30105022_E3 rdf:type ex:Evidence .
+ex:PMID30105022_E3 ex:paper_id "PMID:30105022" .
+ex:PMID30105022_E3 ex:node_id "E3" .
+ex:PMID30105022_E3 ex:section "Abstract" .
+ex:PMID30105022_E3 ex:text "Two large multicentre trials, undertaken 15 years apart, found that the com- bination of hydrocortisone and fludrocortisone significantly reduces mortality in septic shock." .
+ex:PMID30105022_E3 ex:quote "[ABSTRACT] Two large multicentre trials, undertaken 15 years apart, found that the com- bination of hydrocortisone and fludrocortisone significantly reduces mortality in septic shock." .
+ex:PMID30105022_E3 ex:supports ex:PMID30105022_C0 .
+
+ex:PMID30111341_C0 rdf:type ex:Claim .
+ex:PMID30111341_C0 ex:paper_id "PMID:30111341" .
+ex:PMID30111341_C0 ex:node_id "C0" .
+ex:PMID30111341_C0 ex:section "Abstract" .
+ex:PMID30111341_C0 ex:text "Use the abstract to identify the authors and their affiliations." .
+ex:PMID30111341_C0 ex:quote "[ABSTRACT] Meier1† , Lila Bouadma3, Charles E." .
+ex:PMID30111341_E1 rdf:type ex:Evidence .
+ex:PMID30111341_E1 ex:paper_id "PMID:30111341" .
+ex:PMID30111341_E1 ex:node_id "E1" .
+ex:PMID30111341_E1 ex:section "Abstract" .
+ex:PMID30111341_E1 ex:text "The abstract mentions four authors: Luyt4, Michel Wolff3, Jean Chastre4, and Florence Tubach5." .
+ex:PMID30111341_E1 ex:quote "[ABSTRACT] Luyt4, Michel Wolff3, Jean Chastre4, Florence Tubach5, Stefan Schroeder6, Vandack Nobre7, Djillali Annane8, Konrad Reinhart9, Pierre Damas10, Maarten Nijsten11, Arezoo Shajiei11, Dylan W." .
+ex:PMID30111341_E1 ex:supports ex:PMID30111341_C0 .
+ex:PMID30111341_E2 rdf:type ex:Evidence .
+ex:PMID30111341_E2 ex:paper_id "PMID:30111341" .
+ex:PMID30111341_E2 ex:node_id "E2" .
+ex:PMID30111341_E2 ex:section "Abstract" .
+ex:PMID30111341_E2 ex:text "The abstract mentions five authors: Oliveira14, Yahya Shehabi15, Jos A., van Oers17, and Albertus Beishuizen18." .
+ex:PMID30111341_E2 ex:quote "[ABSTRACT] Oliveira14, Yahya Shehabi15,16, Jos A." .
+ex:PMID30111341_E2 ex:supports ex:PMID30111341_C0 .
+ex:PMID30111341_E3 rdf:type ex:Evidence .
+ex:PMID30111341_E3 ex:paper_id "PMID:30111341" .
+ex:PMID30111341_E3 ex:node_id "E3" .
+ex:PMID30111341_E3 ex:section "Abstract" .
+ex:PMID30111341_E3 ex:text "The abstract mentions three authors: van Oers17, Albertus Beishuizen18, and Armand R." .
+ex:PMID30111341_E3 ex:quote "[ABSTRACT] van Oers17, Albertus Beishuizen18, Armand R." .
+ex:PMID30111341_E3 ex:supports ex:PMID30111341_C0 .
+
+ex:PMID33150472_C0 rdf:type ex:Claim .
+ex:PMID33150472_C0 ex:paper_id "PMID:33150472" .
+ex:PMID33150472_C0 ex:node_id "C0" .
+ex:PMID33150472_C0 ex:section "Abstract" .
+ex:PMID33150472_C0 ex:text "Chrousos4, Bram Rochwerg5,9, Amanda Busby6, Barbara Ruaro3 and Bernd Meibohm7 © 2020 This is a U.S." .
+ex:PMID33150472_C0 ex:quote "[ABSTRACT] Chrousos4, Bram Rochwerg5,9, Amanda Busby6, Barbara Ruaro3 and Bernd Meibohm7 © 2020 This is a U.S." .
+ex:PMID33150472_E1 rdf:type ex:Evidence .
+ex:PMID33150472_E1 ex:paper_id "PMID:33150472" .
+ex:PMID33150472_E1 ex:node_id "E1" .
+ex:PMID33150472_E1 ex:section "Abstract" .
+ex:PMID33150472_E1 ex:text "该研究表明，缺乏信息可能导致治疗方案差异性，并导致可用发现的误读。" .
+ex:PMID33150472_E1 ex:quote "[ABSTRACT] This paucity of information may have led to the heterogeneity of treatment protocols and misinterpretation of available findings." .
+ex:PMID33150472_E1 ex:supports ex:PMID33150472_C0 .
+ex:PMID33150472_E2 rdf:type ex:Evidence .
+ex:PMID33150472_E2 ex:paper_id "PMID:33150472" .
+ex:PMID33150472_E2 ex:node_id "E2" .
+ex:PMID33150472_E2 ex:section "Abstract" .
+ex:PMID33150472_E2 ex:text "GC是受GC受体（GR）的激动剂，在GR作用下产生药理反应。" .
+ex:PMID33150472_E2 ex:quote "[ABSTRACT] GCs are agonist compounds that bind to the GC receptor (GR) producing a pharmacological response." .
+ex:PMID33150472_E2 ex:supports ex:PMID33150472_C0 .
+ex:PMID33150472_E3 rdf:type ex:Evidence .
+ex:PMID33150472_E3 ex:paper_id "PMID:33150472" .
+ex:PMID33150472_E3 ex:node_id "E3" .
+ex:PMID33150472_E3 ex:section "Abstract" .
+ex:PMID33150472_E3 ex:text "临床有效性取决于GR暴露的持续时间和强度。" .
+ex:PMID33150472_E3 ex:quote "[ABSTRACT] Clinical efficacy depends on the magnitude and duration of exposure to GR." .
+ex:PMID33150472_E3 ex:supports ex:PMID33150472_C0 .
+
+ex:PMID33159530_C0 rdf:type ex:Claim .
+ex:PMID33159530_C0 ex:paper_id "PMID:33159530" .
+ex:PMID33159530_C0 ex:node_id "C0" .
+ex:PMID33159530_C0 ex:section "Abstract" .
+ex:PMID33159530_C0 ex:text "Sottile10 and Laurent Papazian1,2* © 2020 Springer-Verlag GmbH Germany, part of Springer Nature Abstract Neuromuscular blocking agents (NMBAs) inhibit patient-initiated active breath and the risk of high tidal volumes and consequent high transpulmonary pressure swings, and minimize patient/ ventilator asynchrony in acute respiratory distress syndrome (ARDS)." .
+ex:PMID33159530_C0 ex:quote "[ABSTRACT] Sottile10 and Laurent Papazian1,2* © 2020 Springer-Verlag GmbH Germany, part of Springer Nature Abstract Neuromuscular blocking agents (NMBAs) inhibit patient-initiated active breath and the risk of high tidal volumes and consequent high transpulmonary pressure swings, and minimize patient/ ventilator asynchrony in acute respiratory distress syndrome (ARDS)." .
+ex:PMID33159530_E1 rdf:type ex:Evidence .
+ex:PMID33159530_E1 ex:paper_id "PMID:33159530" .
+ex:PMID33159530_E1 ex:node_id "E1" .
+ex:PMID33159530_E1 ex:section "Abstract" .
+ex:PMID33159530_E1 ex:text "Sottile10 and Laurent Papazian1,2* demonstrated a significant reduction in barotrauma and VILI in patients with ARDS." .
+ex:PMID33159530_E1 ex:quote "[ABSTRACT] Minimization of volutrauma and ventilator-induced lung injury (VILI) results in a lower incidence of barotrauma, improved oxygenation and a decrease in circulating proinflammatory markers." .
+ex:PMID33159530_E1 ex:supports ex:PMID33159530_C0 .
+ex:PMID33159530_E2 rdf:type ex:Evidence .
+ex:PMID33159530_E2 ex:paper_id "PMID:33159530" .
+ex:PMID33159530_E2 ex:node_id "E2" .
+ex:PMID33159530_E2 ex:section "Abstract" .
+ex:PMID33159530_E2 ex:text "Recent randomized clinical trials did not reveal any harmful muscular effects during a short course of NMBAs." .
+ex:PMID33159530_E2 ex:quote "[ABSTRACT] Recent randomized clinical trials did not reveal harmful muscular effects during a short course of NMBAs." .
+ex:PMID33159530_E2 ex:supports ex:PMID33159530_C0 .
+ex:PMID33159530_E3 rdf:type ex:Evidence .
+ex:PMID33159530_E3 ex:paper_id "PMID:33159530" .
+ex:PMID33159530_E3 ex:node_id "E3" .
+ex:PMID33159530_E3 ex:section "Abstract" .
+ex:PMID33159530_E3 ex:text "The use of NMBAs should be considered during the early phase of severe ARDS for patients to facilitate lung protective ventilation or prone positioning only after optimising mechanical ventilation and sedation." .
+ex:PMID33159530_E3 ex:quote "[ABSTRACT] The use of NMBAs should be considered during the early phase of severe ARDS for patients to facilitate lung protective ventilation or prone positioning only after optimising mechanical ventilation and sedation." .
+ex:PMID33159530_E3 ex:supports ex:PMID33159530_C0 .
+
+ex:PMID33876268_C0 rdf:type ex:Claim .
+ex:PMID33876268_C0 ex:paper_id "PMID:33876268" .
+ex:PMID33876268_C0 ex:node_id "C0" .
+ex:PMID33876268_C0 ex:section "Abstract" .
+ex:PMID33876268_C0 ex:text "Mammen3, Paul Alexander2, Zhikang Ye2, Luis Enrique Colunga Lozano2, Marie Warrer Munch4, Anders Perner4, Bin Du5, Lawrence Mbuagbaw2,6, Waleed Alhazzani1,2, Stephen M." .
+ex:PMID33876268_C0 ex:quote "[ABSTRACT] Mammen3, Paul Alexander2, Zhikang Ye2, Luis Enrique Colunga Lozano2, Marie Warrer Munch4, Anders Perner4, Bin Du5, Lawrence Mbuagbaw2,6, Waleed Alhazzani1,2, Stephen M." .
+ex:PMID33876268_E1 rdf:type ex:Evidence .
+ex:PMID33876268_E1 ex:paper_id "PMID:33876268" .
+ex:PMID33876268_E1 ex:node_id "E1" .
+ex:PMID33876268_E1 ex:section "Abstract" .
+ex:PMID33876268_E1 ex:text "Corticosteroids are now recommended for patients with severe COVID-19 including those with COVID- related ARDS." .
+ex:PMID33876268_E1 ex:quote "[ABSTRACT] Pastores7, John Marshall8, François Lamontagne9, Djillali Annane10, Gianfranco Umberto Meduri11 and Bram Rochwerg1,2,12* © 2021 Springer-Verlag GmbH Germany, part of Springer Nature Abstract Purpose: Corticosteroids are now recommended for patients with severe COVID-19 including those with COVID- related ARDS." .
+ex:PMID33876268_E1 ex:supports ex:PMID33876268_C0 .
+ex:PMID33876268_E2 rdf:type ex:Evidence .
+ex:PMID33876268_E2 ex:paper_id "PMID:33876268" .
+ex:PMID33876268_E2 ex:node_id "E2" .
+ex:PMID33876268_E2 ex:section "Abstract" .
+ex:PMID33876268_E2 ex:text "Renewed interest regarding whether corticosteroids should be used in non-COVID ARDS as well." .
+ex:PMID33876268_E2 ex:quote "[ABSTRACT] This has generated renewed interest regarding whether corticosteroids should be used in non-COVID ARDS as well." .
+ex:PMID33876268_E2 ex:supports ex:PMID33876268_C0 .
+ex:PMID33876268_E3 rdf:type ex:Evidence .
+ex:PMID33876268_E3 ex:paper_id "PMID:33876268" .
+ex:PMID33876268_E3 ex:node_id "E3" .
+ex:PMID33876268_E3 ex:section "Abstract" .
+ex:PMID33876268_E3 ex:text "Summary of all RCTs examining the use of corticosteroids in ARDS." .
+ex:PMID33876268_E3 ex:quote "[ABSTRACT] The objective of this study was to summarize all RCTs examining the use of corticosteroids in ARDS." .
+ex:PMID33876268_E3 ex:supports ex:PMID33876268_C0 .
+
+ex:PMID34351722_C0 rdf:type ex:Claim .
+ex:PMID34351722_C0 ex:paper_id "PMID:34351722" .
+ex:PMID34351722_C0 ex:node_id "C0" .
+ex:PMID34351722_C0 ex:section "Abstract" .
+ex:PMID34351722_C0 ex:text "The new england journal of medicine Original Article Therapeutic Anticoagulation with Heparin in Critically Ill Patients with Covid-19 The REMAP-CAP, ACTIV-4a, and ATTACC Investigators* ABSTRACT BACKGROUND Thrombosis and inflammation may contribute to morbidity and mortality among The members of the executive writing patients with coronavirus disease 2019 (Covid-19)." .
+ex:PMID34351722_C0 ex:quote "[ABSTRACT] The new england journal of medicine Original Article Therapeutic Anticoagulation with Heparin in Critically Ill Patients with Covid-19 The REMAP-CAP, ACTIV-4a, and ATTACC Investigators* ABSTRACT BACKGROUND Thrombosis and inflammation may contribute to morbidity and mortality among The members of the executive writing patients with coronavirus disease 2019 (Covid-19)." .
+ex:PMID34351722_E1 rdf:type ex:Evidence .
+ex:PMID34351722_E1 ex:paper_id "PMID:34351722" .
+ex:PMID34351722_E1 ex:node_id "E1" .
+ex:PMID34351722_E1 ex:section "Conclusion" .
+ex:PMID34351722_E1 ex:text "An initial strategy of therapeutic-dose anti- coagulation with heparin did not result in a greater probability of survival to hospi- tal discharge or a greater number of days free of cardiovascular or respiratory organ s" .
+ex:PMID34351722_E1 ex:quote "[CONCLUSION] CONCLUSIONS In critically ill patients with Covid-19, an initial strategy of therapeutic-dose anti- coagulation with heparin did not result in a greater probability of survival to hospi- tal discharge or a greater number of days free of cardiovascular or respiratory organ support than did usual-care pharmacologic thromboprophylaxis." .
+ex:PMID34351722_E1 ex:supports ex:PMID34351722_C0 .
+ex:PMID34351722_E2 rdf:type ex:Evidence .
+ex:PMID34351722_E2 ex:paper_id "PMID:34351722" .
+ex:PMID34351722_E2 ex:node_id "E2" .
+ex:PMID34351722_E2 ex:section "Conclusion" .
+ex:PMID34351722_E2 ex:text "Each platform independently associated with a greater risk of was overseen by independent data and safety respiratory failure, thrombosis, and death in pa- monitoring boards following a collaborative cross- tients with C" .
+ex:PMID34351722_E2 ex:quote "[CONCLUSION] Each platform independently associated with a greater risk of was overseen by independent data and safety respiratory failure, thrombosis, and death in pa- monitoring boards following a collaborative cross- tients with Covid-19.2,9,10 Inflammation and throm- platform interaction plan." .
+ex:PMID34351722_E2 ex:supports ex:PMID34351722_C0 .
+ex:PMID34351722_E3 rdf:type ex:Evidence .
+ex:PMID34351722_E3 ex:paper_id "PMID:34351722" .
+ex:PMID34351722_E3 ex:node_id "E3" .
+ex:PMID34351722_E3 ex:section "Conclusion" .
+ex:PMID34351722_E3 ex:text "Supports the claim." .
+ex:PMID34351722_E3 ex:quote "[CONCLUSION] The members of the bosis may therefore be important contributors to writing committees vouch for the accuracy and poor outcomes." .
+ex:PMID34351722_E3 ex:supports ex:PMID34351722_C0 .
+
+ex:PMID35708858_C0 rdf:type ex:Claim .
+ex:PMID35708858_C0 ex:paper_id "PMID:35708858" .
+ex:PMID35708858_C0 ex:node_id "C0" .
+ex:PMID35708858_C0 ex:section "Abstract" .
+ex:PMID35708858_C0 ex:text "Platelets can carry infectious viruses beyond hemostatic functions" .
+ex:PMID35708858_C0 ex:quote "[ABSTRACT] A convergent contributor could be platelets that beyond hemostatic functions can carry infectious viruses." .
+ex:PMID35708858_E1 rdf:type ex:Evidence .
+ex:PMID35708858_E1 ex:paper_id "PMID:35708858" .
+ex:PMID35708858_E1 ex:node_id "E1" .
+ex:PMID35708858_E1 ex:section "Conclusion" .
+ex:PMID35708858_E1 ex:text "Results have so far demonstrated the presence of viral particles and their infectiousness." .
+ex:PMID35708858_E1 ex:quote "[CONCLUSION] Results have so far demonstrated the presence of viral particles and their infectiousness." .
+ex:PMID35708858_E1 ex:supports ex:PMID35708858_C0 .
+ex:PMID35708858_E2 rdf:type ex:Evidence .
+ex:PMID35708858_E2 ex:paper_id "PMID:35708858" .
+ex:PMID35708858_E2 ex:node_id "E2" .
+ex:PMID35708858_E2 ex:section "Conclusion" .
+ex:PMID35708858_E2 ex:text "Therefore, the major route of SARS- Platelets from COVID‑19 non‑survivors harbor CoV-2 dissemination is not blood, although the role of plate- SARS‑CoV‑2 lets as viral carrier has not been investigated." .
+ex:PMID35708858_E2 ex:quote "[CONCLUSION] Therefore, the major route of SARS- Platelets from COVID‑19 non‑survivors harbor CoV-2 dissemination is not blood, although the role of plate- SARS‑CoV‑2 lets as viral carrier has not been investigated." .
+ex:PMID35708858_E2 ex:supports ex:PMID35708858_C0 .
+ex:PMID35708858_E3 rdf:type ex:Evidence .
+ex:PMID35708858_E3 ex:paper_id "PMID:35708858" .
+ex:PMID35708858_E3 ex:node_id "E3" .
+ex:PMID35708858_E3 ex:section "Conclusion" .
+ex:PMID35708858_E3 ex:text "Platelets have a critical role in hemostasis and thrombosis [13]." .
+ex:PMID35708858_E3 ex:quote "[CONCLUSION] Platelets have a critical role in hemostasis and thrombosis [13]." .
+ex:PMID35708858_E3 ex:supports ex:PMID35708858_C0 .
+
+ex:PMID37176780_C0 rdf:type ex:Claim .
+ex:PMID37176780_C0 ex:paper_id "PMID:37176780" .
+ex:PMID37176780_C0 ex:node_id "C0" .
+ex:PMID37176780_C0 ex:section "Abstract" .
+ex:PMID37176780_C0 ex:text "Corticosteroids may also have a role to play in the treatment of ARDS. This narrative review was undertaken following a PubMed search for English-language reports published before January 2023 using the terms 'acuterespiratorydistress syndrome', 'sepsis', and 'steroids'. Additional reports were identified by examining the reference lists of selected articles and based on personnel knowledge of the authors of the field. High-quality research is needed to fully understand the role of corticosteroids in the treatment of ARDS and to determine the optimal timing, dose, and duration of treatment." .
+ex:PMID37176780_C0 ex:quote "[ABSTRACT] Corticosteroidsare powerfulanti-inflammatoryagentsthatareroutinelyusedinsepticshockandinoxygen-dependent SARS-CoV-2relatedacuterespiratoryfailure.Recently,corticosteroidswerefoundtoreducemortality inseverecommunity-acquiredpneumonia." .
+ex:PMID37176780_E1 rdf:type ex:Evidence .
+ex:PMID37176780_E1 ex:paper_id "PMID:37176780" .
+ex:PMID37176780_E1 ex:node_id "E1" .
+ex:PMID37176780_E1 ex:section "Abstract" .
+ex:PMID37176780_E1 ex:text "Corticosteroids may reduce mortality in patients with ARDS. This is supported by the fact that corticosteroids are a potent anti-inflammatory agent." .
+ex:PMID37176780_E1 ex:quote "[ABSTRACT] Corticosteroidsmaythereforealsohavearoletoplay inthetreatmentofARDS.ThisnarrativereviewwasundertakenfollowingaPubMedsearchfor EnglishlanguagereportspublishedbeforeJanuary2023usingthetermsacuterespiratorydistress syndrome,sepsisandsteroids.Additionalreportswereidentifiedbyexaminingthereferencelistsof selectedarticlesandbasedonpersonnelknowledgeoftheauthorsofthefield.High-qualityresearch isneededtofullyunderstandtheroleofcorticosteroidsinthetreatmentofARDSandtodetermine theoptimaltiming,dosinganddurationoftreatment." .
+ex:PMID37176780_E1 ex:supports ex:PMID37176780_C0 .
+ex:PMID37176780_E2 rdf:type ex:Evidence .
+ex:PMID37176780_E2 ex:paper_id "PMID:37176780" .
+ex:PMID37176780_E2 ex:node_id "E2" .
+ex:PMID37176780_E2 ex:section "Abstract" .
+ex:PMID37176780_E2 ex:text "Keywords: glucocorticoids;acuterespiratorydistress syndrome;sepsis 1" .
+ex:PMID37176780_E2 ex:quote "[ABSTRACT] Keywords:glucocorticoids;acuterespiratorydistresssyndrome;sepsis 1." .
+ex:PMID37176780_E2 ex:supports ex:PMID37176780_C0 .
+ex:PMID37176780_E3 rdf:type ex:Evidence .
+ex:PMID37176780_E3 ex:paper_id "PMID:37176780" .
+ex:PMID37176780_E3 ex:node_id "E3" .
+ex:PMID37176780_E3 ex:section "Abstract" .
+ex:PMID37176780_E3 ex:text "Keywords:glucocorticoids;ARDS" .
+ex:PMID37176780_E3 ex:quote "[ABSTRACT] Sepsis—Definition,EpidemiologyandPathophysiology Citation:Kuperminc,E.;Heming,N.;" .
+ex:PMID37176780_E3 ex:supports ex:PMID37176780_C0 .
+
+ex:PMID37888913_C0 rdf:type ex:Claim .
+ex:PMID37888913_C0 ex:paper_id "PMID:37888913" .
+ex:PMID37888913_C0 ex:node_id "C0" .
+ex:PMID37888913_C0 ex:section "Abstract" .
+ex:PMID37888913_C0 ex:text "The new england journal of medicine Original Article Simvastatin in Critically Ill Patients with Covid-19 The REMAP-CAP Investigators" .
+ex:PMID37888913_C0 ex:quote "[ABSTRACT] The new england journal of medicine Original Article Simvastatin in Critically Ill Patients with Covid-19 The REMAP-CAP Investigators* ABSTRACT BACKGROUND The efficacy of simvastatin in critically ill patients with coronavirus disease 2019 The members of the writing committe as- (Covid-19) is unclear." .
+ex:PMID37888913_E1 rdf:type ex:Evidence .
+ex:PMID37888913_E1 ex:paper_id "PMID:37888913" .
+ex:PMID37888913_E1 ex:node_id "E1" .
+ex:PMID37888913_E1 ex:section "Method" .
+ex:PMID37888913_E1 ex:text "The study is a randomized, controlled trial that compares simvastatin (80 mg daily) with no statin (control) in critically ill patients with Covid-19." .
+ex:PMID37888913_E1 ex:quote "[METHOD] METHODS of the members of the writing committee In an ongoing international, multifactorial, adaptive platform, randomized, controlled are listed in the Appendix." .
+ex:PMID37888913_E1 ex:supports ex:PMID37888913_C0 .
+ex:PMID37888913_E2 rdf:type ex:Evidence .
+ex:PMID37888913_E2 ex:paper_id "PMID:37888913" .
+ex:PMID37888913_E2 ex:node_id "E2" .
+ex:PMID37888913_E2 ex:section "Method" .
+ex:PMID37888913_E2 ex:text "The study was conducted in an international, multifactorial, adaptive platform, which allows for the inclusion of patients from different countries and regions." .
+ex:PMID37888913_E2 ex:quote "[METHOD] McAuley trial, we evaluated simvastatin (80 mg daily) as compared with no statin (control) can be contacted at d ." .
+ex:PMID37888913_E2 ex:supports ex:PMID37888913_C0 .
+ex:PMID37888913_E3 rdf:type ex:Evidence .
+ex:PMID37888913_E3 ex:paper_id "PMID:37888913" .
+ex:PMID37888913_E3 ex:node_id "E3" .
+ex:PMID37888913_E3 ex:section "Method" .
+ex:PMID37888913_E3 ex:text "The study included critically ill patients with Covid-19 who were not receiving statins at baseline." .
+ex:PMID37888913_E3 ex:quote "[METHOD] ac in critically ill patients with Covid-19 who were not receiving statins at baseline." .
+ex:PMID37888913_E3 ex:supports ex:PMID37888913_C0 .
+
+ex:PMID38250247_C0 rdf:type ex:Claim .
+ex:PMID38250247_C0 ex:paper_id "PMID:38250247" .
+ex:PMID38250247_C0 ex:node_id "C0" .
+ex:PMID38250247_C0 ex:section "Abstract" .
+ex:PMID38250247_C0 ex:text "该研究是关于 Sepsis 和 Septic Shock 中 Corticosteroid 的系统性回顾和分析。" .
+ex:PMID38250247_C0 ex:quote "[ABSTRACT] LATE BREAKER ARTICLE Corticosteroids in Sepsis and Septic Shock: A Systematic Review, Pairwise, and Dose-Response Meta-Analysis Tyler Pitre, MD, MA1 OBJECTIVES: To perform a systematic review and meta-analysis to assess the Katherine Drover2 efficacy and safety of corticosteroids in patients with sepsis." .
+ex:PMID38250247_E1 rdf:type ex:Evidence .
+ex:PMID38250247_E1 ex:paper_id "PMID:38250247" .
+ex:PMID38250247_E1 ex:node_id "E1" .
+ex:PMID38250247_E1 ex:section "Method" .
+ex:PMID38250247_E1 ex:text "该研究通过注册在 Open Science Framework Search Strategy 和 Study Selection 中，按照 2020 年的标准进行搜索，并通过 2022 年 12 月 28 日的帮助检查进行更新。" .
+ex:PMID38250247_E1 ex:quote "[METHOD] METHODS We registered a protocol on Open Science Framework Search Strategy and Study Selection in accordance with the Preferred Reporting Items We updated a search strategy from a previous review for Systematic Reviews and Meta-Analyses-protocol (conducted through January 10, 2018) with the help checklist on December 28, 2022." .
+ex:PMID38250247_E1 ex:supports ex:PMID38250247_C0 .
+ex:PMID38250247_E2 rdf:type ex:Evidence .
+ex:PMID38250247_E2 ex:paper_id "PMID:38250247" .
+ex:PMID38250247_E2 ex:node_id "E2" .
+ex:PMID38250247_E2 ex:section "Method" .
+ex:PMID38250247_E2 ex:text "该研究包含 3 个随机控制的随机化实验，每个实验包含至少 100 名参与者。" .
+ex:PMID38250247_E2 ex:quote "[METHOD] We subsequently of an experienced medical librarian and included all prepared this article in accordance with the 2020 the existing trials from the previous review (3)." .
+ex:PMID38250247_E2 ex:supports ex:PMID38250247_C0 .
+ex:PMID38250247_E3 rdf:type ex:Evidence .
+ex:PMID38250247_E3 ex:paper_id "PMID:38250247" .
+ex:PMID38250247_E3 ex:node_id "E3" .
+ex:PMID38250247_E3 ex:section "Method" .
+ex:PMID38250247_E3 ex:text "该研究涵盖了来自 Latin America 和 Caribbean 的所有相关文献，涵盖了 3 年的日期范围。" .
+ex:PMID38250247_E3 ex:quote "[METHOD] Trials Register, and Latin American and Caribbean Health Sciences Literature from January 1, 2018, to Eligibility Criteria January 1, 2023." .
+ex:PMID38250247_E3 ex:supports ex:PMID38250247_C0 .
+
+ex:PMID39787606_C0 rdf:type ex:Claim .
+ex:PMID39787606_C0 ex:paper_id "PMID:39787606" .
+ex:PMID39787606_C0 ex:node_id "C0" .
+ex:PMID39787606_C0 ex:section "Abstract" .
+ex:PMID39787606_C0 ex:text "Original article discusses the status of sepsis care in European hospitals." .
+ex:PMID39787606_C0 ex:quote "[ABSTRACT] ORIGINAL ARTICLE Status of Sepsis Care in European Hospitals Results from an International Cross-Sectional Survey Christian S." .
+ex:PMID39787606_E1 rdf:type ex:Evidence .
+ex:PMID39787606_E1 ex:paper_id "PMID:39787606" .
+ex:PMID39787606_E1 ex:node_id "E1" .
+ex:PMID39787606_E1 ex:section "Abstract" .
+ex:PMID39787606_E1 ex:text "The abstract provides information about the study's participants and methodology." .
+ex:PMID39787606_E1 ex:quote "[ABSTRACT] Giamarellos-Bourboulis2, Ricard Ferrer3, Evgeny A." .
+ex:PMID39787606_E1 ex:supports ex:PMID39787606_C0 .
+ex:PMID39787606_E2 rdf:type ex:Evidence .
+ex:PMID39787606_E2 ex:paper_id "PMID:39787606" .
+ex:PMID39787606_E2 ex:node_id "E2" .
+ex:PMID39787606_E2 ex:section "Abstract" .
+ex:PMID39787606_E2 ex:text "The abstract discusses the findings of the study, including the prevalence of sepsis and the use of different treatment modalities." .
+ex:PMID39787606_E2 ex:quote "[ABSTRACT] Idelevich4,5, Djillali Annane6,7, Antonio Artigas8, Abdullah Tarik Aslan9, Gabriella Bottari10, Hjalmar R." .
+ex:PMID39787606_E2 ex:supports ex:PMID39787606_C0 .
+ex:PMID39787606_E3 rdf:type ex:Evidence .
+ex:PMID39787606_E3 ex:paper_id "PMID:39787606" .
+ex:PMID39787606_E3 ex:node_id "E3" .
+ex:PMID39787606_E3 ex:section "Abstract" .
+ex:PMID39787606_E3 ex:text "The abstract provides a brief overview of the study's findings, including the use of EDs for sepsis diagnosis." .
+ex:PMID39787606_E3 ex:quote "[ABSTRACT] standardizedsepsismanagement(EDs,133.6%;wards,140.0%;" .
+ex:PMID39787606_E3 ex:supports ex:PMID39787606_C0 .
+
+ex:PMID39905519_C0 rdf:type ex:Claim .
+ex:PMID39905519_C0 ex:paper_id "PMID:39905519" .
+ex:PMID39905519_C0 ex:node_id "C0" .
+ex:PMID39905519_C0 ex:section "Abstract" .
+ex:PMID39905519_C0 ex:text "NETs physically trap and kill pathogens as well as activating and facilitating crosstalk between immune cells and complement." .
+ex:PMID39905519_C0 ex:quote "[ABSTRACT] NETs physically trap and kill pathogens as well as activating and facilitating crosstalk between immune cells and complement." .
+ex:PMID39905519_E1 rdf:type ex:Evidence .
+ex:PMID39905519_E1 ex:paper_id "PMID:39905519" .
+ex:PMID39905519_E1 ex:node_id "E1" .
+ex:PMID39905519_E1 ex:section "Abstract" .
+ex:PMID39905519_E1 ex:text "NETs physically trap and kill pathogens through the formation of NETs pores and the release of pore-forming proteins." .
+ex:PMID39905519_E1 ex:quote "[ABSTRACT] Exces- sive or inadequately resolved NETs are implicated in the underlying pathophysiology of sepsis and other inflamma- tory diseases, including amplification of the inflammatory response and inducing thrombotic complications." .
+ex:PMID39905519_E1 ex:supports ex:PMID39905519_C0 .
+ex:PMID39905519_E2 rdf:type ex:Evidence .
+ex:PMID39905519_E2 ex:paper_id "PMID:39905519" .
+ex:PMID39905519_E2 ex:node_id "E2" .
+ex:PMID39905519_E2 ex:section "Abstract" .
+ex:PMID39905519_E2 ex:text "NETs activate and facilitate crosstalk between immune cells and complement through the release of inflammatory mediators and the activation of complement cascade." .
+ex:PMID39905519_E2 ex:quote "[ABSTRACT] Here, we review the growing evidence implicating neutrophils and NETs as central players in the dysregulated host immune response." .
+ex:PMID39905519_E2 ex:supports ex:PMID39905519_C0 .
+ex:PMID39905519_E3 rdf:type ex:Evidence .
+ex:PMID39905519_E3 ex:paper_id "PMID:39905519" .
+ex:PMID39905519_E3 ex:node_id "E3" .
+ex:PMID39905519_E3 ex:section "Abstract" .
+ex:PMID39905519_E3 ex:text "NETs can be modulated to improve patient outcomes by targeting their physical trapping and killing properties, as well as their immunomodulatory and anti-inflammatory properties." .
+ex:PMID39905519_E3 ex:quote "[ABSTRACT] We discuss potential strategies for modifying NETs to improve patient outcomes and the need for careful patient selection." .
+ex:PMID39905519_E3 ex:supports ex:PMID39905519_C0 .
+
+ex:PMID41180093_C0 rdf:type ex:Claim .
+ex:PMID41180093_C0 ex:paper_id "PMID:41180093" .
+ex:PMID41180093_C0 ex:node_id "C0" .
+ex:PMID41180093_C0 ex:section "Abstract" .
+ex:PMID41180093_C0 ex:text "Although international guidelines have helped reduce crude mortality rates from sepsis by optimizing infection control and support of vital organ function, there are still no specific therapies for sepsis, other than corticosteroids." .
+ex:PMID41180093_C0 ex:quote "[ABSTRACT] Although international guidelines have helped reduce crude mortality rates from sepsis by optimizing infection control and support of vital organ function, Keywords: Molecular biology there are still no specific therapies for sepsis, other than corticosteroids." .
+ex:PMID41180093_E1 rdf:type ex:Evidence .
+ex:PMID41180093_E1 ex:paper_id "PMID:41180093" .
+ex:PMID41180093_E1 ex:node_id "E1" .
+ex:PMID41180093_E1 ex:section "Abstract" .
+ex:PMID41180093_E1 ex:text "Corticosteroids regulate the function of most cell types involved in host response through both genomic and non-genomic effects, reprogramming immune cells (via regulation of Mitochondrial metabolism) toward anti-inflamm" .
+ex:PMID41180093_E1 ex:quote "[ABSTRACT] The aims of this narrative review were Pharmacology to provide readers with the most recent data on corticosteroids, as well as up-to-date evidence regarding their Preclinical models effects in patients with sepsis." .
+ex:PMID41180093_E1 ex:supports ex:PMID41180093_C0 .
+ex:PMID41180093_E2 rdf:type ex:Evidence .
+ex:PMID41180093_E2 ex:paper_id "PMID:41180093" .
+ex:PMID41180093_E2 ex:node_id "E2" .
+ex:PMID41180093_E2 ex:section "Abstract" .
+ex:PMID41180093_E2 ex:text "In patients with sepsis, these effects are achieved using supraphysiological doses of corticosteroids, equating to approximately 200 mg/day of hydrocortisone equivalent for 5–15 days, depending on the clinical context." .
+ex:PMID41180093_E2 ex:quote "[ABSTRACT] Corticosteroids regulate the function of most cell types involved in host response Clinical trials to infections, through both genomic and non-genomic effects, reprogramming immune cells (via regulation of Systematic reviews mitochondrial metabolism) toward anti-inflammatory types, restoring endothelial cell function and endothelium Guidelines integrity, facilitating epithelium repair, and restoring vascular smooth muscle function, as well as organ perfusion." .
+ex:PMID41180093_E2 ex:supports ex:PMID41180093_C0 .
+ex:PMID41180093_E3 rdf:type ex:Evidence .
+ex:PMID41180093_E3 ex:paper_id "PMID:41180093" .
+ex:PMID41180093_E3 ex:node_id "E3" .
+ex:PMID41180093_E3 ex:section "Abstract" .
+ex:PMID41180093_E3 ex:text "Supports the claim." .
+ex:PMID41180093_E3 ex:quote "[ABSTRACT] In patients with sepsis, these effects are achieved using supraphysiological doses of corticosteroids, equating to approximately 200 mg/day of hydrocortisone equivalent for 5–15 days, depending on the clinical context." .
+ex:PMID41180093_E3 ex:supports ex:PMID41180093_C0 .

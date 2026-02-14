@@ -1,0 +1,231 @@
+@prefix ex: <http://example.org/sepsis/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:PMID15025773_C0 rdf:type ex:Claim .
+ex:PMID15025773_C0 rdfs:label "PMID:15025773 C0 (Abstract)" .
+ex:PMID15025773_E1 rdf:type ex:Evidence .
+ex:PMID15025773_E1 rdfs:label "PMID:15025773 E1 (Abstract)" .
+ex:PMID15025773_E1 ex:supports ex:PMID15025773_C0 .
+ex:PMID15025773_E2 rdf:type ex:Evidence .
+ex:PMID15025773_E2 rdfs:label "PMID:15025773 E2 (Abstract)" .
+ex:PMID15025773_E2 ex:supports ex:PMID15025773_C0 .
+ex:PMID15025773_E3 rdf:type ex:Evidence .
+ex:PMID15025773_E3 rdfs:label "PMID:15025773 E3 (Abstract)" .
+ex:PMID15025773_E3 ex:supports ex:PMID15025773_C0 .
+
+ex:PMID23361625_C0 rdf:type ex:Claim .
+ex:PMID23361625_C0 rdfs:label "PMID:23361625 C0 (Abstract)" .
+ex:PMID23361625_E1 rdf:type ex:Evidence .
+ex:PMID23361625_E1 rdfs:label "PMID:23361625 E1 (Abstract)" .
+ex:PMID23361625_E1 ex:supports ex:PMID23361625_C0 .
+ex:PMID23361625_E2 rdf:type ex:Evidence .
+ex:PMID23361625_E2 rdfs:label "PMID:23361625 E2 (Abstract)" .
+ex:PMID23361625_E2 ex:supports ex:PMID23361625_C0 .
+ex:PMID23361625_E3 rdf:type ex:Evidence .
+ex:PMID23361625_E3 rdfs:label "PMID:23361625 E3 (Abstract)" .
+ex:PMID23361625_E3 ex:supports ex:PMID23361625_C0 .
+
+ex:PMID26633262_C0 rdf:type ex:Claim .
+ex:PMID26633262_C0 rdfs:label "PMID:26633262 C0 (Abstract)" .
+ex:PMID26633262_E1 rdf:type ex:Evidence .
+ex:PMID26633262_E1 rdfs:label "PMID:26633262 E1 (Conclusion)" .
+ex:PMID26633262_E1 ex:supports ex:PMID26633262_C0 .
+ex:PMID26633262_E2 rdf:type ex:Evidence .
+ex:PMID26633262_E2 rdfs:label "PMID:26633262 E2 (Conclusion)" .
+ex:PMID26633262_E2 ex:supports ex:PMID26633262_C0 .
+ex:PMID26633262_E3 rdf:type ex:Evidence .
+ex:PMID26633262_E3 rdfs:label "PMID:26633262 E3 (Conclusion)" .
+ex:PMID26633262_E3 ex:supports ex:PMID26633262_C0 .
+
+ex:PMID26903338_C0 rdf:type ex:Claim .
+ex:PMID26903338_C0 rdfs:label "PMID:26903338 C0 (Abstract)" .
+ex:PMID26903338_E1 rdf:type ex:Evidence .
+ex:PMID26903338_E1 rdfs:label "PMID:26903338 E1 (Abstract)" .
+ex:PMID26903338_E1 ex:supports ex:PMID26903338_C0 .
+ex:PMID26903338_E2 rdf:type ex:Evidence .
+ex:PMID26903338_E2 rdfs:label "PMID:26903338 E2 (Abstract)" .
+ex:PMID26903338_E2 ex:supports ex:PMID26903338_C0 .
+ex:PMID26903338_E3 rdf:type ex:Evidence .
+ex:PMID26903338_E3 rdfs:label "PMID:26903338 E3 (Abstract)" .
+ex:PMID26903338_E3 ex:supports ex:PMID26903338_C0 .
+
+ex:PMID27379022_C0 rdf:type ex:Claim .
+ex:PMID27379022_C0 rdfs:label "PMID:27379022 C0 (Abstract)" .
+ex:PMID27379022_E1 rdf:type ex:Evidence .
+ex:PMID27379022_E1 rdfs:label "PMID:27379022 E1 (Conclusion)" .
+ex:PMID27379022_E1 ex:supports ex:PMID27379022_C0 .
+ex:PMID27379022_E2 rdf:type ex:Evidence .
+ex:PMID27379022_E2 rdfs:label "PMID:27379022 E2 (Conclusion)" .
+ex:PMID27379022_E2 ex:supports ex:PMID27379022_C0 .
+ex:PMID27379022_E3 rdf:type ex:Evidence .
+ex:PMID27379022_E3 rdfs:label "PMID:27379022 E3 (Conclusion)" .
+ex:PMID27379022_E3 ex:supports ex:PMID27379022_C0 .
+
+ex:PMID29025194_C0 rdf:type ex:Claim .
+ex:PMID29025194_C0 rdfs:label "PMID:29025194 C0 (Abstract)" .
+ex:PMID29025194_E1 rdf:type ex:Evidence .
+ex:PMID29025194_E1 rdfs:label "PMID:29025194 E1 (Abstract)" .
+ex:PMID29025194_E1 ex:supports ex:PMID29025194_C0 .
+ex:PMID29025194_E2 rdf:type ex:Evidence .
+ex:PMID29025194_E2 rdfs:label "PMID:29025194 E2 (Abstract)" .
+ex:PMID29025194_E2 ex:supports ex:PMID29025194_C0 .
+ex:PMID29025194_E3 rdf:type ex:Evidence .
+ex:PMID29025194_E3 rdfs:label "PMID:29025194 E3 (Abstract)" .
+ex:PMID29025194_E3 ex:supports ex:PMID29025194_C0 .
+
+ex:PMID30105022_C0 rdf:type ex:Claim .
+ex:PMID30105022_C0 rdfs:label "PMID:30105022 C0 (Abstract)" .
+ex:PMID30105022_E1 rdf:type ex:Evidence .
+ex:PMID30105022_E1 rdfs:label "PMID:30105022 E1 (Abstract)" .
+ex:PMID30105022_E1 ex:supports ex:PMID30105022_C0 .
+ex:PMID30105022_E2 rdf:type ex:Evidence .
+ex:PMID30105022_E2 rdfs:label "PMID:30105022 E2 (Abstract)" .
+ex:PMID30105022_E2 ex:supports ex:PMID30105022_C0 .
+ex:PMID30105022_E3 rdf:type ex:Evidence .
+ex:PMID30105022_E3 rdfs:label "PMID:30105022 E3 (Abstract)" .
+ex:PMID30105022_E3 ex:supports ex:PMID30105022_C0 .
+
+ex:PMID30111341_C0 rdf:type ex:Claim .
+ex:PMID30111341_C0 rdfs:label "PMID:30111341 C0 (Abstract)" .
+ex:PMID30111341_E1 rdf:type ex:Evidence .
+ex:PMID30111341_E1 rdfs:label "PMID:30111341 E1 (Abstract)" .
+ex:PMID30111341_E1 ex:supports ex:PMID30111341_C0 .
+ex:PMID30111341_E2 rdf:type ex:Evidence .
+ex:PMID30111341_E2 rdfs:label "PMID:30111341 E2 (Abstract)" .
+ex:PMID30111341_E2 ex:supports ex:PMID30111341_C0 .
+ex:PMID30111341_E3 rdf:type ex:Evidence .
+ex:PMID30111341_E3 rdfs:label "PMID:30111341 E3 (Abstract)" .
+ex:PMID30111341_E3 ex:supports ex:PMID30111341_C0 .
+
+ex:PMID33150472_C0 rdf:type ex:Claim .
+ex:PMID33150472_C0 rdfs:label "PMID:33150472 C0 (Abstract)" .
+ex:PMID33150472_E1 rdf:type ex:Evidence .
+ex:PMID33150472_E1 rdfs:label "PMID:33150472 E1 (Abstract)" .
+ex:PMID33150472_E1 ex:supports ex:PMID33150472_C0 .
+ex:PMID33150472_E2 rdf:type ex:Evidence .
+ex:PMID33150472_E2 rdfs:label "PMID:33150472 E2 (Abstract)" .
+ex:PMID33150472_E2 ex:supports ex:PMID33150472_C0 .
+ex:PMID33150472_E3 rdf:type ex:Evidence .
+ex:PMID33150472_E3 rdfs:label "PMID:33150472 E3 (Abstract)" .
+ex:PMID33150472_E3 ex:supports ex:PMID33150472_C0 .
+
+ex:PMID33159530_C0 rdf:type ex:Claim .
+ex:PMID33159530_C0 rdfs:label "PMID:33159530 C0 (Abstract)" .
+ex:PMID33159530_E1 rdf:type ex:Evidence .
+ex:PMID33159530_E1 rdfs:label "PMID:33159530 E1 (Abstract)" .
+ex:PMID33159530_E1 ex:supports ex:PMID33159530_C0 .
+ex:PMID33159530_E2 rdf:type ex:Evidence .
+ex:PMID33159530_E2 rdfs:label "PMID:33159530 E2 (Abstract)" .
+ex:PMID33159530_E2 ex:supports ex:PMID33159530_C0 .
+ex:PMID33159530_E3 rdf:type ex:Evidence .
+ex:PMID33159530_E3 rdfs:label "PMID:33159530 E3 (Abstract)" .
+ex:PMID33159530_E3 ex:supports ex:PMID33159530_C0 .
+
+ex:PMID33876268_C0 rdf:type ex:Claim .
+ex:PMID33876268_C0 rdfs:label "PMID:33876268 C0 (Abstract)" .
+ex:PMID33876268_E1 rdf:type ex:Evidence .
+ex:PMID33876268_E1 rdfs:label "PMID:33876268 E1 (Abstract)" .
+ex:PMID33876268_E1 ex:supports ex:PMID33876268_C0 .
+ex:PMID33876268_E2 rdf:type ex:Evidence .
+ex:PMID33876268_E2 rdfs:label "PMID:33876268 E2 (Abstract)" .
+ex:PMID33876268_E2 ex:supports ex:PMID33876268_C0 .
+ex:PMID33876268_E3 rdf:type ex:Evidence .
+ex:PMID33876268_E3 rdfs:label "PMID:33876268 E3 (Abstract)" .
+ex:PMID33876268_E3 ex:supports ex:PMID33876268_C0 .
+
+ex:PMID34351722_C0 rdf:type ex:Claim .
+ex:PMID34351722_C0 rdfs:label "PMID:34351722 C0 (Abstract)" .
+ex:PMID34351722_E1 rdf:type ex:Evidence .
+ex:PMID34351722_E1 rdfs:label "PMID:34351722 E1 (Conclusion)" .
+ex:PMID34351722_E1 ex:supports ex:PMID34351722_C0 .
+ex:PMID34351722_E2 rdf:type ex:Evidence .
+ex:PMID34351722_E2 rdfs:label "PMID:34351722 E2 (Conclusion)" .
+ex:PMID34351722_E2 ex:supports ex:PMID34351722_C0 .
+ex:PMID34351722_E3 rdf:type ex:Evidence .
+ex:PMID34351722_E3 rdfs:label "PMID:34351722 E3 (Conclusion)" .
+ex:PMID34351722_E3 ex:supports ex:PMID34351722_C0 .
+
+ex:PMID35708858_C0 rdf:type ex:Claim .
+ex:PMID35708858_C0 rdfs:label "PMID:35708858 C0 (Abstract)" .
+ex:PMID35708858_E1 rdf:type ex:Evidence .
+ex:PMID35708858_E1 rdfs:label "PMID:35708858 E1 (Conclusion)" .
+ex:PMID35708858_E1 ex:supports ex:PMID35708858_C0 .
+ex:PMID35708858_E2 rdf:type ex:Evidence .
+ex:PMID35708858_E2 rdfs:label "PMID:35708858 E2 (Conclusion)" .
+ex:PMID35708858_E2 ex:supports ex:PMID35708858_C0 .
+ex:PMID35708858_E3 rdf:type ex:Evidence .
+ex:PMID35708858_E3 rdfs:label "PMID:35708858 E3 (Conclusion)" .
+ex:PMID35708858_E3 ex:supports ex:PMID35708858_C0 .
+
+ex:PMID37176780_C0 rdf:type ex:Claim .
+ex:PMID37176780_C0 rdfs:label "PMID:37176780 C0 (Abstract)" .
+ex:PMID37176780_E1 rdf:type ex:Evidence .
+ex:PMID37176780_E1 rdfs:label "PMID:37176780 E1 (Abstract)" .
+ex:PMID37176780_E1 ex:supports ex:PMID37176780_C0 .
+ex:PMID37176780_E2 rdf:type ex:Evidence .
+ex:PMID37176780_E2 rdfs:label "PMID:37176780 E2 (Abstract)" .
+ex:PMID37176780_E2 ex:supports ex:PMID37176780_C0 .
+ex:PMID37176780_E3 rdf:type ex:Evidence .
+ex:PMID37176780_E3 rdfs:label "PMID:37176780 E3 (Abstract)" .
+ex:PMID37176780_E3 ex:supports ex:PMID37176780_C0 .
+
+ex:PMID37888913_C0 rdf:type ex:Claim .
+ex:PMID37888913_C0 rdfs:label "PMID:37888913 C0 (Abstract)" .
+ex:PMID37888913_E1 rdf:type ex:Evidence .
+ex:PMID37888913_E1 rdfs:label "PMID:37888913 E1 (Method)" .
+ex:PMID37888913_E1 ex:supports ex:PMID37888913_C0 .
+ex:PMID37888913_E2 rdf:type ex:Evidence .
+ex:PMID37888913_E2 rdfs:label "PMID:37888913 E2 (Method)" .
+ex:PMID37888913_E2 ex:supports ex:PMID37888913_C0 .
+ex:PMID37888913_E3 rdf:type ex:Evidence .
+ex:PMID37888913_E3 rdfs:label "PMID:37888913 E3 (Method)" .
+ex:PMID37888913_E3 ex:supports ex:PMID37888913_C0 .
+
+ex:PMID38250247_C0 rdf:type ex:Claim .
+ex:PMID38250247_C0 rdfs:label "PMID:38250247 C0 (Abstract)" .
+ex:PMID38250247_E1 rdf:type ex:Evidence .
+ex:PMID38250247_E1 rdfs:label "PMID:38250247 E1 (Method)" .
+ex:PMID38250247_E1 ex:supports ex:PMID38250247_C0 .
+ex:PMID38250247_E2 rdf:type ex:Evidence .
+ex:PMID38250247_E2 rdfs:label "PMID:38250247 E2 (Method)" .
+ex:PMID38250247_E2 ex:supports ex:PMID38250247_C0 .
+ex:PMID38250247_E3 rdf:type ex:Evidence .
+ex:PMID38250247_E3 rdfs:label "PMID:38250247 E3 (Method)" .
+ex:PMID38250247_E3 ex:supports ex:PMID38250247_C0 .
+
+ex:PMID39787606_C0 rdf:type ex:Claim .
+ex:PMID39787606_C0 rdfs:label "PMID:39787606 C0 (Abstract)" .
+ex:PMID39787606_E1 rdf:type ex:Evidence .
+ex:PMID39787606_E1 rdfs:label "PMID:39787606 E1 (Abstract)" .
+ex:PMID39787606_E1 ex:supports ex:PMID39787606_C0 .
+ex:PMID39787606_E2 rdf:type ex:Evidence .
+ex:PMID39787606_E2 rdfs:label "PMID:39787606 E2 (Abstract)" .
+ex:PMID39787606_E2 ex:supports ex:PMID39787606_C0 .
+ex:PMID39787606_E3 rdf:type ex:Evidence .
+ex:PMID39787606_E3 rdfs:label "PMID:39787606 E3 (Abstract)" .
+ex:PMID39787606_E3 ex:supports ex:PMID39787606_C0 .
+
+ex:PMID39905519_C0 rdf:type ex:Claim .
+ex:PMID39905519_C0 rdfs:label "PMID:39905519 C0 (Abstract)" .
+ex:PMID39905519_E1 rdf:type ex:Evidence .
+ex:PMID39905519_E1 rdfs:label "PMID:39905519 E1 (Abstract)" .
+ex:PMID39905519_E1 ex:supports ex:PMID39905519_C0 .
+ex:PMID39905519_E2 rdf:type ex:Evidence .
+ex:PMID39905519_E2 rdfs:label "PMID:39905519 E2 (Abstract)" .
+ex:PMID39905519_E2 ex:supports ex:PMID39905519_C0 .
+ex:PMID39905519_E3 rdf:type ex:Evidence .
+ex:PMID39905519_E3 rdfs:label "PMID:39905519 E3 (Abstract)" .
+ex:PMID39905519_E3 ex:supports ex:PMID39905519_C0 .
+
+ex:PMID41180093_C0 rdf:type ex:Claim .
+ex:PMID41180093_C0 rdfs:label "PMID:41180093 C0 (Abstract)" .
+ex:PMID41180093_E1 rdf:type ex:Evidence .
+ex:PMID41180093_E1 rdfs:label "PMID:41180093 E1 (Abstract)" .
+ex:PMID41180093_E1 ex:supports ex:PMID41180093_C0 .
+ex:PMID41180093_E2 rdf:type ex:Evidence .
+ex:PMID41180093_E2 rdfs:label "PMID:41180093 E2 (Abstract)" .
+ex:PMID41180093_E2 ex:supports ex:PMID41180093_C0 .
+ex:PMID41180093_E3 rdf:type ex:Evidence .
+ex:PMID41180093_E3 rdfs:label "PMID:41180093 E3 (Abstract)" .
+ex:PMID41180093_E3 ex:supports ex:PMID41180093_C0 .
