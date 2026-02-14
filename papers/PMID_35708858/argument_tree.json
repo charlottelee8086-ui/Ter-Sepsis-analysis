@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:35708858",
+  "topic": "steroid_sensitivity",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "Platelets can carry infectious viruses beyond hemostatic functions",
+    "source": {
+      "paper_id": "PMID:35708858",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] A convergent contributor could be platelets that beyond hemostatic functions can carry infectious viruses."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Results have so far demonstrated the presence of viral particles and their infectiousness.",
+        "source": {
+          "paper_id": "PMID:35708858",
+          "section": "Unknown",
+          "quote": "[CONCLUSION] Results have so far demonstrated the presence of viral particles and their infectiousness."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Therefore, the major route of SARS- Platelets from COVID‑19 non‑survivors harbor CoV-2 dissemination is not blood, although the role of plate- SARS‑CoV‑2 lets as viral carrier has not been investigated.",
+        "source": {
+          "paper_id": "PMID:35708858",
+          "section": "Unknown",
+          "quote": "[CONCLUSION] Therefore, the major route of SARS- Platelets from COVID‑19 non‑survivors harbor CoV-2 dissemination is not blood, although the role of plate- SARS‑CoV‑2 lets as viral carrier has not been investigated."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Platelets have a critical role in hemostasis and thrombosis [13].",
+        "source": {
+          "paper_id": "PMID:35708858",
+          "section": "Unknown",
+          "quote": "[CONCLUSION] Platelets have a critical role in hemostasis and thrombosis [13]."
+        },
+        "children": []
+      }
+    ]
+  }
+}

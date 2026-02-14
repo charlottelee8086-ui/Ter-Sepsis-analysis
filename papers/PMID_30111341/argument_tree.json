@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:30111341",
+  "topic": "sepsis_diagnosis_criteria",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "Use the abstract to identify the authors and their affiliations.",
+    "source": {
+      "paper_id": "PMID:30111341",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] Meier1† , Lila Bouadma3, Charles E."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The abstract mentions four authors: Luyt4, Michel Wolff3, Jean Chastre4, and Florence Tubach5.",
+        "source": {
+          "paper_id": "PMID:30111341",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Luyt4, Michel Wolff3, Jean Chastre4, Florence Tubach5, Stefan Schroeder6, Vandack Nobre7, Djillali Annane8, Konrad Reinhart9, Pierre Damas10, Maarten Nijsten11, Arezoo Shajiei11, Dylan W."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The abstract mentions five authors: Oliveira14, Yahya Shehabi15, Jos A., van Oers17, and Albertus Beishuizen18.",
+        "source": {
+          "paper_id": "PMID:30111341",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Oliveira14, Yahya Shehabi15,16, Jos A."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The abstract mentions three authors: van Oers17, Albertus Beishuizen18, and Armand R.",
+        "source": {
+          "paper_id": "PMID:30111341",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] van Oers17, Albertus Beishuizen18, Armand R."
+        },
+        "children": []
+      }
+    ]
+  }
+}

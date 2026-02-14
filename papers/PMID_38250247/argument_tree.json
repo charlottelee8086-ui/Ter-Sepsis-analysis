@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:38250247",
+  "topic": "sepsis_treatment_plan",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "该研究是关于 Sepsis 和 Septic Shock 中 Corticosteroid 的系统性回顾和分析。",
+    "source": {
+      "paper_id": "PMID:38250247",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] LATE BREAKER ARTICLE Corticosteroids in Sepsis and Septic Shock: A Systematic Review, Pairwise, and Dose-Response Meta-Analysis Tyler Pitre, MD, MA1 OBJECTIVES: To perform a systematic review and meta-analysis to assess the Katherine Drover2 efficacy and safety of corticosteroids in patients with sepsis."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "该研究通过注册在 Open Science Framework Search Strategy 和 Study Selection 中，按照 2020 年的标准进行搜索，并通过 2022 年 12 月 28 日的帮助检查进行更新。",
+        "source": {
+          "paper_id": "PMID:38250247",
+          "section": "Unknown",
+          "quote": "[METHOD] METHODS We registered a protocol on Open Science Framework Search Strategy and Study Selection in accordance with the Preferred Reporting Items We updated a search strategy from a previous review for Systematic Reviews and Meta-Analyses-protocol (conducted through January 10, 2018) with the help checklist on December 28, 2022."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "该研究包含 3 个随机控制的随机化实验，每个实验包含至少 100 名参与者。",
+        "source": {
+          "paper_id": "PMID:38250247",
+          "section": "Unknown",
+          "quote": "[METHOD] We subsequently of an experienced medical librarian and included all prepared this article in accordance with the 2020 the existing trials from the previous review (3)."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "该研究涵盖了来自 Latin America 和 Caribbean 的所有相关文献，涵盖了 3 年的日期范围。",
+        "source": {
+          "paper_id": "PMID:38250247",
+          "section": "Unknown",
+          "quote": "[METHOD] Trials Register, and Latin American and Caribbean Health Sciences Literature from January 1, 2018, to Eligibility Criteria January 1, 2023."
+        },
+        "children": []
+      }
+    ]
+  }
+}

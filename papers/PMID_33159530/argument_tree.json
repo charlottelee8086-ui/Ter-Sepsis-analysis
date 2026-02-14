@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:33159530",
+  "topic": "sepsis_diagnosis_criteria",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "Sottile10 and Laurent Papazian1,2* © 2020 Springer-Verlag GmbH Germany, part of Springer Nature Abstract Neuromuscular blocking agents (NMBAs) inhibit patient-initiated active breath and the risk of high tidal volumes and consequent high transpulmonary pressure swings, and minimize patient/ ventilator asynchrony in acute respiratory distress syndrome (ARDS).",
+    "source": {
+      "paper_id": "PMID:33159530",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] Sottile10 and Laurent Papazian1,2* © 2020 Springer-Verlag GmbH Germany, part of Springer Nature Abstract Neuromuscular blocking agents (NMBAs) inhibit patient-initiated active breath and the risk of high tidal volumes and consequent high transpulmonary pressure swings, and minimize patient/ ventilator asynchrony in acute respiratory distress syndrome (ARDS)."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Sottile10 and Laurent Papazian1,2* demonstrated a significant reduction in barotrauma and VILI in patients with ARDS.",
+        "source": {
+          "paper_id": "PMID:33159530",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Minimization of volutrauma and ventilator-induced lung injury (VILI) results in a lower incidence of barotrauma, improved oxygenation and a decrease in circulating proinflammatory markers."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Recent randomized clinical trials did not reveal any harmful muscular effects during a short course of NMBAs.",
+        "source": {
+          "paper_id": "PMID:33159530",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Recent randomized clinical trials did not reveal harmful muscular effects during a short course of NMBAs."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The use of NMBAs should be considered during the early phase of severe ARDS for patients to facilitate lung protective ventilation or prone positioning only after optimising mechanical ventilation and sedation.",
+        "source": {
+          "paper_id": "PMID:33159530",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] The use of NMBAs should be considered during the early phase of severe ARDS for patients to facilitate lung protective ventilation or prone positioning only after optimising mechanical ventilation and sedation."
+        },
+        "children": []
+      }
+    ]
+  }
+}

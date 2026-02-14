@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:41180093",
+  "topic": "sepsis_treatment_plan",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "Although international guidelines have helped reduce crude mortality rates from sepsis by optimizing infection control and support of vital organ function, there are still no specific therapies for sepsis, other than corticosteroids.",
+    "source": {
+      "paper_id": "PMID:41180093",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] Although international guidelines have helped reduce crude mortality rates from sepsis by optimizing infection control and support of vital organ function, Keywords: Molecular biology there are still no specific therapies for sepsis, other than corticosteroids."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Corticosteroids regulate the function of most cell types involved in host response through both genomic and non-genomic effects, reprogramming immune cells (via regulation of Mitochondrial metabolism) toward anti-inflamm",
+        "source": {
+          "paper_id": "PMID:41180093",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] The aims of this narrative review were Pharmacology to provide readers with the most recent data on corticosteroids, as well as up-to-date evidence regarding their Preclinical models effects in patients with sepsis."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "In patients with sepsis, these effects are achieved using supraphysiological doses of corticosteroids, equating to approximately 200 mg/day of hydrocortisone equivalent for 5–15 days, depending on the clinical context.",
+        "source": {
+          "paper_id": "PMID:41180093",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Corticosteroids regulate the function of most cell types involved in host response Clinical trials to infections, through both genomic and non-genomic effects, reprogramming immune cells (via regulation of Systematic reviews mitochondrial metabolism) toward anti-inflammatory types, restoring endothelial cell function and endothelium Guidelines integrity, facilitating epithelium repair, and restoring vascular smooth muscle function, as well as organ perfusion."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Supports the claim.",
+        "source": {
+          "paper_id": "PMID:41180093",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] In patients with sepsis, these effects are achieved using supraphysiological doses of corticosteroids, equating to approximately 200 mg/day of hydrocortisone equivalent for 5–15 days, depending on the clinical context."
+        },
+        "children": []
+      }
+    ]
+  }
+}

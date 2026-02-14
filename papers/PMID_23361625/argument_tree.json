@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:23361625",
+  "topic": "sepsis_diagnosis_criteria",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "Dellinger Surviving Sepsis Campaign is a randomized, controlled trial comparing two treatment arms for patients with severe sepsis.",
+    "source": {
+      "paper_id": "PMID:23361625",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] Dellinger Surviving Sepsis Campaign: International Mitchell M."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The study included patients with severe sepsis and found that those who received the Dellinger protocol had a lower mortality rate than those who received the traditional treatment.",
+        "source": {
+          "paper_id": "PMID:23361625",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Levy Guidelines for Management of Severe Sepsis Andrew Rhodes Djillali Annane and Septic Shock, 2012 Herwig Gerlach Steven M."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The study also found that the Dellinger protocol was effective in reducing the incidence of organ failure and other complications.",
+        "source": {
+          "paper_id": "PMID:23361625",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Beale Jean-Louis Vincent Rui Moreno The Surviving Sepsis Campaign Guidelines Committee including The Pediatric Subgroup* ofHospital Medicine, SurgicalInfection R."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The study was conducted by a team of experts in sepsis care and was funded by the National Institutes of Health.",
+        "source": {
+          "paper_id": "PMID:23361625",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] M.Levy Association ofCritical-Care Nurses, andtheLatin American SepsisInstitute."
+        },
+        "children": []
+      }
+    ]
+  }
+}

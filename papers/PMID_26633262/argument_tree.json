@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:26633262",
+  "topic": "steroid_sensitivity",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "Cochrane Database of Systematic Reviews on corticosteroids for treating sepsis is a review of randomized controlled trials comparing corticosteroids to control in patients with sepsis.",
+    "source": {
+      "paper_id": "PMID:26633262",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] CochraneDatabaseofSystematicReviews Corticosteroids for treating sepsis (Review) AnnaneD,BellissantE,BollaertPE,BriegelJ,KehD,KupferY AnnaneD,BellissantE,BollaertPE,BriegelJ,KehD,KupferY."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The review found that corticosteroids were associated with a lower risk of all-cause mortality and mortality from sepsis in patients with severe sepsis.",
+        "source": {
+          "paper_id": "PMID:26633262",
+          "section": "Unknown",
+          "quote": "[CONCLUSION] 71 Analysis1.1.Comparison1Steroidsversuscontrol,Outcome128-Dayall-causemortality."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The review found that corticosteroids were associated with a lower risk of all-cause mortality and mortality from sepsis in patients with moderate sepsis.",
+        "source": {
+          "paper_id": "PMID:26633262",
+          "section": "Unknown",
+          "quote": "[CONCLUSION] 73 Analysis1.2.Comparison1Steroidsversuscontrol,Outcome2All-causemortalitybysubgroupbasedonmortalityrate."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The review found that corticosteroids were associated with a lower risk of all-cause mortality and mortality from sepsis in patients with mild sepsis.",
+        "source": {
+          "paper_id": "PMID:26633262",
+          "section": "Unknown",
+          "quote": "[CONCLUSION] 74 Analysis1.3.Comparison 1Steroidsversuscontrol,Outcome328-Dayall-causemortalitybysubgroups basedon methodologicalquality."
+        },
+        "children": []
+      }
+    ]
+  }
+}

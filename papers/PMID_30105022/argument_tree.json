@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:30105022",
+  "topic": "sepsis_diagnosis_criteria",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "Sepsis remains a major cause of morbidity and mortality.",
+    "source": {
+      "paper_id": "PMID:30105022",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] Sepsis remains a major cause of morbidity and mortality."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Treatment is nonspecific and relies on source control and organ support.",
+        "source": {
+          "paper_id": "PMID:30105022",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Treatment is nonspecific and relies on source control and organ support."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Septic shock, the most severe form of sepsis is associated with the highest rate of mortality.",
+        "source": {
+          "paper_id": "PMID:30105022",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Septic shock, the most severe form of sepsis is associated with the highest rate of mortality."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Two large multicentre trials, undertaken 15 years apart, found that the com- bination of hydrocortisone and fludrocortisone significantly reduces mortality in septic shock.",
+        "source": {
+          "paper_id": "PMID:30105022",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Two large multicentre trials, undertaken 15 years apart, found that the com- bination of hydrocortisone and fludrocortisone significantly reduces mortality in septic shock."
+        },
+        "children": []
+      }
+    ]
+  }
+}

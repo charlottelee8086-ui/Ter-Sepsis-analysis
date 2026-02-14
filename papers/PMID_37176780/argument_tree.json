@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:37176780",
+  "topic": "sepsis_treatment_plan",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "Corticosteroids may also have a role to play in the treatment of ARDS. This narrative review was undertaken following a PubMed search for English-language reports published before January 2023 using the terms 'acuterespiratorydistress syndrome', 'sepsis', and 'steroids'. Additional reports were identified by examining the reference lists of selected articles and based on personnel knowledge of the authors of the field. High-quality research is needed to fully understand the role of corticosteroids in the treatment of ARDS and to determine the optimal timing, dose, and duration of treatment.",
+    "source": {
+      "paper_id": "PMID:37176780",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] Corticosteroidsare powerfulanti-inflammatoryagentsthatareroutinelyusedinsepticshockandinoxygen-dependent SARS-CoV-2relatedacuterespiratoryfailure.Recently,corticosteroidswerefoundtoreducemortality inseverecommunity-acquiredpneumonia."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Corticosteroids may reduce mortality in patients with ARDS. This is supported by the fact that corticosteroids are a potent anti-inflammatory agent.",
+        "source": {
+          "paper_id": "PMID:37176780",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Corticosteroidsmaythereforealsohavearoletoplay inthetreatmentofARDS.ThisnarrativereviewwasundertakenfollowingaPubMedsearchfor EnglishlanguagereportspublishedbeforeJanuary2023usingthetermsacuterespiratorydistress syndrome,sepsisandsteroids.Additionalreportswereidentifiedbyexaminingthereferencelistsof selectedarticlesandbasedonpersonnelknowledgeoftheauthorsofthefield.High-qualityresearch isneededtofullyunderstandtheroleofcorticosteroidsinthetreatmentofARDSandtodetermine theoptimaltiming,dosinganddurationoftreatment."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Keywords: glucocorticoids;acuterespiratorydistress syndrome;sepsis 1",
+        "source": {
+          "paper_id": "PMID:37176780",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Keywords:glucocorticoids;acuterespiratorydistresssyndrome;sepsis 1."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Keywords:glucocorticoids;ARDS",
+        "source": {
+          "paper_id": "PMID:37176780",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Sepsis—Definition,EpidemiologyandPathophysiology Citation:Kuperminc,E.;Heming,N.;"
+        },
+        "children": []
+      }
+    ]
+  }
+}

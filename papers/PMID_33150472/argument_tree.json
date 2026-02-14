@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:33150472",
+  "topic": "sepsis_treatment_plan",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "Chrousos4, Bram Rochwerg5,9, Amanda Busby6, Barbara Ruaro3 and Bernd Meibohm7 © 2020 This is a U.S.",
+    "source": {
+      "paper_id": "PMID:33150472",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] Chrousos4, Bram Rochwerg5,9, Amanda Busby6, Barbara Ruaro3 and Bernd Meibohm7 © 2020 This is a U.S."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "该研究表明，缺乏信息可能导致治疗方案差异性，并导致可用发现的误读。",
+        "source": {
+          "paper_id": "PMID:33150472",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] This paucity of information may have led to the heterogeneity of treatment protocols and misinterpretation of available findings."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "GC是受GC受体（GR）的激动剂，在GR作用下产生药理反应。",
+        "source": {
+          "paper_id": "PMID:33150472",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] GCs are agonist compounds that bind to the GC receptor (GR) producing a pharmacological response."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "临床有效性取决于GR暴露的持续时间和强度。",
+        "source": {
+          "paper_id": "PMID:33150472",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Clinical efficacy depends on the magnitude and duration of exposure to GR."
+        },
+        "children": []
+      }
+    ]
+  }
+}

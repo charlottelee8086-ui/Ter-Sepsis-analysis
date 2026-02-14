@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:37888913",
+  "topic": "sepsis_diagnosis_criteria",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "The new england journal of medicine Original Article Simvastatin in Critically Ill Patients with Covid-19 The REMAP-CAP Investigators",
+    "source": {
+      "paper_id": "PMID:37888913",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] The new england journal of medicine Original Article Simvastatin in Critically Ill Patients with Covid-19 The REMAP-CAP Investigators* ABSTRACT BACKGROUND The efficacy of simvastatin in critically ill patients with coronavirus disease 2019 The members of the writing committe as- (Covid-19) is unclear."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The study is a randomized, controlled trial that compares simvastatin (80 mg daily) with no statin (control) in critically ill patients with Covid-19.",
+        "source": {
+          "paper_id": "PMID:37888913",
+          "section": "Unknown",
+          "quote": "[METHOD] METHODS of the members of the writing committee In an ongoing international, multifactorial, adaptive platform, randomized, controlled are listed in the Appendix."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The study was conducted in an international, multifactorial, adaptive platform, which allows for the inclusion of patients from different countries and regions.",
+        "source": {
+          "paper_id": "PMID:37888913",
+          "section": "Unknown",
+          "quote": "[METHOD] McAuley trial, we evaluated simvastatin (80 mg daily) as compared with no statin (control) can be contacted at d ."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The study included critically ill patients with Covid-19 who were not receiving statins at baseline.",
+        "source": {
+          "paper_id": "PMID:37888913",
+          "section": "Unknown",
+          "quote": "[METHOD] ac in critically ill patients with Covid-19 who were not receiving statins at baseline."
+        },
+        "children": []
+      }
+    ]
+  }
+}

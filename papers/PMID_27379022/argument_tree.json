@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:27379022",
+  "topic": "steroid_sensitivity",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "Abstract says that an abnormal host response to infection results in life-threatening dys- function of organs.",
+    "source": {
+      "paper_id": "PMID:27379022",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] It is now defined as an abnormal host response to infection, resulting in life-threatening dys- function of organs."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The conclusion says that hypothalamic signaling via autonomic nuclei in the brainstem is involved in the abnormal response.",
+        "source": {
+          "paper_id": "PMID:27379022",
+          "section": "Unknown",
+          "quote": "[CONCLUSION] results in hypothalamic signaling via autonomic nuclei in the brainstem, which have Irreversible Damage to Neuroendocrine Cells projections to the hypothalamus, for example, between the locus Sepsis is infrequently associated with necrosis or hemorrhage ceruleus and the arcuate nucleus, and other structures of the within the HPA axis."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The venous drainage of the adrenals is limbic system as well.",
+        "source": {
+          "paper_id": "PMID:27379022",
+          "section": "Unknown",
+          "quote": "[CONCLUSION] The venous drainage of the adrenals being limbic system as well."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The efferent fibers, particularly of the limited, sepsis-associated massive increase in arterial blood flow vagus nerve, contribute to the attenuation of inflammation and to these glands results in enlarged glands (Table",
+        "source": {
+          "paper_id": "PMID:27379022",
+          "section": "Unknown",
+          "quote": "[CONCLUSION] Then, efferent fibers, particularly of the limited, sepsis-associated massive increase in arterial blood flow vagus nerve, contribute to the attenuation of inflammation and to these glands results in enlarged glands (Table 1) (35)."
+        },
+        "children": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:26903338",
+  "topic": "sepsis_diagnosis_criteria",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "HHS Public Access Author manuscript JAMA is a peer-reviewed medical journal published by the American Medical Association.",
+    "source": {
+      "paper_id": "PMID:26903338",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] HHS Public Access Author manuscript JAMA."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The first evidence mentions the journal's name, publisher, and publication date.",
+        "source": {
+          "paper_id": "PMID:26903338",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Published in final edited form as: JAMA."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The second evidence provides the official title of the article.",
+        "source": {
+          "paper_id": "PMID:26903338",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) Mervyn Singer, MD, FRCP, Clifford S."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The third evidence provides the names of the authors, journal, and publisher.",
+        "source": {
+          "paper_id": "PMID:26903338",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Deutschman, MD, MS, Christopher Warren Seymour, MD, MSc, Manu Shankar-Hari, MSc, MD, FFICM, Djillali Annane, MD, PhD, Michael Bauer, MD, Rinaldo Bellomo, MD, Gordon R."
+        },
+        "children": []
+      }
+    ]
+  }
+}

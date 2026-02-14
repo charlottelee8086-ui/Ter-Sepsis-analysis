@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:39787606",
+  "topic": "sepsis_diagnosis_criteria",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "Original article discusses the status of sepsis care in European hospitals.",
+    "source": {
+      "paper_id": "PMID:39787606",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] ORIGINAL ARTICLE Status of Sepsis Care in European Hospitals Results from an International Cross-Sectional Survey Christian S."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The abstract provides information about the study's participants and methodology.",
+        "source": {
+          "paper_id": "PMID:39787606",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Giamarellos-Bourboulis2, Ricard Ferrer3, Evgeny A."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The abstract discusses the findings of the study, including the prevalence of sepsis and the use of different treatment modalities.",
+        "source": {
+          "paper_id": "PMID:39787606",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Idelevich4,5, Djillali Annane6,7, Antonio Artigas8, Abdullah Tarik Aslan9, Gabriella Bottari10, Hjalmar R."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The abstract provides a brief overview of the study's findings, including the use of EDs for sepsis diagnosis.",
+        "source": {
+          "paper_id": "PMID:39787606",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] standardizedsepsismanagement(EDs,133.6%;wards,140.0%;"
+        },
+        "children": []
+      }
+    ]
+  }
+}

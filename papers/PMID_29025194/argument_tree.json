@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:29025194",
+  "topic": "sepsis_diagnosis_criteria",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "Procalcitonin is used in the abstract to initiate or discontinue antibiotics in acute respiratory tract infections.",
+    "source": {
+      "paper_id": "PMID:29025194",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] Cochrane Library Cochrane Database of Systematic Reviews Procalcitonin to initiate or discontinue antibiotics in acute respiratory tract infections (Review) Schuetz P, Wirz Y, Sager R, Christ-Crain M, Stolz D, Tamm M, Bouadma L, Luyt CE, Wolff M, Chastre J, Tubach F, Kristoffersen KB, Burkhardt O, Welte T, Schroeder S, Nobre V, Wei L, Bucher HCC, Bhatnagar N, Annane D, Reinhart K, Branche A, Damas P, Nijsten M, de Lange DW, Deliberato RO, Lima SSS, Maravić-Stojković V, Verduri A, Cao B, Shehabi Y, Beishuizen A, Jensen JUS, Corti C, Van Oers JA, Falsey AR, de Jong E, Oliveira CF, Beghe B, Briel M, Mueller B Schuetz P, Wirz Y, Sager R, Christ-Crain M, Stolz D, Tamm M, Bouadma L, Luyt CE, Wolff M, Chastre J, Tubach F, Kristoffersen KB, Burkhardt O, Welte T, Schroeder S, Nobre V, Wei L, Bucher HCC, Bhatnagar N, Annane D, Reinhart K, Branche A, Damas P, Nijsten M, de Lange DW, Deliberato RO, Lima SSS, Maravić-Stojković V, Verduri A, Cao B, Shehabi Y, Beishuizen A, Jensen JUS, Corti C, Van Oers JA, Falsey AR, de Jong E, Oliveira CF, Beghe B, Briel M, Mueller B."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Cochrane Library Cochrane Database of Systematic Reviews Procalcitonin to initiate or discontinue antibiotics in acute respiratory tract infections.",
+        "source": {
+          "paper_id": "PMID:29025194",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Procalcitonin to initiate or discontinue antibiotics in acute respiratory tract infections."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Published by John Wiley & Sons, Ltd.",
+        "source": {
+          "paper_id": "PMID:29025194",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Published by John Wiley & Sons, Ltd."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Cochrane Database of Systematic Reviews T A B L E O F C O N T E N T S ABSTRACT..............................................................................................................................................",
+        "source": {
+          "paper_id": "PMID:29025194",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Cochrane Database of Systematic Reviews T A B L E O F C O N T E N T S ABSTRACT....................................................................................................................................................................................................."
+        },
+        "children": []
+      }
+    ]
+  }
+}

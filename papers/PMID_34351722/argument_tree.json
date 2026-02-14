@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:34351722",
+  "topic": "sepsis_diagnosis_criteria",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "The new england journal of medicine Original Article Therapeutic Anticoagulation with Heparin in Critically Ill Patients with Covid-19 The REMAP-CAP, ACTIV-4a, and ATTACC Investigators* ABSTRACT BACKGROUND Thrombosis and inflammation may contribute to morbidity and mortality among The members of the executive writing patients with coronavirus disease 2019 (Covid-19).",
+    "source": {
+      "paper_id": "PMID:34351722",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] The new england journal of medicine Original Article Therapeutic Anticoagulation with Heparin in Critically Ill Patients with Covid-19 The REMAP-CAP, ACTIV-4a, and ATTACC Investigators* ABSTRACT BACKGROUND Thrombosis and inflammation may contribute to morbidity and mortality among The members of the executive writing patients with coronavirus disease 2019 (Covid-19)."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "An initial strategy of therapeutic-dose anti- coagulation with heparin did not result in a greater probability of survival to hospi- tal discharge or a greater number of days free of cardiovascular or respiratory organ s",
+        "source": {
+          "paper_id": "PMID:34351722",
+          "section": "Unknown",
+          "quote": "[CONCLUSION] CONCLUSIONS In critically ill patients with Covid-19, an initial strategy of therapeutic-dose anti- coagulation with heparin did not result in a greater probability of survival to hospi- tal discharge or a greater number of days free of cardiovascular or respiratory organ support than did usual-care pharmacologic thromboprophylaxis."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Each platform independently associated with a greater risk of was overseen by independent data and safety respiratory failure, thrombosis, and death in pa- monitoring boards following a collaborative cross- tients with C",
+        "source": {
+          "paper_id": "PMID:34351722",
+          "section": "Unknown",
+          "quote": "[CONCLUSION] Each platform independently associated with a greater risk of was overseen by independent data and safety respiratory failure, thrombosis, and death in pa- monitoring boards following a collaborative cross- tients with Covid-19.2,9,10 Inflammation and throm- platform interaction plan."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Supports the claim.",
+        "source": {
+          "paper_id": "PMID:34351722",
+          "section": "Unknown",
+          "quote": "[CONCLUSION] The members of the bosis may therefore be important contributors to writing committees vouch for the accuracy and poor outcomes."
+        },
+        "children": []
+      }
+    ]
+  }
+}

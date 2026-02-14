@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:39905519",
+  "topic": "steroid_sensitivity",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "NETs physically trap and kill pathogens as well as activating and facilitating crosstalk between immune cells and complement.",
+    "source": {
+      "paper_id": "PMID:39905519",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] NETs physically trap and kill pathogens as well as activating and facilitating crosstalk between immune cells and complement."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "NETs physically trap and kill pathogens through the formation of NETs pores and the release of pore-forming proteins.",
+        "source": {
+          "paper_id": "PMID:39905519",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Exces- sive or inadequately resolved NETs are implicated in the underlying pathophysiology of sepsis and other inflamma- tory diseases, including amplification of the inflammatory response and inducing thrombotic complications."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "NETs activate and facilitate crosstalk between immune cells and complement through the release of inflammatory mediators and the activation of complement cascade.",
+        "source": {
+          "paper_id": "PMID:39905519",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Here, we review the growing evidence implicating neutrophils and NETs as central players in the dysregulated host immune response."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "NETs can be modulated to improve patient outcomes by targeting their physical trapping and killing properties, as well as their immunomodulatory and anti-inflammatory properties.",
+        "source": {
+          "paper_id": "PMID:39905519",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] We discuss potential strategies for modifying NETs to improve patient outcomes and the need for careful patient selection."
+        },
+        "children": []
+      }
+    ]
+  }
+}

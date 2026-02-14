@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:15025773",
+  "topic": "steroid_sensitivity",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "Online ISSN 1466-609X) Abstract The use of glucocorticoids (corticotherapy) in severe sepsis is one of the main controversial issues in critical care medicine.",
+    "source": {
+      "paper_id": "PMID:15025773",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] Online ISSN 1466-609X) Abstract The use of glucocorticoids (corticotherapy) in severe sepsis is one of the main controversial issues in critical care medicine."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "These agents were commonly used to treat sepsis until the end of the 1980s, when several randomized trials casted serious doubt on any benefit from high-dose glucocorticoids.",
+        "source": {
+          "paper_id": "PMID:15025773",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] These agents were commonly used to treat sepsis until the end of the 1980s, when several randomized trials casted serious doubt on any benefit from high-dose glucocorticoids."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Later, important progress in our understanding of the role played by the hypothalamic–pituitary– adrenal axis in the response to sepsis, and of the mechanisms of action of glucocorticoids led us to reconsider their use i",
+        "source": {
+          "paper_id": "PMID:15025773",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Later, important progress in our understanding of the role played by the hypothalamic–pituitary– adrenal axis in the response to sepsis, and of the mechanisms of action of glucocorticoids led us to reconsider their use in septic shock."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "The present review summarizes the basics of the physiological response of the hypothalamic–pituitary–adrenal axis to stress, including regulation of glucocorticoid synthesis, the cellular mechanisms of action of glucocor",
+        "source": {
+          "paper_id": "PMID:15025773",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] The present review summarizes the basics of the physiological response of the hypothalamic–pituitary–adrenal axis to stress, including regulation of glucocorticoid synthesis, the cellular mechanisms of action of glucocorticoids, and how they influence metabolism, cardiovascular homeostasis and the immune system."
+        },
+        "children": []
+      }
+    ]
+  }
+}

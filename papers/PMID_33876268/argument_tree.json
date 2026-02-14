@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMID:33876268",
+  "topic": "sepsis_diagnosis_criteria",
+  "root": {
+    "id": "C0",
+    "type": "claim",
+    "text": "Mammen3, Paul Alexander2, Zhikang Ye2, Luis Enrique Colunga Lozano2, Marie Warrer Munch4, Anders Perner4, Bin Du5, Lawrence Mbuagbaw2,6, Waleed Alhazzani1,2, Stephen M.",
+    "source": {
+      "paper_id": "PMID:33876268",
+      "section": "Unknown",
+      "quote": "[ABSTRACT] Mammen3, Paul Alexander2, Zhikang Ye2, Luis Enrique Colunga Lozano2, Marie Warrer Munch4, Anders Perner4, Bin Du5, Lawrence Mbuagbaw2,6, Waleed Alhazzani1,2, Stephen M."
+    },
+    "children": [
+      {
+        "id": "E1",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Corticosteroids are now recommended for patients with severe COVID-19 including those with COVID- related ARDS.",
+        "source": {
+          "paper_id": "PMID:33876268",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] Pastores7, John Marshall8, François Lamontagne9, Djillali Annane10, Gianfranco Umberto Meduri11 and Bram Rochwerg1,2,12* © 2021 Springer-Verlag GmbH Germany, part of Springer Nature Abstract Purpose: Corticosteroids are now recommended for patients with severe COVID-19 including those with COVID- related ARDS."
+        },
+        "children": []
+      },
+      {
+        "id": "E2",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Renewed interest regarding whether corticosteroids should be used in non-COVID ARDS as well.",
+        "source": {
+          "paper_id": "PMID:33876268",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] This has generated renewed interest regarding whether corticosteroids should be used in non-COVID ARDS as well."
+        },
+        "children": []
+      },
+      {
+        "id": "E3",
+        "type": "evidence",
+        "polarity": "support",
+        "text": "Summary of all RCTs examining the use of corticosteroids in ARDS.",
+        "source": {
+          "paper_id": "PMID:33876268",
+          "section": "Unknown",
+          "quote": "[ABSTRACT] The objective of this study was to summarize all RCTs examining the use of corticosteroids in ARDS."
+        },
+        "children": []
+      }
+    ]
+  }
+}
