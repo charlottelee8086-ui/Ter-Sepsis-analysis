@@ -1,17 +1,23 @@
 import json
 import os
+import re
 from pathlib import Path
 from typing import List, Optional, AsyncIterator
 
+import pandas as pd
 import requests
 from dotenv import load_dotenv
-
-load_dotenv()
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
-from pydantic import BaseModel
 from google import genai
 from google.genai import types
+from pydantic import BaseModel
+
+from biomarker_matcher import build_alias_map_from_rows, find_biomarkers
+from claim_parser import extract_statements_from_report
+from validation import validate_statement, summarize_validation
+
+load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent
 HTML_FILE = BASE_DIR / "sepsis_project.html"
@@ -148,6 +154,8 @@ def diagnosis_system_prompt(language: str = "en") -> str:
         "Do not invent cutoffs, AUC values, or guideline details. If evidence is missing, say so explicitly. "
         "When possible, estimate qSOFA or discuss SOFA-relevant organ dysfunction using only the data given. "
         "Keep the output practical, concise, and clinician-friendly. "
+        "For each clinical statement, explicitly mention the biomarker name when possible, not just the numeric value. "
+        "For example, say 'Procalcitonin (PCT) 25 ng/mL is elevated' instead of only '25 ng/mL is elevated'. "
     )
 
     if language == "zh":
@@ -177,10 +185,15 @@ def diagnosis_system_prompt(language: str = "en") -> str:
     )
 
 
-def extract_case(client: genai.Client, clinical_case: str, language: str = "en") -> ExtractedCase:
+def extract_case(
+    client: genai.Client, clinical_case: str, language: str = "en"
+) -> ExtractedCase:
     response = client.models.generate_content(
         model=MODEL_NAME,
-        contents=[extraction_instruction(language), f"Clinical case:\n\n{clinical_case}"],
+        contents=[
+            extraction_instruction(language),
+            f"Clinical case:\n\n{clinical_case}",
+        ],
         config=types.GenerateContentConfig(
             response_mime_type="application/json",
             response_schema=ExtractedCase,
@@ -224,6 +237,190 @@ def build_reference_data(markers: List[str], population: Optional[str]):
     return found_markers, "\n".join(reference_chunks)
 
 
+def load_clinical_rows():
+    file_path = BASE_DIR / "Annane_Sepsis_Corpus" / "data.xlsx"
+    print("🔥 Loading clinical data from:", file_path)
+
+    xls = pd.ExcelFile(file_path)
+    target_sheets = [
+        s for s in xls.sheet_names if s.lower() in {"neonatal", "adult", "children"}
+    ]
+
+    all_rows = []
+
+    for sheet in target_sheets:
+        df = pd.read_excel(file_path, sheet_name=sheet)
+        df = df.fillna("")
+        df.columns = [str(c).strip() for c in df.columns]
+
+        if "Biomarker_name" not in df.columns:
+            df["Biomarker_name"] = ""
+        if "Brief_name" not in df.columns:
+            df["Brief_name"] = ""
+        if "AUC" not in df.columns:
+            df["AUC"] = ""
+        if "Application_type" not in df.columns:
+            df["Application_type"] = ""
+        if "Published_year" not in df.columns:
+            df["Published_year"] = ""
+        if "Summary" not in df.columns:
+            df["Summary"] = ""
+
+        df["population"] = sheet.lower()
+        df["name"] = df["Biomarker_name"]
+        df["brief"] = df["Brief_name"]
+        df["auc"] = df["AUC"]
+
+        all_rows.extend(df.to_dict(orient="records"))
+
+    print("Loaded clinical rows:", len(all_rows))
+    return all_rows
+
+
+def load_claims_from_html():
+    with open(HTML_FILE, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    match = re.search(r"const APP\s*=\s*(\{.*?\});", content, re.DOTALL)
+    if not match:
+        return []
+
+    app_json = match.group(1)
+    data = json.loads(app_json)
+
+    claims = []
+    for topic in data.get("argument_topics", {}).values():
+        topic_label = (topic.get("label_en") or "").lower()
+        for c in topic.get("claims", []):
+            claims.append(
+                {
+                    "id": c.get("id", ""),
+                    "text": c.get("text_en", ""),
+                    "polarity": c.get("polarity", "support"),
+                    "task_type": topic_label,
+                    "source": c.get("source", ""),
+                    "matched_biomarkers": [
+                        b.get("brief", "")
+                        for b in c.get("clinical_evidence", [])
+                        if b.get("brief", "")
+                    ],
+                }
+            )
+    return claims
+
+
+CLINICAL_ROWS = load_clinical_rows()
+ALIAS_MAP = build_alias_map_from_rows(CLINICAL_ROWS)
+CLAIMS = load_claims_from_html()
+
+
+def infer_statement_biomarkers(text: str, extracted_markers: list[str]) -> list[str]:
+    hits = set(find_biomarkers(text, ALIAS_MAP))
+    lower = (text or "").lower()
+
+    if "ng/ml" in lower or "ng/ml." in lower:
+        if "pct" in [m.lower() for m in extracted_markers] or "procalcitonin" in lower:
+            hits.add("PCT")
+
+    if "mg/l" in lower:
+        if (
+            "crp" in [m.lower() for m in extracted_markers]
+            or "c-reactive protein" in lower
+        ):
+            hits.add("CRP")
+
+    if "x10^9" in lower or "leukocytosis" in lower or "white blood cell" in lower:
+        hits.add("WBC")
+
+    if "mmol/l" in lower or "lactate" in lower:
+        hits.add("LACTATE")
+
+    if not hits:
+        for marker in extracted_markers:
+            marker_l = marker.lower()
+            if marker_l in lower:
+                hits.add(marker)
+
+    return sorted(hits)
+
+
+def run_double_validation(report_text: str, extracted_markers: list[str]):
+    statements = extract_statements_from_report(report_text, ALIAS_MAP)
+
+    # Fallback 1: if parser returns nothing, derive candidate lines from report text
+    if not statements:
+        raw_lines = [x.strip() for x in (report_text or "").splitlines() if x.strip()]
+        for line in raw_lines:
+            line = re.sub(r"^\#+\s*", "", line)
+            line = re.sub(r"^\*+\s*", "", line)
+            line = re.sub(r"^[-•]\s*", "", line)
+            line = re.sub(r"^\d+[\.\)]\s*", "", line).strip()
+            line_plain = re.sub(r"\*+", "", line).strip().lower()
+
+            if not line or line_plain in {
+                "biomarker analysis",
+                "sepsis assessment",
+                "probability",
+                "treatment recommendations",
+                "risk stratification",
+                "生物标志物分析",
+                "脓毒症评估",
+                "概率",
+                "治疗建议",
+                "风险分层",
+            }:
+                continue
+
+            if len(line) >= 12:
+                statements.append(
+                    {
+                        "text": re.sub(r"\*+", "", line).strip(),
+                        "intent": "other",
+                        "biomarkers": [],
+                    }
+                )
+
+    # Fallback 2: if still empty, generate statements from extracted biomarkers
+    if not statements:
+        for marker in extracted_markers[:6]:
+            statements.append(
+                {
+                    "text": f"{marker} is clinically relevant in this sepsis assessment.",
+                    "intent": "diagnosis",
+                    "biomarkers": [marker],
+                }
+            )
+
+    for st in statements:
+        st["biomarkers"] = infer_statement_biomarkers(
+            st.get("text", ""), extracted_markers
+        )
+
+    validation_results = [
+        validate_statement(st, CLAIMS, CLINICAL_ROWS) for st in statements
+    ]
+
+    summary = summarize_validation(validation_results)
+
+    # Final fallback so frontend never gets an empty summary
+    if not validation_results:
+        summary = {
+            "overall_verdict": "limited_support",
+            "counts": {
+                "supported": 0,
+                "conflicted": 0,
+                "challenged": 0,
+                "insufficient_evidence": 0,
+            },
+        }
+
+    return {
+        "statements": statements,
+        "validation_results": validation_results,
+        "validation_summary": summary,
+    }
+
+
 @app.get("/")
 def index():
     return FileResponse(HTML_FILE)
@@ -236,6 +433,8 @@ def health():
             "ok": True,
             "model": MODEL_NAME,
             "google_api_key_configured": bool(os.getenv("GOOGLE_API_KEY")),
+            "claims_loaded": len(CLAIMS),
+            "clinical_rows_loaded": len(CLINICAL_ROWS),
         }
     )
 
@@ -335,6 +534,8 @@ async def diagnose(req: DiagnoseRequest):
                     yield sse({"type": "report_chunk", "text": text})
 
             final_report = "".join(full_report).strip()
+            validation_payload = run_double_validation(final_report, extracted.markers)
+
             yield sse(
                 {
                     "type": "phase",
@@ -343,6 +544,23 @@ async def diagnose(req: DiagnoseRequest):
                     "message": labels["phase_report_done"],
                 }
             )
+            yield sse(
+                {
+                    "type": "phase",
+                    "index": 3,
+                    "state": "done",
+                    "message": "Claims matched",
+                }
+            )
+            yield sse(
+                {
+                    "type": "phase",
+                    "index": 4,
+                    "state": "done",
+                    "message": "Validated summary built",
+                }
+            )
+            yield sse({"type": "validation", "data": validation_payload})
             yield sse({"type": "done", "report": final_report, "language": language})
         except HTTPException as e:
             yield sse({"type": "error", "message": e.detail})
