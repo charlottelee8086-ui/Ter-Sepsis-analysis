@@ -1,7 +1,7 @@
-.venv/
-__pycache__/
 .env
 .env.*
 __pycache__/
 *.pyc
+.venv/
 ~$*.xlsx
+.DS_Store

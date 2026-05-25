@@ -1,156 +1,151 @@
-<<<<<<< HEAD
-# Ter-Sepsis-analysis
-Our objectives are identify the symptoms of sepsis, propose appropriate treatment strategies, and evaluate their effectiveness as well as potential long-term side effects.
-=======
-# 🧠 Sepsis Diagnostic Platform  
-### Multi-language AI + Biomarker Database + Clinical Reasoning
+# Ter-Sepsis Analysis
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
-![Gemini](https://img.shields.io/badge/LLM-Google%20Gemini-orange)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+A sepsis diagnostic decision-support prototype that connects three evidence layers:
 
----
+1. **LLM-generated clinical diagnosis**
+2. **Paper-derived argument claims and evidence**
+3. **Clinical biomarker database with AUC / population / application evidence**
 
-## 🚀 Overview
+The main idea is to use **biomarkers as the bridge** between the LLM diagnosis and literature claims:
 
-A full-stack clinical decision support system for **sepsis diagnosis**, integrating:
+```text
+Clinical case
+  ↓
+LLM diagnostic report
+  ↓
+Clinical statements
+  ↓
+Biomarker extraction / inference
+  ↓
+Paper claim matching
+  ↓
+Support / conflict / insufficient-evidence validation
+```
 
-- 🧬 Biomarker Database (AUC, cutoff, clinical evidence)
-- 🌳 Argument–Clinical reasoning framework
-- 🤖 AI-powered diagnosis (Google Gemini)
-- 🌍 Multi-language interface (English / 中文 / Français)
+## Features
 
-Users can:
-- Explore biomarker evidence
-- Understand clinical reasoning paths
-- Input real-world clinical cases
-- Receive AI-generated diagnostic analysis
-- Switch seamlessly between three languages
-
----
-
-# 🧠 Sepsis Diagnostic Platform  
-### Multi-language AI + Biomarker Database + Clinical Reasoning
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
-![Gemini](https://img.shields.io/badge/LLM-Google%20Gemini-orange)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
-
----
-
-## 🚀 Overview
-
-A full-stack clinical decision support system for **sepsis diagnosis**, integrating:
-
-- 🧬 Biomarker Database (AUC, cutoff, clinical evidence)
-- 🌳 Argument–Clinical reasoning framework
-- 🤖 AI-powered diagnosis (Google Gemini)
-- 🌍 Multi-language interface (English / 中文 / Français)
-
-Users can:
-- Explore biomarker evidence
-- Understand clinical reasoning paths
-- Input real-world clinical cases
-- Receive AI-generated diagnostic analysis
-- Switch seamlessly between three languages
-
----
-
-## 🌐 Features
-
-### 🌍 Multi-language Interface
-- 🇬🇧 English / 🇨🇳 中文 / 🇫🇷 Français
-- Full UI + AI output language switching
-
-### 🧬 Biomarker Database
-- Filter by:
-  - Population (Adult / Children / Neonatal)
-  - Application (Diagnosis / Prognosis)
-  - Category (Inflammation, Immune, Organ Dysfunction…)
-  - Drug targets
-- Includes:
-  - AUC values
-  - Cut-off thresholds
-  - Sensitivity / Specificity
-  - Clinical summaries
-
-### 🌳 Argument–Clinical Mapping
-- Evidence-driven reasoning structure  
-- Links:
-
-- Transparent clinical reasoning
-
-### 🤖 AI Diagnosis (Gemini)
-- Input: EN / 中文 / FR
-- Pipeline:
-1. Biomarker extraction
-2. Database retrieval
-3. Risk estimation
-4. Treatment recommendations
-- Output language follows UI
-- Streaming response
-
----
-
-## 🖥️ Interface Preview
-
-> Replace with screenshots
-
-
-### Home
-![Home Screenshot](docs/home.png)
-
-### Biomarker Database
-![Database Screenshot](docs/db.png)
-
-### Clinical Report
-![Report Screenshot](docs/report.png)
-
-### AI Diagnosis
-![AI Screenshot](docs/ai.png)
-
----
+- Multi-language web interface: English / 中文 / Français
+- FastAPI backend
+- Google Gemini-based clinical case analysis
+- Biomarker extraction from clinical cases
+- Paper claim and evidence visualization
+- Double validation panel:
+  - splits the LLM report into clinical statements
+  - links statements to biomarkers
+  - matches biomarkers to paper-derived claims
+  - labels claims as supporting or conflicting
+  - links to clinical biomarker evidence when available
 
 ## Project Structure
 
-sepsis_project/
-│
-├── app.py # FastAPI backend (Gemini integration)
-├── sepsis_project.html # Frontend (multi-language UI)
-├── requirements.txt # Python dependencies
-├── .env # API key (NOT committed)
-├── .venv/ # Virtual environment
+```text
+Ter-Sepsis-analysis/
+├── app.py                    # FastAPI backend and Gemini integration
+├── sepsis_project.html       # Frontend UI
+├── biomarker_matcher.py      # Biomarker aliases and matching logic
+├── claim_parser.py           # Splits LLM reports into clinical statements
+├── validation.py             # Statement–claim matching and scoring
+├── requirements.txt          # Python dependencies
+├── Annane_Sepsis_Corpus/
+│   └── data.xlsx             # Clinical biomarker database
+├── Spesis analysis.ipynb     # Notebook analysis / argument tree work
 └── README.md
+```
 
+## Matching Logic
 
----
+The double validation process does not compare the whole LLM report to whole papers directly.
 
----
+Instead:
+
+1. `claim_parser.py` splits the LLM report into smaller clinical statements.
+2. `app.py` infers biomarkers from each statement using:
+   - direct alias matching
+   - fallback unit-based heuristics, for example:
+     - `ng/mL` → PCT
+     - `mg/L` → CRP
+     - `mmol/L` → Lactate
+     - `x10^9/L` or leukocytosis → WBC
+3. `validation.py` scores each statement–claim pair using:
+   - biomarker overlap
+   - task alignment, such as diagnosis / prognosis / treatment
+   - text overlap
+4. Claims are classified as:
+   - `supported`
+   - `conflicted`
+   - `challenged`
+   - `insufficient_evidence`
 
 ## Installation
 
-> 📌 Follow these steps to run the project locally.
-
-### 1. Clone repository
+### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd sepsis_project
+git clone https://github.com/charlottelee8086-ui/Ter-Sepsis-analysis.git
+cd Ter-Sepsis-analysis
+```
 
+### 2. Create and activate a virtual environment
+
+Windows PowerShell:
+
+```powershell
 python -m venv .venv
-
-source .venv/Scripts/activate
-
 .venv\Scripts\activate
+```
 
+Git Bash / macOS / Linux:
+
+```bash
+python -m venv .venv
+source .venv/Scripts/activate
+```
+
+### 3. Install dependencies
+
+```bash
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
+```
 
-GOOGLE_API_KEY=your_api_key_here
+### 4. Configure Gemini API key
 
-python -m uvicorn app:app --host 127.0.0.1 --port 8000
+Create a `.env` file in the project root:
 
-http://127.0.0.1:8000（Open in browser）
->>>>>>> c444e2e (Initial commit)
+```env
+GOOGLE_API_KEY=your_gemini_api_key_here
+GEMINI_MODEL=gemini-2.5-flash
+```
+
+Do not commit `.env` to GitHub.
+
+### 5. Run the app
+
+```bash
+python -m uvicorn app:app --reload
+```
+
+Then open:
+
+```text
+http://127.0.0.1:8000/
+```
+
+### 6. Check backend health
+
+```text
+http://127.0.0.1:8000/api/health
+```
+
+You should see:
+
+```json
+{
+  "ok": true,
+  "google_api_key_configured": true
+}
+```
+
+## Notes
+
+This project is for research and educational use only. It is not a medical device and should not replace clinical judgment, local protocols, or urgent medical evaluation.
