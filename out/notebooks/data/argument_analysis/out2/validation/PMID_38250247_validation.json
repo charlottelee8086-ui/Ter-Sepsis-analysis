@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 5,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "none"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence is empty, cannot evaluate claim"
+    }
+  ],
+  "overall_score": 2,
+  "summary": "Claim is valid and relevant but evidence is missing, preventing proper validation.",
+  "paper_id": "38250247",
+  "topic": "sepsis_treatment_plan",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

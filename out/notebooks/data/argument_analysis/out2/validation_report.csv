@@ -1,0 +1,38 @@
+﻿paper_id,topic,claim_score,is_valid_claim,is_topic_relevant,claim_issue,overall_score,summary
+15025773,steroid_sensitivity,4,True,True,none,2,"The claim is valid and relevant, but the provided evidence is empty, weakening the argument."
+23361625,sepsis_diagnosis_criteria,2,False,True,"Grammatical errors and unclear phrasing hinder understanding of the claim's core message. The claim is difficult to parse and lacks a clear, concise statement.",1,"The claim is poorly written and difficult to understand, and the provided evidence is insufficient to support it."
+26633262,steroid_sensitivity,4,True,True,Evidence includes study details and statistical significance.,4,"The claim is well-supported by evidence detailing a statistically significant reduction in 28-day mortality with corticosteroids, although evidence quality is downgraded due to imprecision and heterogeneity."
+26903338,sepsis_diagnosis_criteria,4,True,True,Potential for overstatement of impact; claims future benefits.,4,"The claim asserts that updated sepsis definitions will improve consistency, recognition, and management, supported by the evidence suggesting these definitions offer benefits for studies and clinical practice."
+27379022,steroid_sensitivity,4,True,True,Specificity of cytokine mention.,4,"The claim accurately describes the association of sepsis with proinflammatory cytokines, ACTH levels, and hypercortisolemia in animal models, with supporting evidence provided."
+30105022,sepsis_diagnosis_criteria,3,True,False,"Claim is about publication date, not diagnostic criteria.",2,The claim about the publication date is not directly related to sepsis diagnosis criteria and lacks supporting evidence.
+30111341,sepsis_diagnosis_criteria,4,True,True,Potential for bias due to source (Wirzetal.Critical Care).,4,"The claim asserts that procalcitonin-guided antibiotic treatment improves survival and reduces treatment duration in sepsis patients, and the provided evidence supports this assertion."
+31206313,symptoms_diagnosis,3,True,True,Vague rationale; lacks specific population or study details.,2,"The claim suggests improved sepsis outcomes based on population studies, but lacks specific details and supporting evidence."
+31576433,sequelae_prevention,4,True,True,Strong claim about a well-established consequence of sepsis.,4,"The claim is valid and relevant, asserting a link between sepsis-associated immunosuppression and increased infection/reactivation risk, a commonly recognized sequelae."
+31965266,symptoms_diagnosis,5,True,True,none,5,The claim about early clinical recognition of sepsis being challenging is fully supported by the evidence.
+31974919,sequelae_prevention,5,True,True,none,1,Claim is valid and relevant but lacks supporting evidence.
+32025778,sequelae_prevention,5,True,True,none,1,"Claim is valid and relevant, but evidence is empty and cannot support it."
+32533197,symptoms_diagnosis,5,True,True,none,5,"The claim is valid, relevant, and fully supported by the evidence."
+32572531,symptoms_diagnosis,5,True,True,none,5,The evidence fully supports the claim about investigating the global burden of sepsis in hospitalized adults.
+33067640,symptoms_diagnosis,2,True,False,"Claim is about antiseptic mouthwashes and mortality, not sepsis symptoms/diagnosis",1,"Claim is irrelevant to sepsis topic and evidence is empty, making evaluation impossible"
+33175277,treatment_recommendation,3,True,True,Incomplete claim lacks context,1,"Claim is relevant but incomplete, with no supporting evidence provided."
+33206201,symptoms_diagnosis,2,True,False,Claim is incomplete and not directly related to sepsis symptoms/diagnosis,1,"Invalid claim with empty evidence, not relevant to sepsis topic"
+34259663,symptoms_diagnosis,2,False,True,Claim is incoherent and contains fragmented sentences with unclear meaning.,1,"The claim is poorly constructed and the evidence is missing, making evaluation impossible."
+34401939,treatment_recommendation,4,True,True,None,2,"Valid claim about delirium in critical care, but evidence is missing."
+34534130,sequelae_prevention,5,True,True,none,5,The evidence fully supports the claim about evaluating a nurse navigator-led program's impact on 30-day mortality and readmission outcomes.
+34605947,symptoms_diagnosis,5,True,True,none,2,"Claim is valid and relevant but evidence is empty, preventing proper evaluation."
+35106617,symptoms_diagnosis,5,True,True,none,1,"The claim is valid and relevant, but no evidence is provided to support it."
+35481953,symptoms_diagnosis,5,True,True,none,5,The claim is fully supported by the evidence with no issues.
+35945344,symptoms_diagnosis,2,False,True,Claim is incoherent and contains garbled text,1,"Both claim and evidence are severely flawed, with incoherent text and missing evidence."
+36152041,symptoms_diagnosis,5,True,True,none,1,"The claim is valid and relevant, but the evidence is empty and cannot support any stance."
+36592205,symptoms_diagnosis,4,True,True,None,1,"The claim is valid and relevant, but the evidence is empty and cannot support it."
+37176780,sepsis_treatment_plan,5,True,True,none,5,"The claim is valid, relevant, and fully supported by the evidence."
+37479058,symptoms_diagnosis,1,False,True,Fragmented and incoherent text with missing context,1,"The claim is a fragmented text snippet with no clear argument, and the evidence is empty, making evaluation impossible."
+37888913,sepsis_diagnosis_criteria,1,False,False,Claim is incoherent and lacks clear meaning,0,Both claim and evidence are invalid and irrelevant to sepsis diagnosis criteria.
+38250247,sepsis_treatment_plan,5,True,True,none,2,"Claim is valid and relevant but evidence is missing, preventing proper validation."
+38598125,symptoms_diagnosis,5,True,True,none,1,"The claim is valid and relevant, but no evidence is provided to support it."
+39235623,symptoms_diagnosis,2,True,True,"Incomplete claim, missing outcome details",1,"Claim is incomplete and evidence is empty, resulting in low quality."
+39297945,symptoms_diagnosis,5,True,True,none,1,"Claim is valid and relevant but evidence is empty, resulting in low overall score."
+39432104,symptoms_diagnosis,4,True,True,none,2,Claim is valid and relevant but lacks supporting evidence.
+39714613,symptoms_diagnosis,5,True,True,none,5,"The claim is valid, relevant, and fully supported by the evidence."
+39787606,sepsis_diagnosis_criteria,2,True,True,"Claim is incomplete and contains garbled text, making it difficult to fully assess.",1,"The claim is incomplete and the evidence is missing, making evaluation impossible."
+41180093,sepsis_treatment_plan,4,True,True,None,2,"The claim is valid and relevant, but the evidence is empty and cannot support the claim."

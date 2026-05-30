@@ -1,0 +1,45 @@
+{
+  "claim_quality": {
+    "score": 4,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "none"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    },
+    {
+      "id": "E2",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    },
+    {
+      "id": "E3",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    },
+    {
+      "id": "E4",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    },
+    {
+      "id": "E5",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    }
+  ],
+  "overall_score": 4,
+  "summary": "The claim is well-supported by relevant evidence, though survival benefits remain uncertain.",
+  "paper_id": "PMID:27379022",
+  "topic": "steroid_sensitivity",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

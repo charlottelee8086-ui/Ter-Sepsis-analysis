@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 3,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "Vague rationale; lacks specific population or study details."
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": true,
+      "issue": "Evidence is missing; the claim refers to population studies but provides no supporting evidence."
+    }
+  ],
+  "overall_score": 2,
+  "summary": "The claim suggests improved sepsis outcomes based on population studies, but lacks specific details and supporting evidence.",
+  "paper_id": "31206313",
+  "topic": "symptoms_diagnosis",
+  "model": "google/gemma-3n-e4b-it:free"
+}

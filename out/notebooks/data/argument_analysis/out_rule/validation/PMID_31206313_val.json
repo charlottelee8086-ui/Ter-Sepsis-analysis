@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 1,
+    "is_valid_claim": false,
+    "is_topic_relevant": false,
+    "issue": "Claim is fragmented and lacks coherent meaning"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence is fragmented and does not address sepsis outcomes"
+    }
+  ],
+  "overall_score": 1,
+  "summary": "Both claim and evidence are severely fragmented and lack coherent meaning related to sepsis outcomes.",
+  "paper_id": "PMID:31206313",
+  "topic": "symptoms_diagnosis",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

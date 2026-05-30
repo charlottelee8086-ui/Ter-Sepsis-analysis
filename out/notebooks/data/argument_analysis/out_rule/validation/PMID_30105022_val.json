@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 1,
+    "is_valid_claim": false,
+    "is_topic_relevant": false,
+    "issue": "Claim is a publication date, not a substantive claim about sepsis diagnosis criteria"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence is incoherent text fragment that does not support or relate to the claim"
+    }
+  ],
+  "overall_score": 1,
+  "summary": "Both claim and evidence are invalid - claim is a publication date and evidence is nonsensical text",
+  "paper_id": "PMID:30105022",
+  "topic": "sepsis_diagnosis_criteria",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 2,
+    "is_valid_claim": false,
+    "is_topic_relevant": true,
+    "issue": "Claim is incomplete and grammatically incorrect"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence is incoherent and does not clearly support or attack the claim"
+    }
+  ],
+  "overall_score": 1,
+  "summary": "Both claim and evidence are poorly constructed and lack clarity",
+  "paper_id": "PMID:33067640",
+  "topic": "symptoms_diagnosis",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

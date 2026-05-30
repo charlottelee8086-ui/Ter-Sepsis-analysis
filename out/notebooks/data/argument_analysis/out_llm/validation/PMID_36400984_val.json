@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 2,
+    "is_valid_claim": false,
+    "is_topic_relevant": true,
+    "issue": "Claim is not fully supported by evidence; evidence suggests noninferiority rather than superiority"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "None"
+    }
+  ],
+  "overall_score": 2,
+  "summary": "Claim is not fully supported by evidence; evidence suggests noninferiority rather than superiority",
+  "paper_id": "PMID:36400984",
+  "topic": "treatment_recommendation",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

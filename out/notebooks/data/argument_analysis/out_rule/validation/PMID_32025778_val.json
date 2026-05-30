@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 5,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "none"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence is incomplete and does not address antimicrobial de-escalation"
+    }
+  ],
+  "overall_score": 2,
+  "summary": "Claim is valid and relevant, but evidence is incomplete and does not support or refute the claim.",
+  "paper_id": "PMID:32025778",
+  "topic": "sequelae_prevention",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

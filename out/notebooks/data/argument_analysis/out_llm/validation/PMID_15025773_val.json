@@ -1,0 +1,39 @@
+{
+  "claim_quality": {
+    "score": 5,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "none"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    },
+    {
+      "id": "E2",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    },
+    {
+      "id": "E3",
+      "polarity_correct": false,
+      "is_relevant": true,
+      "issue": "E3 attacks high-dose glucocorticoids, not low-dose glucocorticoids"
+    },
+    {
+      "id": "E4",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    }
+  ],
+  "overall_score": 4,
+  "summary": "Most evidence correctly supports the claim, but E3 is incorrectly labeled as attacking the claim.",
+  "paper_id": "PMID:15025773",
+  "topic": "steroid_sensitivity",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

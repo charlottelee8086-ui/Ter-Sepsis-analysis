@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 4,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "none"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": true,
+      "issue": "Evidence discusses survivorship bias and rehospitalisation but does not directly support the claim about higher risk of rehospitalisation and long-term mortality."
+    }
+  ],
+  "overall_score": 2,
+  "summary": "Evidence partially addresses rehospitalisation but does not fully support the claim about higher risk of rehospitalisation and long-term mortality.",
+  "paper_id": "PMID:31974919",
+  "topic": "sequelae_prevention",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

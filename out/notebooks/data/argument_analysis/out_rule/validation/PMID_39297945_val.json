@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 4,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "none"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence is incomplete and unclear, does not directly address claim"
+    }
+  ],
+  "overall_score": 2,
+  "summary": "Claim is valid and relevant, but evidence is incomplete and unclear.",
+  "paper_id": "PMID:39297945",
+  "topic": "symptoms_diagnosis",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

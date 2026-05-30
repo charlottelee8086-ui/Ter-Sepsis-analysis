@@ -1,0 +1,53 @@
+{
+  "topic": "steroid_sensitivity",
+  "n_source_papers": 4,
+  "clusters": [
+    {
+      "cluster_id": "CL1",
+      "representative_claim": "In animals, sepsis is associated with proinflammatory cytokines (mainly TNF and IL-1) early marked increase in ACTH levels that returned to baseline Hypercortisolemia values around 72 h (46).",
+      "representative_claim_quote": "[CONCLUSION] In animals, sepsis is associated with proinflammatory cytokines (mainly TNF and IL-1) early marked increase in ACTH levels that returned to baseline Hypercortisolemia values around 72 h (46).",
+      "source_papers": [
+        "PMID:27379022"
+      ],
+      "n_papers": 1,
+      "evidence": [
+        {
+          "quote": "[METHOD] For and disruption during sepsis and the potential role of treatment example, IL-1 and TNF are likely the two main mediators of the with corticosteroids.",
+          "polarity": "support",
+          "paper_id": "PMID:27379022",
+          "children": [
+            {
+              "quote": "[METHOD] Similarly, in patients with may trigger organ dysfunction and progression of infection to septic shock, postmortem examination suggested overexpression sepsis.",
+              "polarity": "support",
+              "paper_id": "PMID:27379022",
+              "children": []
+            }
+          ]
+        },
+        {
+          "quote": "[METHOD] Similarly, in patients with may trigger organ dysfunction and progression of infection to septic shock, postmortem examination suggested overexpression sepsis.",
+          "polarity": "support",
+          "paper_id": "PMID:27379022",
+          "children": []
+        }
+      ]
+    },
+    {
+      "cluster_id": "CL2",
+      "representative_claim": "The use of glucocorticoids (corticotherapy) in severe sepsis is one of the main controversial issues in critical care medicine.",
+      "representative_claim_quote": "[ABSTRACT] The use of glucocorticoids (corticotherapy) in severe sepsis is one of the main controversial issues in critical care medicine.",
+      "source_papers": [
+        "PMID:15025773"
+      ],
+      "n_papers": 1,
+      "evidence": [
+        {
+          "quote": "[ABSTRACT] These agents were commonly used to treat sepsis until the end of the 1980 s, when several randomized trials casted serious doubt on any benefit from high-dose glucocorticoids.",
+          "polarity": "attack",
+          "paper_id": "PMID:15025773",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

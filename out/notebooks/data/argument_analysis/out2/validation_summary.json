@@ -1,0 +1,850 @@
+{
+  "model": "arcee-ai/trinity-large-preview:free",
+  "stats": {
+    "total": 64,
+    "validated": 37,
+    "skipped": 27,
+    "failed": 0,
+    "claim_scores": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      2,
+      3,
+      2,
+      2,
+      4,
+      5,
+      5,
+      5,
+      5,
+      2,
+      5,
+      4,
+      5,
+      1,
+      1,
+      5,
+      5,
+      2,
+      5,
+      4,
+      5,
+      2,
+      4
+    ],
+    "overall_scores": [
+      5,
+      1,
+      1,
+      5,
+      5,
+      1,
+      1,
+      1,
+      1,
+      2,
+      5,
+      2,
+      1,
+      5,
+      1,
+      1,
+      1,
+      5,
+      1,
+      0,
+      2,
+      1,
+      1,
+      1,
+      2,
+      5,
+      1,
+      2
+    ],
+    "polarity_correct": 8,
+    "polarity_total": 28
+  },
+  "results": [
+    {
+      "claim_quality": {
+        "score": 4,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": null
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "Evidence content missing"
+        }
+      ],
+      "overall_score": 2,
+      "summary": "The claim is valid and relevant, but the provided evidence is empty, weakening the argument.",
+      "paper_id": "15025773",
+      "topic": "steroid_sensitivity",
+      "model": "nvidia/nemotron-3-super-120b-a12b:free"
+    },
+    {
+      "claim_quality": {
+        "score": 2,
+        "is_valid_claim": false,
+        "is_topic_relevant": true,
+        "issue": "Grammatical errors and unclear phrasing hinder understanding of the claim's core message. The claim is difficult to parse and lacks a clear, concise statement."
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "The evidence is empty and does not support the claim."
+        }
+      ],
+      "overall_score": 1,
+      "summary": "The claim is poorly written and difficult to understand, and the provided evidence is insufficient to support it.",
+      "paper_id": "23361625",
+      "topic": "sepsis_diagnosis_criteria",
+      "model": "google/gemma-3n-e4b-it:free"
+    },
+    {
+      "claim_quality": {
+        "score": 4,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "Evidence includes study details and statistical significance."
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": true,
+          "is_relevant": true,
+          "issue": "Provides supporting data for the claim."
+        }
+      ],
+      "overall_score": 4,
+      "summary": "The claim is well-supported by evidence detailing a statistically significant reduction in 28-day mortality with corticosteroids, although evidence quality is downgraded due to imprecision and heterogeneity.",
+      "paper_id": "26633262",
+      "topic": "steroid_sensitivity",
+      "model": "google/gemma-3n-e4b-it:free"
+    },
+    {
+      "claim_quality": {
+        "score": 4,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "Potential for overstatement of impact; claims future benefits."
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": true,
+          "is_relevant": true,
+          "issue": "Provides support for the claim's assertion of improved consistency and management."
+        }
+      ],
+      "overall_score": 4,
+      "summary": "The claim asserts that updated sepsis definitions will improve consistency, recognition, and management, supported by the evidence suggesting these definitions offer benefits for studies and clinical practice.",
+      "paper_id": "26903338",
+      "topic": "sepsis_diagnosis_criteria",
+      "model": "google/gemma-3n-e4b-it:free"
+    },
+    {
+      "claim_quality": {
+        "score": 4,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "Specificity of cytokine mention."
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": true,
+          "is_relevant": true,
+          "issue": "Provides supporting information regarding ACTH and hypercortisolemia in sepsis."
+        }
+      ],
+      "overall_score": 4,
+      "summary": "The claim accurately describes the association of sepsis with proinflammatory cytokines, ACTH levels, and hypercortisolemia in animal models, with supporting evidence provided.",
+      "paper_id": "27379022",
+      "topic": "steroid_sensitivity",
+      "model": "google/gemma-3n-e4b-it:free"
+    },
+    {
+      "claim_quality": {
+        "score": 3,
+        "is_valid_claim": true,
+        "is_topic_relevant": false,
+        "issue": "Claim is about publication date, not diagnostic criteria."
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": true,
+          "is_relevant": false,
+          "issue": "Evidence is empty and doesn't support the claim."
+        }
+      ],
+      "overall_score": 2,
+      "summary": "The claim about the publication date is not directly related to sepsis diagnosis criteria and lacks supporting evidence.",
+      "paper_id": "30105022",
+      "topic": "sepsis_diagnosis_criteria",
+      "model": "google/gemma-3n-e4b-it:free"
+    },
+    {
+      "claim_quality": {
+        "score": 4,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "Potential for bias due to source (Wirzetal.Critical Care)."
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": true,
+          "is_relevant": true,
+          "issue": "Directly supports the claim regarding improved survival and shorter antibiotic duration."
+        }
+      ],
+      "overall_score": 4,
+      "summary": "The claim asserts that procalcitonin-guided antibiotic treatment improves survival and reduces treatment duration in sepsis patients, and the provided evidence supports this assertion.",
+      "paper_id": "30111341",
+      "topic": "sepsis_diagnosis_criteria",
+      "model": "google/gemma-3n-e4b-it:free"
+    },
+    {
+      "claim_quality": {
+        "score": 3,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "Vague rationale; lacks specific population or study details."
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": true,
+          "issue": "Evidence is missing; the claim refers to population studies but provides no supporting evidence."
+        }
+      ],
+      "overall_score": 2,
+      "summary": "The claim suggests improved sepsis outcomes based on population studies, but lacks specific details and supporting evidence.",
+      "paper_id": "31206313",
+      "topic": "symptoms_diagnosis",
+      "model": "google/gemma-3n-e4b-it:free"
+    },
+    {
+      "claim_quality": {
+        "score": 4,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "Strong claim about a well-established consequence of sepsis."
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": true,
+          "is_relevant": true,
+          "issue": "No specific details provided in the evidence snippet."
+        }
+      ],
+      "overall_score": 4,
+      "summary": "The claim is valid and relevant, asserting a link between sepsis-associated immunosuppression and increased infection/reactivation risk, a commonly recognized sequelae.",
+      "paper_id": "31576433",
+      "topic": "sequelae_prevention",
+      "model": "google/gemma-3n-e4b-it:free"
+    },
+    {
+      "claim_quality": {
+        "score": 5,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "none"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": true,
+          "is_relevant": true,
+          "issue": "none"
+        }
+      ],
+      "overall_score": 5,
+      "summary": "The claim about early clinical recognition of sepsis being challenging is fully supported by the evidence.",
+      "paper_id": "31965266",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 5,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "none"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "No evidence provided"
+        }
+      ],
+      "overall_score": 1,
+      "summary": "Claim is valid and relevant but lacks supporting evidence.",
+      "paper_id": "31974919",
+      "topic": "sequelae_prevention",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 5,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "none"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "Evidence is empty, cannot support or refute claim"
+        }
+      ],
+      "overall_score": 1,
+      "summary": "Claim is valid and relevant, but evidence is empty and cannot support it.",
+      "paper_id": "32025778",
+      "topic": "sequelae_prevention",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 5,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": ""
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": true,
+          "is_relevant": true,
+          "issue": ""
+        }
+      ],
+      "overall_score": 5,
+      "summary": "The claim is valid, relevant, and fully supported by the evidence.",
+      "paper_id": "32533197",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 5,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "none"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": true,
+          "is_relevant": true,
+          "issue": "none"
+        }
+      ],
+      "overall_score": 5,
+      "summary": "The evidence fully supports the claim about investigating the global burden of sepsis in hospitalized adults.",
+      "paper_id": "32572531",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 2,
+        "is_valid_claim": true,
+        "is_topic_relevant": false,
+        "issue": "Claim is about antiseptic mouthwashes and mortality, not sepsis symptoms/diagnosis"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "Empty evidence string cannot support or refute claim"
+        }
+      ],
+      "overall_score": 1,
+      "summary": "Claim is irrelevant to sepsis topic and evidence is empty, making evaluation impossible",
+      "paper_id": "33067640",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 3,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "Incomplete claim lacks context"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "Empty evidence"
+        }
+      ],
+      "overall_score": 1,
+      "summary": "Claim is relevant but incomplete, with no supporting evidence provided.",
+      "paper_id": "33175277",
+      "topic": "treatment_recommendation",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 2,
+        "is_valid_claim": true,
+        "is_topic_relevant": false,
+        "issue": "Claim is incomplete and not directly related to sepsis symptoms/diagnosis"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "Empty evidence string"
+        }
+      ],
+      "overall_score": 1,
+      "summary": "Invalid claim with empty evidence, not relevant to sepsis topic",
+      "paper_id": "33206201",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 2,
+        "is_valid_claim": false,
+        "is_topic_relevant": true,
+        "issue": "Claim is incoherent and contains fragmented sentences with unclear meaning."
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "Evidence is empty and cannot support or refute the claim."
+        }
+      ],
+      "overall_score": 1,
+      "summary": "The claim is poorly constructed and the evidence is missing, making evaluation impossible.",
+      "paper_id": "34259663",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 4,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "None"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "Empty evidence"
+        }
+      ],
+      "overall_score": 2,
+      "summary": "Valid claim about delirium in critical care, but evidence is missing.",
+      "paper_id": "34401939",
+      "topic": "treatment_recommendation",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 5,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "none"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": true,
+          "is_relevant": true,
+          "issue": "none"
+        }
+      ],
+      "overall_score": 5,
+      "summary": "The evidence fully supports the claim about evaluating a nurse navigator-led program's impact on 30-day mortality and readmission outcomes.",
+      "paper_id": "34534130",
+      "topic": "sequelae_prevention",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 5,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "none"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "Evidence is empty, cannot support or refute claim"
+        }
+      ],
+      "overall_score": 2,
+      "summary": "Claim is valid and relevant but evidence is empty, preventing proper evaluation.",
+      "paper_id": "34605947",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 5,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "none"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "No evidence provided"
+        }
+      ],
+      "overall_score": 1,
+      "summary": "The claim is valid and relevant, but no evidence is provided to support it.",
+      "paper_id": "35106617",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 5,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "none"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": true,
+          "is_relevant": true,
+          "issue": "none"
+        }
+      ],
+      "overall_score": 5,
+      "summary": "The claim is fully supported by the evidence with no issues.",
+      "paper_id": "35481953",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 2,
+        "is_valid_claim": false,
+        "is_topic_relevant": true,
+        "issue": "Claim is incoherent and contains garbled text"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "Evidence is empty"
+        }
+      ],
+      "overall_score": 1,
+      "summary": "Both claim and evidence are severely flawed, with incoherent text and missing evidence.",
+      "paper_id": "35945344",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 5,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "none"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "empty evidence"
+        }
+      ],
+      "overall_score": 1,
+      "summary": "The claim is valid and relevant, but the evidence is empty and cannot support any stance.",
+      "paper_id": "36152041",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 4,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "None"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "Empty evidence"
+        }
+      ],
+      "overall_score": 1,
+      "summary": "The claim is valid and relevant, but the evidence is empty and cannot support it.",
+      "paper_id": "36592205",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 5,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "none"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": true,
+          "is_relevant": true,
+          "issue": "none"
+        }
+      ],
+      "overall_score": 5,
+      "summary": "The claim is valid, relevant, and fully supported by the evidence.",
+      "paper_id": "37176780",
+      "topic": "sepsis_treatment_plan",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 1,
+        "is_valid_claim": false,
+        "is_topic_relevant": true,
+        "issue": "Fragmented and incoherent text with missing context"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "Empty evidence"
+        }
+      ],
+      "overall_score": 1,
+      "summary": "The claim is a fragmented text snippet with no clear argument, and the evidence is empty, making evaluation impossible.",
+      "paper_id": "37479058",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 1,
+        "is_valid_claim": false,
+        "is_topic_relevant": false,
+        "issue": "Claim is incoherent and lacks clear meaning"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "Evidence is empty and cannot support any claim"
+        }
+      ],
+      "overall_score": 0,
+      "summary": "Both claim and evidence are invalid and irrelevant to sepsis diagnosis criteria.",
+      "paper_id": "37888913",
+      "topic": "sepsis_diagnosis_criteria",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 5,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "none"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "Evidence is empty, cannot evaluate claim"
+        }
+      ],
+      "overall_score": 2,
+      "summary": "Claim is valid and relevant but evidence is missing, preventing proper validation.",
+      "paper_id": "38250247",
+      "topic": "sepsis_treatment_plan",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 5,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "none"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "No evidence provided"
+        }
+      ],
+      "overall_score": 1,
+      "summary": "The claim is valid and relevant, but no evidence is provided to support it.",
+      "paper_id": "38598125",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 2,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "Incomplete claim, missing outcome details"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "Empty evidence"
+        }
+      ],
+      "overall_score": 1,
+      "summary": "Claim is incomplete and evidence is empty, resulting in low quality.",
+      "paper_id": "39235623",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 5,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "none"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "empty evidence"
+        }
+      ],
+      "overall_score": 1,
+      "summary": "Claim is valid and relevant but evidence is empty, resulting in low overall score.",
+      "paper_id": "39297945",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 4,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "none"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": true,
+          "is_relevant": false,
+          "issue": "Evidence is empty, cannot assess relevance or polarity"
+        }
+      ],
+      "overall_score": 2,
+      "summary": "Claim is valid and relevant but lacks supporting evidence.",
+      "paper_id": "39432104",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 5,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "none"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": true,
+          "is_relevant": true,
+          "issue": "none"
+        }
+      ],
+      "overall_score": 5,
+      "summary": "The claim is valid, relevant, and fully supported by the evidence.",
+      "paper_id": "39714613",
+      "topic": "symptoms_diagnosis",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 2,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "Claim is incomplete and contains garbled text, making it difficult to fully assess."
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "Evidence is empty and cannot support or refute the claim."
+        }
+      ],
+      "overall_score": 1,
+      "summary": "The claim is incomplete and the evidence is missing, making evaluation impossible.",
+      "paper_id": "39787606",
+      "topic": "sepsis_diagnosis_criteria",
+      "model": "arcee-ai/trinity-large-preview:free"
+    },
+    {
+      "claim_quality": {
+        "score": 4,
+        "is_valid_claim": true,
+        "is_topic_relevant": true,
+        "issue": "None"
+      },
+      "evidence_evaluations": [
+        {
+          "id": "E1",
+          "polarity_correct": false,
+          "is_relevant": false,
+          "issue": "Empty evidence"
+        }
+      ],
+      "overall_score": 2,
+      "summary": "The claim is valid and relevant, but the evidence is empty and cannot support the claim.",
+      "paper_id": "41180093",
+      "topic": "sepsis_treatment_plan",
+      "model": "arcee-ai/trinity-large-preview:free"
+    }
+  ]
+}

@@ -1,0 +1,595 @@
+{
+  "sepsis_diagnosis_criteria": {
+    "topic": "sepsis_diagnosis_criteria",
+    "n_source_papers": 38,
+    "clusters": [
+      {
+        "cluster_id": "CL1",
+        "representative_claim": "Purpose: Insufficient antimicrobial exposure is associated with worse outcomes in sepsis.",
+        "representative_claim_quote": "[ABSTRACT] Purpose: Insufficient antimicrobial exposure is associated with worse outcomes in sepsis.",
+        "source_papers": [
+          "PMID:35106617",
+          "PMID:38598125"
+        ],
+        "n_papers": 2,
+        "evidence": [
+          {
+            "quote": "[INTRODUCTION] Emerga significant benefit for TDM-guided therapy in adult patients with ing evidence suggests that in patients with sepsis, insufsepsis and continuous infusion of piperacillin/tazobactam with ficient antibiotic exposure, defined as failure to meet the regard to the primary endpoint, namely, the mean total SOFA score.",
+            "polarity": "support",
+            "paper_id": "PMID:35106617",
+            "children": []
+          },
+          {
+            "quote": "[INTRODUCTION] Reasons for insufficient antibiotic exposure include sepsis treated with piperacillin/tazobactam continuous both altered pharmacokinetics driven by the pathophysiinfusion.",
+            "polarity": "attack",
+            "paper_id": "PMID:35106617",
+            "children": [
+              {
+                "quote": "[INTRODUCTION] Emerga significant benefit for TDM-guided therapy in adult patients with ing evidence suggests that in patients with sepsis, insufsepsis and continuous infusion of piperacillin/tazobactam with ficient antibiotic exposure, defined as failure to meet the regard to the primary endpoint, namely, the mean total SOFA score.",
+                "polarity": "support",
+                "paper_id": "PMID:35106617",
+                "children": []
+              },
+              {
+                "quote": "[INTRODUCTION] Outcome measures and adverse events The primary endpoint was sepsis-related organ dysfunc Intervention tion measured by the mean daily total sequential organ Experimental therapy arm failure assessment (SOFA) scores over 10 days, discharge After randomization, a continuous infusion of piperacilfrom the ICU or death, whichever occurred first.",
+                "polarity": "attack",
+                "paper_id": "PMID:35106617",
+                "children": []
+              }
+            ]
+          },
+          {
+            "quote": "[ABSTRACT] Sepsis guidelines sug‑ gest targeting lactate clearance to guide fluid therapy despite the complexity of hyperlactatemia and the potential harm of fluid overload.",
+            "polarity": "attack",
+            "paper_id": "PMID:38598125",
+            "children": [
+              {
+                "quote": "[INTRODUCTION] Further, as an the original ethical applications for CLASSIC in Sweinitial lactate level 4 mmol/L is associated with a markden, Denmark and the Czech Republic (Etikprövnings- ≥ edly increased mortality in patients with sepsis [9], we myndigheten, Sverige, Diarie-Nr 2021-06283-02, De hypothesized that lactate clearance would be different in videnskapsetiske komiteer, Centrum for Sundhed, Danthis subgroup of more severely deranged patients.",
+                "polarity": "attack",
+                "paper_id": "PMID:38598125",
+                "children": []
+              }
+            ]
+          },
+          {
+            "quote": "[INTRODUCTION] Further, as an the original ethical applications for CLASSIC in Sweinitial lactate level 4 mmol/L is associated with a markden, Denmark and the Czech Republic (Etikprövnings- ≥ edly increased mortality in patients with sepsis [9], we myndigheten, Sverige, Diarie-Nr 2021-06283-02, De hypothesized that lactate clearance would be different in videnskapsetiske komiteer, Centrum for Sundhed, Danthis subgroup of more severely deranged patients.",
+            "polarity": "attack",
+            "paper_id": "PMID:38598125",
+            "children": []
+          },
+          {
+            "quote": "[INTRODUCTION] Outcome measures and adverse events The primary endpoint was sepsis-related organ dysfunc Intervention tion measured by the mean daily total sequential organ Experimental therapy arm failure assessment (SOFA) scores over 10 days, discharge After randomization, a continuous infusion of piperacilfrom the ICU or death, whichever occurred first.",
+            "polarity": "attack",
+            "paper_id": "PMID:35106617",
+            "children": []
+          }
+        ]
+      },
+      {
+        "cluster_id": "CL2",
+        "representative_claim": "Purpose: Ilofotase alfa is a human recombinant alkaline phosphatase with reno-protective effects that showed improved survival and reduced Major Adverse Kidney Events by 90 days (MAKE 90) in sepsis-associated acute kidney injury (SA-AKI) patients.",
+        "representative_claim_quote": "[ABSTRACT] Purpose: Ilofotase alfa is a human recombinant alkaline phosphatase with reno-protective effects that showed improved survival and reduced Major Adverse Kidney Events by 90 days (MAKE 90) in sepsis-associated acute kidney injury (SA-AKI) patients.",
+        "source_papers": [
+          "PMID:38172296"
+        ],
+        "n_papers": 1,
+        "evidence": []
+      },
+      {
+        "cluster_id": "CL3",
+        "representative_claim": "Conclusions: Strong agreemaneuvers in sepsis patients with upper gastrointestinal bleeding in ment existed among a large cohort of severe refractory hypoxemia due to patients with bleeding risk factors international experts regarding many ARDS (2 C);",
+        "representative_claim_quote": "[CONCLUSION] Conclusions: Strong agreemaneuvers in sepsis patients with upper gastrointestinal bleeding in ment existed among a large cohort of severe refractory hypoxemia due to patients with bleeding risk factors international experts regarding many ARDS (2 C);",
+        "source_papers": [
+          "PMID:23361625"
+        ],
+        "n_papers": 1,
+        "evidence": [
+          {
+            "quote": "[CONCLUSION] oral or enteral (if necessary) level 1 recommendations for the best sepsis-induced ARDS patients with a feedings, as tolerated, rather than care of patients with severe sepsis.",
+            "polarity": "support",
+            "paper_id": "PMID:23361625",
+            "children": [
+              {
+                "quote": "[CONCLUSION] J.Beale recommendations and suggestions, (b) ongoing signs of hypoperfusion Guy’sand St.Thomas’ Hospital Trust, listed by category, include: early despite achieving adequate intravas London, UK quantitativeresuscitationoftheseptic cular volume and adequate mean J.-L.",
+                "polarity": "support",
+                "paper_id": "PMID:23361625",
+                "children": []
+              },
+              {
+                "quote": "[CONCLUSION] cannula oxygen, or nasopharyngeal Recommendations Assessment, avoidance of neuromuscular blockers continuous PEEP in the presence of Developmentand Evaluationcriteria(cid:2) if possible in the septic patient withrespiratory distress and hypoxemia GRADE (cid:2) Guidelines (cid:2) out ARDS (1 C);",
+                "polarity": "support",
+                "paper_id": "PMID:23361625",
+                "children": []
+              }
+            ]
+          },
+          {
+            "quote": "[CONCLUSION] Most of these ondary to documented or suspected infection) and septic recommendations are appropriate for the severe sepsis shock (severe sepsis plus hypotension not reversed with patient in the intensive care unit (ICU) and non-ICU fluid resuscitation).",
+            "polarity": "support",
+            "paper_id": "PMID:23361625",
+            "children": []
+          },
+          {
+            "quote": "[CONCLUSION] cannula oxygen, or nasopharyngeal Recommendations Assessment, avoidance of neuromuscular blockers continuous PEEP in the presence of Developmentand Evaluationcriteria(cid:2) if possible in the septic patient withrespiratory distress and hypoxemia GRADE (cid:2) Guidelines (cid:2) out ARDS (1 C);",
+            "polarity": "support",
+            "paper_id": "PMID:23361625",
+            "children": []
+          },
+          {
+            "quote": "[CONCLUSION] J.Beale recommendations and suggestions, (b) ongoing signs of hypoperfusion Guy’sand St.Thomas’ Hospital Trust, listed by category, include: early despite achieving adequate intravas London, UK quantitativeresuscitationoftheseptic cular volume and adequate mean J.-L.",
+            "polarity": "support",
+            "paper_id": "PMID:23361625",
+            "children": []
+          }
+        ]
+      },
+      {
+        "cluster_id": "CL4",
+        "representative_claim": "CONCLUSIONS AND RELEVANCE—These updated definitions and clinical criteria should replace previous definitions, offer greater consistency for epidemiologic studies and clinical trials, and facilitate earlier recognition and more timely management of patients with sepsis or at risk of developing sepsis.",
+        "representative_claim_quote": "[CONCLUSION] CONCLUSIONS AND RELEVANCE—These updated definitions and clinical criteria should replace previous definitions, offer greater consistency for epidemiologic studies and clinical trials, and facilitate earlier recognition and more timely management of patients with sepsis or at risk of developing sepsis.",
+        "source_papers": [
+          "PMID:26903338"
+        ],
+        "n_papers": 1,
+        "evidence": [
+          {
+            "quote": "[METHOD] Considerable advances have since been made into the pathobiology (changes in organ function, morphology, cell biology, biochemistry, immunology, and circulation), management, and epidemiology of sepsis, suggesting the need for reexamination.",
+            "polarity": "support",
+            "paper_id": "PMID:26903338",
+            "children": [
+              {
+                "quote": "[CONCLUSION] These explorations were performed in multiple large electronic health record databases that also addressed the absence (missingness) of individual elements of different organ dysfunction scores and the question of generalizability (ecologic validity).12 A systematic literature review and Delphi consensus methods were also used for the definition and clinical criteria describing septic shock.13 When compiled, the task force recommendations with supporting evidence, including original research, were circulated to major international societies and other relevant bodies for peer review and endorsement (31 endorsing societies are listed at the end of this article).",
+                "polarity": "support",
+                "paper_id": "PMID:26903338",
+                "children": []
+              },
+              {
+                "quote": "[METHOD] RECOMMENDATIONS—Sepsis should be defined as life-threatening organ dysfunction caused by a dysregulated host response to infection.",
+                "polarity": "support",
+                "paper_id": "PMID:26903338",
+                "children": []
+              }
+            ]
+          },
+          {
+            "quote": "[CONCLUSION] These explorations were performed in multiple large electronic health record databases that also addressed the absence (missingness) of individual elements of different organ dysfunction scores and the question of generalizability (ecologic validity).12 A systematic literature review and Delphi consensus methods were also used for the definition and clinical criteria describing septic shock.13 When compiled, the task force recommendations with supporting evidence, including original research, were circulated to major international societies and other relevant bodies for peer review and endorsement (31 endorsing societies are listed at the end of this article).",
+            "polarity": "support",
+            "paper_id": "PMID:26903338",
+            "children": []
+          },
+          {
+            "quote": "[METHOD] RECOMMENDATIONS—Sepsis should be defined as life-threatening organ dysfunction caused by a dysregulated host response to infection.",
+            "polarity": "support",
+            "paper_id": "PMID:26903338",
+            "children": []
+          }
+        ]
+      },
+      {
+        "cluster_id": "CL5",
+        "representative_claim": "Wirzetal.Critical Care (2018) 22:191 Page 2 of 11 (Continuedfrompreviouspage) Conclusion: Procalcitonin-guidedantibiotictreatmentin ICUpatientswithinfectionandsepsispatientsresultsin improvedsurvivalandlowerantibiotictreatmentduration.",
+        "representative_claim_quote": "[CONCLUSION] Wirzetal.Critical Care (2018) 22:191 Page 2 of 11 (Continuedfrompreviouspage) Conclusion: Procalcitonin-guidedantibiotictreatmentin ICUpatientswithinfectionandsepsispatientsresultsin improvedsurvivalandlowerantibiotictreatmentduration.",
+        "source_papers": [
+          "PMID:30111341"
+        ],
+        "n_papers": 1,
+        "evidence": [
+          {
+            "quote": "[CONCLUSION] and thus may improve sepsis management [4, 5].",
+            "polarity": "support",
+            "paper_id": "PMID:30111341",
+            "children": [
+              {
+                "quote": "[CONCLUSION] In accordance with the Cochrane methodology, [22] but we specified the main analysis and subgroup we used the Grading of Recommendations, Assessment, analysis for the sepsis patient population.",
+                "polarity": "support",
+                "paper_id": "PMID:30111341",
+                "children": []
+              }
+            ]
+          },
+          {
+            "quote": "[CONCLUSION] In accordance with the Cochrane methodology, [22] but we specified the main analysis and subgroup we used the Grading of Recommendations, Assessment, analysis for the sepsis patient population.",
+            "polarity": "support",
+            "paper_id": "PMID:30111341",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "sequelae_prevention": {
+    "topic": "sequelae_prevention",
+    "n_source_papers": 4,
+    "clusters": [
+      {
+        "cluster_id": "CL1",
+        "representative_claim": "Purpose: Sepsis-associated immunosuppression increases hospital-acquired infection and viral reactivation risk.",
+        "representative_claim_quote": "[ABSTRACT] Purpose: Sepsis-associated immunosuppression increases hospital-acquired infection and viral reactivation risk.",
+        "source_papers": [
+          "PMID:31576433"
+        ],
+        "n_papers": 1,
+        "evidence": [
+          {
+            "quote": "[INTRODUCTION] It is likely that almost all patients with protracted sepsis who survive the initial hyperinflammatory phase progress to a protracted phase of immunosuppression, characterized by reactivation of latent viruses, development of secondary hospital-acquired infections, organ failure, and death [5–10].",
+            "polarity": "support",
+            "paper_id": "PMID:31576433",
+            "children": []
+          },
+          {
+            "quote": "[INTRODUCTION] Preclinical sepsis models and analyses of blood samples from patients with sepsis suggest that immunomodulation via blockade of this pathway with anti-PD-1/PD-L 1 antibodies might restore immune cell function and improve survival [13–15, 17–20].",
+            "polarity": "support",
+            "paper_id": "PMID:31576433",
+            "children": []
+          },
+          {
+            "quote": "[ABSTRACT] This is one of the first clinical safety and pharmacokinetics (PK) assessments of the anti-PD-1 antibody nivolumab and its effect on immune biomarkers in sepsis.",
+            "polarity": "attack",
+            "paper_id": "PMID:31576433",
+            "children": [
+              {
+                "quote": "[INTRODUCTION] It is likely that almost all patients with protracted sepsis who survive the initial hyperinflammatory phase progress to a protracted phase of immunosuppression, characterized by reactivation of latent viruses, development of secondary hospital-acquired infections, organ failure, and death [5–10].",
+                "polarity": "support",
+                "paper_id": "PMID:31576433",
+                "children": []
+              },
+              {
+                "quote": "[INTRODUCTION] Preclinical sepsis models and analyses of blood samples from patients with sepsis suggest that immunomodulation via blockade of this pathway with anti-PD-1/PD-L 1 antibodies might restore immune cell function and improve survival [13–15, 17–20].",
+                "polarity": "support",
+                "paper_id": "PMID:31576433",
+                "children": []
+              }
+            ]
+          },
+          {
+            "quote": "[INTRODUCTION] This is the one of the first studies to evaluate the safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD) of a single dose of nivolumab (480 mg or 960 mg) in participants with sepsis and low absolute lymphocyte count (ALC) [25].",
+            "polarity": "attack",
+            "paper_id": "PMID:31576433",
+            "children": []
+          }
+        ]
+      },
+      {
+        "cluster_id": "CL2",
+        "representative_claim": "Purpose: Sepsis survivors have a higher risk of rehospitalisation and of long‑term mortality.",
+        "representative_claim_quote": "[ABSTRACT] Purpose: Sepsis survivors have a higher risk of rehospitalisation and of long‑term mortality.",
+        "source_papers": [
+          "PMID:31974919"
+        ],
+        "n_papers": 1,
+        "evidence": [
+          {
+            "quote": "[INTRODUCTION] The outcome of interest was all‑cause rehospitalisation, which will be affected by a survivorship bias in the observed associations, as sepsis survivors are likely to be healthier than patients who die during the sepsis‑related hospitalisation and b bias from competing risk as sepsis survivors also have a long‑term risk of mortality.",
+            "polarity": "support",
+            "paper_id": "PMID:31974919",
+            "children": []
+          }
+        ]
+      },
+      {
+        "cluster_id": "CL3",
+        "representative_claim": "OBJECTIVES: To evaluate whether a nurse navigator-led, multicomponent Sepsis Transition And Recovery program improves 30-day mortality and readmission outcomes after sepsis hospitalization.",
+        "representative_claim_quote": "[ABSTRACT] OBJECTIVES: To evaluate whether a nurse navigator-led, multicomponent Sepsis Transition And Recovery program improves 30-day mortality and readmission outcomes after sepsis hospitalization.",
+        "source_papers": [
+          "PMID:34534130"
+        ],
+        "n_papers": 1,
+        "evidence": [
+          {
+            "quote": "[DISCUSSION] : Association between adherence to recommended care and outcomes for adult survivors of sepsis.",
+            "polarity": "support",
+            "paper_id": "PMID:34534130",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "steroid_sensitivity": {
+    "topic": "steroid_sensitivity",
+    "n_source_papers": 4,
+    "clusters": [
+      {
+        "cluster_id": "CL1",
+        "representative_claim": "In animals, sepsis is associated with proinflammatory cytokines (mainly TNF and IL-1) early marked increase in ACTH levels that returned to baseline Hypercortisolemia values around 72 h (46).",
+        "representative_claim_quote": "[CONCLUSION] In animals, sepsis is associated with proinflammatory cytokines (mainly TNF and IL-1) early marked increase in ACTH levels that returned to baseline Hypercortisolemia values around 72 h (46).",
+        "source_papers": [
+          "PMID:27379022"
+        ],
+        "n_papers": 1,
+        "evidence": [
+          {
+            "quote": "[METHOD] For and disruption during sepsis and the potential role of treatment example, IL-1 and TNF are likely the two main mediators of the with corticosteroids.",
+            "polarity": "support",
+            "paper_id": "PMID:27379022",
+            "children": [
+              {
+                "quote": "[METHOD] Similarly, in patients with may trigger organ dysfunction and progression of infection to septic shock, postmortem examination suggested overexpression sepsis.",
+                "polarity": "support",
+                "paper_id": "PMID:27379022",
+                "children": []
+              }
+            ]
+          },
+          {
+            "quote": "[METHOD] Similarly, in patients with may trigger organ dysfunction and progression of infection to septic shock, postmortem examination suggested overexpression sepsis.",
+            "polarity": "support",
+            "paper_id": "PMID:27379022",
+            "children": []
+          }
+        ]
+      },
+      {
+        "cluster_id": "CL2",
+        "representative_claim": "The use of glucocorticoids (corticotherapy) in severe sepsis is one of the main controversial issues in critical care medicine.",
+        "representative_claim_quote": "[ABSTRACT] The use of glucocorticoids (corticotherapy) in severe sepsis is one of the main controversial issues in critical care medicine.",
+        "source_papers": [
+          "PMID:15025773"
+        ],
+        "n_papers": 1,
+        "evidence": [
+          {
+            "quote": "[ABSTRACT] These agents were commonly used to treat sepsis until the end of the 1980 s, when several randomized trials casted serious doubt on any benefit from high-dose glucocorticoids.",
+            "polarity": "attack",
+            "paper_id": "PMID:15025773",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "symptoms_diagnosis": {
+    "topic": "symptoms_diagnosis",
+    "n_source_papers": 38,
+    "clusters": [
+      {
+        "cluster_id": "CL1",
+        "representative_claim": "Purpose: Insufficient antimicrobial exposure is associated with worse outcomes in sepsis.",
+        "representative_claim_quote": "[ABSTRACT] Purpose: Insufficient antimicrobial exposure is associated with worse outcomes in sepsis.",
+        "source_papers": [
+          "PMID:35106617",
+          "PMID:38598125"
+        ],
+        "n_papers": 2,
+        "evidence": [
+          {
+            "quote": "[INTRODUCTION] Emerga significant benefit for TDM-guided therapy in adult patients with ing evidence suggests that in patients with sepsis, insufsepsis and continuous infusion of piperacillin/tazobactam with ficient antibiotic exposure, defined as failure to meet the regard to the primary endpoint, namely, the mean total SOFA score.",
+            "polarity": "support",
+            "paper_id": "PMID:35106617",
+            "children": []
+          },
+          {
+            "quote": "[INTRODUCTION] Reasons for insufficient antibiotic exposure include sepsis treated with piperacillin/tazobactam continuous both altered pharmacokinetics driven by the pathophysiinfusion.",
+            "polarity": "attack",
+            "paper_id": "PMID:35106617",
+            "children": [
+              {
+                "quote": "[INTRODUCTION] Emerga significant benefit for TDM-guided therapy in adult patients with ing evidence suggests that in patients with sepsis, insufsepsis and continuous infusion of piperacillin/tazobactam with ficient antibiotic exposure, defined as failure to meet the regard to the primary endpoint, namely, the mean total SOFA score.",
+                "polarity": "support",
+                "paper_id": "PMID:35106617",
+                "children": []
+              },
+              {
+                "quote": "[INTRODUCTION] Outcome measures and adverse events The primary endpoint was sepsis-related organ dysfunc Intervention tion measured by the mean daily total sequential organ Experimental therapy arm failure assessment (SOFA) scores over 10 days, discharge After randomization, a continuous infusion of piperacilfrom the ICU or death, whichever occurred first.",
+                "polarity": "attack",
+                "paper_id": "PMID:35106617",
+                "children": []
+              }
+            ]
+          },
+          {
+            "quote": "[ABSTRACT] Sepsis guidelines sug‑ gest targeting lactate clearance to guide fluid therapy despite the complexity of hyperlactatemia and the potential harm of fluid overload.",
+            "polarity": "attack",
+            "paper_id": "PMID:38598125",
+            "children": [
+              {
+                "quote": "[INTRODUCTION] Further, as an the original ethical applications for CLASSIC in Sweinitial lactate level 4 mmol/L is associated with a markden, Denmark and the Czech Republic (Etikprövnings- ≥ edly increased mortality in patients with sepsis [9], we myndigheten, Sverige, Diarie-Nr 2021-06283-02, De hypothesized that lactate clearance would be different in videnskapsetiske komiteer, Centrum for Sundhed, Danthis subgroup of more severely deranged patients.",
+                "polarity": "attack",
+                "paper_id": "PMID:38598125",
+                "children": []
+              }
+            ]
+          },
+          {
+            "quote": "[INTRODUCTION] Further, as an the original ethical applications for CLASSIC in Sweinitial lactate level 4 mmol/L is associated with a markden, Denmark and the Czech Republic (Etikprövnings- ≥ edly increased mortality in patients with sepsis [9], we myndigheten, Sverige, Diarie-Nr 2021-06283-02, De hypothesized that lactate clearance would be different in videnskapsetiske komiteer, Centrum for Sundhed, Danthis subgroup of more severely deranged patients.",
+            "polarity": "attack",
+            "paper_id": "PMID:38598125",
+            "children": []
+          },
+          {
+            "quote": "[INTRODUCTION] Outcome measures and adverse events The primary endpoint was sepsis-related organ dysfunc Intervention tion measured by the mean daily total sequential organ Experimental therapy arm failure assessment (SOFA) scores over 10 days, discharge After randomization, a continuous infusion of piperacilfrom the ICU or death, whichever occurred first.",
+            "polarity": "attack",
+            "paper_id": "PMID:35106617",
+            "children": []
+          }
+        ]
+      },
+      {
+        "cluster_id": "CL2",
+        "representative_claim": "Purpose: Ilofotase alfa is a human recombinant alkaline phosphatase with reno-protective effects that showed improved survival and reduced Major Adverse Kidney Events by 90 days (MAKE 90) in sepsis-associated acute kidney injury (SA-AKI) patients.",
+        "representative_claim_quote": "[ABSTRACT] Purpose: Ilofotase alfa is a human recombinant alkaline phosphatase with reno-protective effects that showed improved survival and reduced Major Adverse Kidney Events by 90 days (MAKE 90) in sepsis-associated acute kidney injury (SA-AKI) patients.",
+        "source_papers": [
+          "PMID:38172296"
+        ],
+        "n_papers": 1,
+        "evidence": []
+      },
+      {
+        "cluster_id": "CL3",
+        "representative_claim": "Conclusions: Strong agreemaneuvers in sepsis patients with upper gastrointestinal bleeding in ment existed among a large cohort of severe refractory hypoxemia due to patients with bleeding risk factors international experts regarding many ARDS (2 C);",
+        "representative_claim_quote": "[CONCLUSION] Conclusions: Strong agreemaneuvers in sepsis patients with upper gastrointestinal bleeding in ment existed among a large cohort of severe refractory hypoxemia due to patients with bleeding risk factors international experts regarding many ARDS (2 C);",
+        "source_papers": [
+          "PMID:23361625"
+        ],
+        "n_papers": 1,
+        "evidence": [
+          {
+            "quote": "[CONCLUSION] oral or enteral (if necessary) level 1 recommendations for the best sepsis-induced ARDS patients with a feedings, as tolerated, rather than care of patients with severe sepsis.",
+            "polarity": "support",
+            "paper_id": "PMID:23361625",
+            "children": [
+              {
+                "quote": "[CONCLUSION] J.Beale recommendations and suggestions, (b) ongoing signs of hypoperfusion Guy’sand St.Thomas’ Hospital Trust, listed by category, include: early despite achieving adequate intravas London, UK quantitativeresuscitationoftheseptic cular volume and adequate mean J.-L.",
+                "polarity": "support",
+                "paper_id": "PMID:23361625",
+                "children": []
+              },
+              {
+                "quote": "[CONCLUSION] cannula oxygen, or nasopharyngeal Recommendations Assessment, avoidance of neuromuscular blockers continuous PEEP in the presence of Developmentand Evaluationcriteria(cid:2) if possible in the septic patient withrespiratory distress and hypoxemia GRADE (cid:2) Guidelines (cid:2) out ARDS (1 C);",
+                "polarity": "support",
+                "paper_id": "PMID:23361625",
+                "children": []
+              }
+            ]
+          },
+          {
+            "quote": "[CONCLUSION] Most of these ondary to documented or suspected infection) and septic recommendations are appropriate for the severe sepsis shock (severe sepsis plus hypotension not reversed with patient in the intensive care unit (ICU) and non-ICU fluid resuscitation).",
+            "polarity": "support",
+            "paper_id": "PMID:23361625",
+            "children": []
+          },
+          {
+            "quote": "[CONCLUSION] cannula oxygen, or nasopharyngeal Recommendations Assessment, avoidance of neuromuscular blockers continuous PEEP in the presence of Developmentand Evaluationcriteria(cid:2) if possible in the septic patient withrespiratory distress and hypoxemia GRADE (cid:2) Guidelines (cid:2) out ARDS (1 C);",
+            "polarity": "support",
+            "paper_id": "PMID:23361625",
+            "children": []
+          },
+          {
+            "quote": "[CONCLUSION] J.Beale recommendations and suggestions, (b) ongoing signs of hypoperfusion Guy’sand St.Thomas’ Hospital Trust, listed by category, include: early despite achieving adequate intravas London, UK quantitativeresuscitationoftheseptic cular volume and adequate mean J.-L.",
+            "polarity": "support",
+            "paper_id": "PMID:23361625",
+            "children": []
+          }
+        ]
+      },
+      {
+        "cluster_id": "CL4",
+        "representative_claim": "CONCLUSIONS AND RELEVANCE—These updated definitions and clinical criteria should replace previous definitions, offer greater consistency for epidemiologic studies and clinical trials, and facilitate earlier recognition and more timely management of patients with sepsis or at risk of developing sepsis.",
+        "representative_claim_quote": "[CONCLUSION] CONCLUSIONS AND RELEVANCE—These updated definitions and clinical criteria should replace previous definitions, offer greater consistency for epidemiologic studies and clinical trials, and facilitate earlier recognition and more timely management of patients with sepsis or at risk of developing sepsis.",
+        "source_papers": [
+          "PMID:26903338"
+        ],
+        "n_papers": 1,
+        "evidence": [
+          {
+            "quote": "[METHOD] Considerable advances have since been made into the pathobiology (changes in organ function, morphology, cell biology, biochemistry, immunology, and circulation), management, and epidemiology of sepsis, suggesting the need for reexamination.",
+            "polarity": "support",
+            "paper_id": "PMID:26903338",
+            "children": [
+              {
+                "quote": "[CONCLUSION] These explorations were performed in multiple large electronic health record databases that also addressed the absence (missingness) of individual elements of different organ dysfunction scores and the question of generalizability (ecologic validity).12 A systematic literature review and Delphi consensus methods were also used for the definition and clinical criteria describing septic shock.13 When compiled, the task force recommendations with supporting evidence, including original research, were circulated to major international societies and other relevant bodies for peer review and endorsement (31 endorsing societies are listed at the end of this article).",
+                "polarity": "support",
+                "paper_id": "PMID:26903338",
+                "children": []
+              },
+              {
+                "quote": "[METHOD] RECOMMENDATIONS—Sepsis should be defined as life-threatening organ dysfunction caused by a dysregulated host response to infection.",
+                "polarity": "support",
+                "paper_id": "PMID:26903338",
+                "children": []
+              }
+            ]
+          },
+          {
+            "quote": "[CONCLUSION] These explorations were performed in multiple large electronic health record databases that also addressed the absence (missingness) of individual elements of different organ dysfunction scores and the question of generalizability (ecologic validity).12 A systematic literature review and Delphi consensus methods were also used for the definition and clinical criteria describing septic shock.13 When compiled, the task force recommendations with supporting evidence, including original research, were circulated to major international societies and other relevant bodies for peer review and endorsement (31 endorsing societies are listed at the end of this article).",
+            "polarity": "support",
+            "paper_id": "PMID:26903338",
+            "children": []
+          },
+          {
+            "quote": "[METHOD] RECOMMENDATIONS—Sepsis should be defined as life-threatening organ dysfunction caused by a dysregulated host response to infection.",
+            "polarity": "support",
+            "paper_id": "PMID:26903338",
+            "children": []
+          }
+        ]
+      },
+      {
+        "cluster_id": "CL5",
+        "representative_claim": "Wirzetal.Critical Care (2018) 22:191 Page 2 of 11 (Continuedfrompreviouspage) Conclusion: Procalcitonin-guidedantibiotictreatmentin ICUpatientswithinfectionandsepsispatientsresultsin improvedsurvivalandlowerantibiotictreatmentduration.",
+        "representative_claim_quote": "[CONCLUSION] Wirzetal.Critical Care (2018) 22:191 Page 2 of 11 (Continuedfrompreviouspage) Conclusion: Procalcitonin-guidedantibiotictreatmentin ICUpatientswithinfectionandsepsispatientsresultsin improvedsurvivalandlowerantibiotictreatmentduration.",
+        "source_papers": [
+          "PMID:30111341"
+        ],
+        "n_papers": 1,
+        "evidence": [
+          {
+            "quote": "[CONCLUSION] and thus may improve sepsis management [4, 5].",
+            "polarity": "support",
+            "paper_id": "PMID:30111341",
+            "children": [
+              {
+                "quote": "[CONCLUSION] In accordance with the Cochrane methodology, [22] but we specified the main analysis and subgroup we used the Grading of Recommendations, Assessment, analysis for the sepsis patient population.",
+                "polarity": "support",
+                "paper_id": "PMID:30111341",
+                "children": []
+              }
+            ]
+          },
+          {
+            "quote": "[CONCLUSION] In accordance with the Cochrane methodology, [22] but we specified the main analysis and subgroup we used the Grading of Recommendations, Assessment, analysis for the sepsis patient population.",
+            "polarity": "support",
+            "paper_id": "PMID:30111341",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_recommendation": {
+    "topic": "treatment_recommendation",
+    "n_source_papers": 13,
+    "clusters": [
+      {
+        "cluster_id": "CL1",
+        "representative_claim": "Sepsis/septic shock and pneumonia were the most common outcomes, occurring in 18.0% (1526/8469), 12.1% (1004/8298) and 35.7% (3633/10175) of patients respectively.",
+        "representative_claim_quote": "[ABSTRACT] Sepsis/septic shock and pneumonia were the most common outcomes, occurring in 18.0% (1526/8469), 12.1% (1004/8298) and 35.7% (3633/10175) of patients respectively.",
+        "source_papers": [
+          "PMID:31285144"
+        ],
+        "n_papers": 1,
+        "evidence": []
+      },
+      {
+        "cluster_id": "CL2",
+        "representative_claim": "We aimed to summarize the epidemiological evidence related to the burden of hospital‑ acquired (HA) and ICU‑acquired (ICU‑A) sepsis.",
+        "representative_claim_quote": "[ABSTRACT] We aimed to summarize the epidemiological evidence related to the burden of hospital‑ acquired (HA) and ICU‑acquired (ICU‑A) sepsis.",
+        "source_papers": [
+          "PMID:32591853"
+        ],
+        "n_papers": 1,
+        "evidence": []
+      },
+      {
+        "cluster_id": "CL3",
+        "representative_claim": "We aimed to compare the effects of vitamin C, glucocorticoids, vitamin B 1, combinations of these drugs, and placebo or usual care on longer-term mortality in adults with sepsis or septic shock.",
+        "representative_claim_quote": "[ABSTRACT] We aimed to compare the effects of vitamin C, glucocorticoids, vitamin B 1, combinations of these drugs, and placebo or usual care on longer-term mortality in adults with sepsis or septic shock.",
+        "source_papers": [
+          "PMID:34750650"
+        ],
+        "n_papers": 1,
+        "evidence": []
+      },
+      {
+        "cluster_id": "CL4",
+        "representative_claim": "Secondary outcomes included postextubation respiratory failure, respiratory infection, sepsis, multiorgan failure, length of stay, mortality, adverse events, and time to reintubation.",
+        "representative_claim_quote": "[ABSTRACT] Secondary outcomes included postextubation respiratory failure, respiratory infection, sepsis, multiorgan failure, length of stay, mortality, adverse events, and time to reintubation.",
+        "source_papers": [
+          "PMID:36400984"
+        ],
+        "n_papers": 1,
+        "evidence": []
+      },
+      {
+        "cluster_id": "CL5",
+        "representative_claim": "Critical care trials evaluate the effect of interventions in patients with diverse personal histories and illness etiologies, often under the umbrella of heterogeneous clinical syndromes, such as sepsis or acute respiratory distress syndrome.",
+        "representative_claim_quote": "[ABSTRACT] Critical care trials evaluate the effect of interventions in patients with diverse personal histories and illness etiologies, often under the umbrella of heterogeneous clinical syndromes, such as sepsis or acute respiratory distress syndrome.",
+        "source_papers": [
+          "PMID:39145702"
+        ],
+        "n_papers": 1,
+        "evidence": []
+      }
+    ]
+  }
+}

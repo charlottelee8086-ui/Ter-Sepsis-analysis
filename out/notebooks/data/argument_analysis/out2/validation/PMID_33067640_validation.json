@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 2,
+    "is_valid_claim": true,
+    "is_topic_relevant": false,
+    "issue": "Claim is about antiseptic mouthwashes and mortality, not sepsis symptoms/diagnosis"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Empty evidence string cannot support or refute claim"
+    }
+  ],
+  "overall_score": 1,
+  "summary": "Claim is irrelevant to sepsis topic and evidence is empty, making evaluation impossible",
+  "paper_id": "33067640",
+  "topic": "symptoms_diagnosis",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

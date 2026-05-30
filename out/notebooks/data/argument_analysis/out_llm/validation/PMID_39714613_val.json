@@ -1,0 +1,39 @@
+{
+  "claim_quality": {
+    "score": 5,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "none"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    },
+    {
+      "id": "E2",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    },
+    {
+      "id": "E3",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    },
+    {
+      "id": "E4",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    }
+  ],
+  "overall_score": 5,
+  "summary": "All evidence strongly supports the claim about the need for expert consensus statements for managing adult sepsis in resource-limited settings.",
+  "paper_id": "PMID:39714613",
+  "topic": "symptoms_diagnosis",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

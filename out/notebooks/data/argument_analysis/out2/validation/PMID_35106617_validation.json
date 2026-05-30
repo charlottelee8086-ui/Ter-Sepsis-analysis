@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 5,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "none"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "No evidence provided"
+    }
+  ],
+  "overall_score": 1,
+  "summary": "The claim is valid and relevant, but no evidence is provided to support it.",
+  "paper_id": "35106617",
+  "topic": "symptoms_diagnosis",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

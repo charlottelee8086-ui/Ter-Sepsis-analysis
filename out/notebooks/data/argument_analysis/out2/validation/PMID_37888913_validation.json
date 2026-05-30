@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 1,
+    "is_valid_claim": false,
+    "is_topic_relevant": false,
+    "issue": "Claim is incoherent and lacks clear meaning"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence is empty and cannot support any claim"
+    }
+  ],
+  "overall_score": 0,
+  "summary": "Both claim and evidence are invalid and irrelevant to sepsis diagnosis criteria.",
+  "paper_id": "37888913",
+  "topic": "sepsis_diagnosis_criteria",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

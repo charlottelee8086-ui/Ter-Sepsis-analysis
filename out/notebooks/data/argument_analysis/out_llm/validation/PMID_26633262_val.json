@@ -1,0 +1,39 @@
+{
+  "claim_quality": {
+    "score": 2,
+    "is_valid_claim": false,
+    "is_topic_relevant": true,
+    "issue": "Evidence contradicts the claim of reduced mortality"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": true,
+      "issue": "Evidence shows no significant difference in 28-day mortality"
+    },
+    {
+      "id": "E2",
+      "polarity_correct": false,
+      "is_relevant": true,
+      "issue": "Evidence shows no significant difference in 90-day mortality"
+    },
+    {
+      "id": "E3",
+      "polarity_correct": false,
+      "is_relevant": true,
+      "issue": "Evidence shows no significant difference in adverse events"
+    },
+    {
+      "id": "E4",
+      "polarity_correct": false,
+      "is_relevant": true,
+      "issue": "Evidence shows no significant difference in shock reversal"
+    }
+  ],
+  "overall_score": 1,
+  "summary": "All evidence contradicts the claim, showing no significant differences in outcomes",
+  "paper_id": "PMID:26633262",
+  "topic": "steroid_sensitivity",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

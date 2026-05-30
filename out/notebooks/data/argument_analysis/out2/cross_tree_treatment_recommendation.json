@@ -1,0 +1,56 @@
+{
+  "topic": "treatment_recommendation",
+  "n_source_papers": 13,
+  "clusters": [
+    {
+      "cluster_id": "CL1",
+      "representative_claim": "Sepsis/septic shock and pneumonia were the most common outcomes, occurring in 18.0% (1526/8469), 12.1% (1004/8298) and 35.7% (3633/10175) of patients respectively.",
+      "representative_claim_quote": "[ABSTRACT] Sepsis/septic shock and pneumonia were the most common outcomes, occurring in 18.0% (1526/8469), 12.1% (1004/8298) and 35.7% (3633/10175) of patients respectively.",
+      "source_papers": [
+        "PMID:31285144"
+      ],
+      "n_papers": 1,
+      "evidence": []
+    },
+    {
+      "cluster_id": "CL2",
+      "representative_claim": "We aimed to summarize the epidemiological evidence related to the burden of hospital‑ acquired (HA) and ICU‑acquired (ICU‑A) sepsis.",
+      "representative_claim_quote": "[ABSTRACT] We aimed to summarize the epidemiological evidence related to the burden of hospital‑ acquired (HA) and ICU‑acquired (ICU‑A) sepsis.",
+      "source_papers": [
+        "PMID:32591853"
+      ],
+      "n_papers": 1,
+      "evidence": []
+    },
+    {
+      "cluster_id": "CL3",
+      "representative_claim": "We aimed to compare the effects of vitamin C, glucocorticoids, vitamin B 1, combinations of these drugs, and placebo or usual care on longer-term mortality in adults with sepsis or septic shock.",
+      "representative_claim_quote": "[ABSTRACT] We aimed to compare the effects of vitamin C, glucocorticoids, vitamin B 1, combinations of these drugs, and placebo or usual care on longer-term mortality in adults with sepsis or septic shock.",
+      "source_papers": [
+        "PMID:34750650"
+      ],
+      "n_papers": 1,
+      "evidence": []
+    },
+    {
+      "cluster_id": "CL4",
+      "representative_claim": "Secondary outcomes included postextubation respiratory failure, respiratory infection, sepsis, multiorgan failure, length of stay, mortality, adverse events, and time to reintubation.",
+      "representative_claim_quote": "[ABSTRACT] Secondary outcomes included postextubation respiratory failure, respiratory infection, sepsis, multiorgan failure, length of stay, mortality, adverse events, and time to reintubation.",
+      "source_papers": [
+        "PMID:36400984"
+      ],
+      "n_papers": 1,
+      "evidence": []
+    },
+    {
+      "cluster_id": "CL5",
+      "representative_claim": "Critical care trials evaluate the effect of interventions in patients with diverse personal histories and illness etiologies, often under the umbrella of heterogeneous clinical syndromes, such as sepsis or acute respiratory distress syndrome.",
+      "representative_claim_quote": "[ABSTRACT] Critical care trials evaluate the effect of interventions in patients with diverse personal histories and illness etiologies, often under the umbrella of heterogeneous clinical syndromes, such as sepsis or acute respiratory distress syndrome.",
+      "source_papers": [
+        "PMID:39145702"
+      ],
+      "n_papers": 1,
+      "evidence": []
+    }
+  ]
+}

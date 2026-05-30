@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 5,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "none"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence discusses adherence to care, not nurse navigator-led program outcomes"
+    }
+  ],
+  "overall_score": 2,
+  "summary": "Claim is valid and relevant but evidence does not support the specific intervention described",
+  "paper_id": "PMID:34534130",
+  "topic": "sequelae_prevention",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

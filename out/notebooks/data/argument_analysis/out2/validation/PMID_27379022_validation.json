@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 4,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "Specificity of cytokine mention."
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "Provides supporting information regarding ACTH and hypercortisolemia in sepsis."
+    }
+  ],
+  "overall_score": 4,
+  "summary": "The claim accurately describes the association of sepsis with proinflammatory cytokines, ACTH levels, and hypercortisolemia in animal models, with supporting evidence provided.",
+  "paper_id": "27379022",
+  "topic": "steroid_sensitivity",
+  "model": "google/gemma-3n-e4b-it:free"
+}

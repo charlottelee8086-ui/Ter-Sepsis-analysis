@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 4,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "None"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "None"
+    }
+  ],
+  "overall_score": 4,
+  "summary": "The claim is valid and relevant, with strong supporting evidence.",
+  "paper_id": "PMID:30911807",
+  "topic": "treatment_recommendation",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

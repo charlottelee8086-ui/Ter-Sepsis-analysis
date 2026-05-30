@@ -1,0 +1,33 @@
+{
+  "claim_quality": {
+    "score": 3,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "Claim is valid but lacks specific safety data"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    },
+    {
+      "id": "E2",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    },
+    {
+      "id": "E3",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    }
+  ],
+  "overall_score": 3,
+  "summary": "Evidence supports the claim's focus on safety and PK assessment but lacks specific safety outcome data.",
+  "paper_id": "PMID:31576433",
+  "topic": "sequelae_prevention",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

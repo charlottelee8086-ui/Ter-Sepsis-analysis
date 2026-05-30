@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 1,
+    "is_valid_claim": false,
+    "is_topic_relevant": false,
+    "issue": "Claim is incoherent and unrelated to sepsis diagnosis criteria"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence discusses COVID-19 and platform eligibility, not sepsis or 90-day survival"
+    }
+  ],
+  "overall_score": 0,
+  "summary": "Both claim and evidence are irrelevant to sepsis diagnosis criteria and do not support each other",
+  "paper_id": "PMID:37888913",
+  "topic": "sepsis_diagnosis_criteria",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

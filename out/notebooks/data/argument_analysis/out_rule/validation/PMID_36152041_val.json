@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 3,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "None"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence is incomplete and unclear, making it impossible to determine relevance or polarity."
+    }
+  ],
+  "overall_score": 1,
+  "summary": "Evidence is too fragmented to support or refute the claim.",
+  "paper_id": "PMID:36152041",
+  "topic": "symptoms_diagnosis",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

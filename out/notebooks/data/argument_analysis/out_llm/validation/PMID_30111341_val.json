@@ -1,0 +1,27 @@
+{
+  "claim_quality": {
+    "score": 4,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "none"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    },
+    {
+      "id": "E2",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    }
+  ],
+  "overall_score": 4,
+  "summary": "The claim is well-supported by evidence showing reduced mortality with procalcitonin-guided treatment in ICU patients with infection.",
+  "paper_id": "PMID:30111341",
+  "topic": "sepsis_diagnosis_criteria",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

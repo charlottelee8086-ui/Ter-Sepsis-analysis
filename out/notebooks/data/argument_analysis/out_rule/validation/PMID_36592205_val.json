@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 3,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "Claim is valid but somewhat general"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": true,
+      "issue": "Evidence contradicts claim by questioning BDG's specificity"
+    }
+  ],
+  "overall_score": 2,
+  "summary": "Evidence E1 attacks the claim by questioning BDG's specificity in infections",
+  "paper_id": "PMID:36592205",
+  "topic": "symptoms_diagnosis",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

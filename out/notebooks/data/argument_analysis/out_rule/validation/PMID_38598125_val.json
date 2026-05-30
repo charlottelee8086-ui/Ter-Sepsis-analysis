@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 5,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "none"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": true,
+      "issue": "Evidence discusses lactate clearance and fluid therapy, not the association between hyperlactatemia and worse outcomes."
+    }
+  ],
+  "overall_score": 2,
+  "summary": "Claim is valid and relevant, but evidence does not support the stated association.",
+  "paper_id": "PMID:38598125",
+  "topic": "symptoms_diagnosis",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

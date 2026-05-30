@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 4,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "Strong claim about a well-established consequence of sepsis."
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "No specific details provided in the evidence snippet."
+    }
+  ],
+  "overall_score": 4,
+  "summary": "The claim is valid and relevant, asserting a link between sepsis-associated immunosuppression and increased infection/reactivation risk, a commonly recognized sequelae.",
+  "paper_id": "31576433",
+  "topic": "sequelae_prevention",
+  "model": "google/gemma-3n-e4b-it:free"
+}

@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 1,
+    "is_valid_claim": false,
+    "is_topic_relevant": true,
+    "issue": "Fragmented and incoherent text with missing context"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Empty evidence"
+    }
+  ],
+  "overall_score": 1,
+  "summary": "The claim is a fragmented text snippet with no clear argument, and the evidence is empty, making evaluation impossible.",
+  "paper_id": "37479058",
+  "topic": "symptoms_diagnosis",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

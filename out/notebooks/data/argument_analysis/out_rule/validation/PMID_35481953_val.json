@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 3,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "None"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence discusses sepsis awareness trends, not data extraction accuracy"
+    }
+  ],
+  "overall_score": 1,
+  "summary": "Evidence does not support the claim as it addresses a different topic entirely.",
+  "paper_id": "PMID:35481953",
+  "topic": "symptoms_diagnosis",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

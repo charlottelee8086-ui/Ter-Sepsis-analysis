@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 5,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "none"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence discusses nivolumab assessment, not sepsis-associated immunosuppression"
+    }
+  ],
+  "overall_score": 2,
+  "summary": "Claim is valid and relevant, but evidence does not support it.",
+  "paper_id": "PMID:31576433",
+  "topic": "sequelae_prevention",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

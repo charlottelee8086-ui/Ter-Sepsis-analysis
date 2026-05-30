@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 2,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "Incomplete claim, missing conclusion"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": true,
+      "issue": "Evidence contradicts claim, mentions different trial"
+    }
+  ],
+  "overall_score": 2,
+  "summary": "Claim is incomplete and evidence contradicts it, resulting in low quality.",
+  "paper_id": "PMID:39235623",
+  "topic": "symptoms_diagnosis",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

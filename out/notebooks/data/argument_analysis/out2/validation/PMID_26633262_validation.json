@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 4,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "Evidence includes study details and statistical significance."
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "Provides supporting data for the claim."
+    }
+  ],
+  "overall_score": 4,
+  "summary": "The claim is well-supported by evidence detailing a statistically significant reduction in 28-day mortality with corticosteroids, although evidence quality is downgraded due to imprecision and heterogeneity.",
+  "paper_id": "26633262",
+  "topic": "steroid_sensitivity",
+  "model": "google/gemma-3n-e4b-it:free"
+}

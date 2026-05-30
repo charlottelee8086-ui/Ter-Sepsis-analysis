@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 4,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "Potential for bias due to source (Wirzetal.Critical Care)."
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "Directly supports the claim regarding improved survival and shorter antibiotic duration."
+    }
+  ],
+  "overall_score": 4,
+  "summary": "The claim asserts that procalcitonin-guided antibiotic treatment improves survival and reduces treatment duration in sepsis patients, and the provided evidence supports this assertion.",
+  "paper_id": "30111341",
+  "topic": "sepsis_diagnosis_criteria",
+  "model": "google/gemma-3n-e4b-it:free"
+}

@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 1,
+    "is_valid_claim": false,
+    "is_topic_relevant": true,
+    "issue": "Claim is incoherent and contains garbled text."
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence does not support claim; discusses feeding recommendations, not ARDS or hypoxemia."
+    }
+  ],
+  "overall_score": 1,
+  "summary": "Claim is incoherent and evidence is irrelevant to the claim.",
+  "paper_id": "PMID:23361625",
+  "topic": "sepsis_diagnosis_criteria",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

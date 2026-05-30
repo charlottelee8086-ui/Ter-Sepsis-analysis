@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 3,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "Claim is valid but incomplete as evidence is cut off"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "Evidence is incomplete but supports the claim"
+    }
+  ],
+  "overall_score": 3,
+  "summary": "Claim is valid and relevant but evidence is incomplete",
+  "paper_id": "PMID:37278760",
+  "topic": "symptoms_diagnosis",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

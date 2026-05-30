@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 4,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "none"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": true,
+      "is_relevant": true,
+      "issue": "none"
+    }
+  ],
+  "overall_score": 4,
+  "summary": "The claim is valid and relevant, with evidence supporting the recommendation for restrictive fluid management in ARDS patients.",
+  "paper_id": "PMID:33169217",
+  "topic": "treatment_recommendation",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

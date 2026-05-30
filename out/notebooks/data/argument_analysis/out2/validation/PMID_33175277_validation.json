@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 3,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "Incomplete claim lacks context"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Empty evidence"
+    }
+  ],
+  "overall_score": 1,
+  "summary": "Claim is relevant but incomplete, with no supporting evidence provided.",
+  "paper_id": "33175277",
+  "topic": "treatment_recommendation",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

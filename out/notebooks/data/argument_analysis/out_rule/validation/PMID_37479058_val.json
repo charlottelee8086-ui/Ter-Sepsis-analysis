@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 2,
+    "is_valid_claim": false,
+    "is_topic_relevant": true,
+    "issue": "Claim is incomplete and contains fragmented text"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": true,
+      "issue": "Evidence does not directly address the claim's focus on vasopressin vs norepinephrine"
+    }
+  ],
+  "overall_score": 2,
+  "summary": "Claim is poorly formed and evidence does not adequately support or refute it",
+  "paper_id": "PMID:37479058",
+  "topic": "symptoms_diagnosis",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

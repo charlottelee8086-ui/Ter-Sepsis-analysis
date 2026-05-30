@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 1,
+    "is_valid_claim": false,
+    "is_topic_relevant": true,
+    "issue": "Claim is incoherent and lacks clear meaning"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence is incomplete and does not address claim"
+    }
+  ],
+  "overall_score": 1,
+  "summary": "Both claim and evidence are poorly formed and unrelated",
+  "paper_id": "PMID:35945344",
+  "topic": "symptoms_diagnosis",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

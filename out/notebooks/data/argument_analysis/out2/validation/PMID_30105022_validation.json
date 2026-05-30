@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 3,
+    "is_valid_claim": true,
+    "is_topic_relevant": false,
+    "issue": "Claim is about publication date, not diagnostic criteria."
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": true,
+      "is_relevant": false,
+      "issue": "Evidence is empty and doesn't support the claim."
+    }
+  ],
+  "overall_score": 2,
+  "summary": "The claim about the publication date is not directly related to sepsis diagnosis criteria and lacks supporting evidence.",
+  "paper_id": "30105022",
+  "topic": "sepsis_diagnosis_criteria",
+  "model": "google/gemma-3n-e4b-it:free"
+}

@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 2,
+    "is_valid_claim": true,
+    "is_topic_relevant": true,
+    "issue": "Incomplete sentence, lacks context"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence is fragmented and does not address pulmonary infection"
+    }
+  ],
+  "overall_score": 1,
+  "summary": "Claim is relevant but incomplete; evidence is irrelevant and poorly extracted.",
+  "paper_id": "PMID:33175277",
+  "topic": "treatment_recommendation",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

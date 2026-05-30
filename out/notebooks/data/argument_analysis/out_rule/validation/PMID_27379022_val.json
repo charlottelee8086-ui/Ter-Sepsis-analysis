@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 2,
+    "is_valid_claim": false,
+    "is_topic_relevant": true,
+    "issue": "Claim is incoherent and contains garbled text"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence is incomplete and does not support the claim"
+    }
+  ],
+  "overall_score": 1,
+  "summary": "Both claim and evidence are poorly formed and lack coherence.",
+  "paper_id": "PMID:27379022",
+  "topic": "steroid_sensitivity",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

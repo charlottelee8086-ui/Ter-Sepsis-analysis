@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 2,
+    "is_valid_claim": false,
+    "is_topic_relevant": true,
+    "issue": "Claim is poorly structured and contains garbled text, making it difficult to parse."
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence is too vague and does not directly support the specific claim about procalcitonin-guided treatment."
+    }
+  ],
+  "overall_score": 1,
+  "summary": "The claim is poorly structured and the evidence is too vague to support it.",
+  "paper_id": "PMID:30111341",
+  "topic": "sepsis_diagnosis_criteria",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 2,
+    "is_valid_claim": true,
+    "is_topic_relevant": false,
+    "issue": "Claim is incomplete and not directly related to sepsis symptoms/diagnosis"
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Empty evidence string"
+    }
+  ],
+  "overall_score": 1,
+  "summary": "Invalid claim with empty evidence, not relevant to sepsis topic",
+  "paper_id": "33206201",
+  "topic": "symptoms_diagnosis",
+  "model": "arcee-ai/trinity-large-preview:free"
+}

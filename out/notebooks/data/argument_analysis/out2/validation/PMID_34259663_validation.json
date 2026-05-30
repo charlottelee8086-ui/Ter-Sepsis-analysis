@@ -1,0 +1,21 @@
+{
+  "claim_quality": {
+    "score": 2,
+    "is_valid_claim": false,
+    "is_topic_relevant": true,
+    "issue": "Claim is incoherent and contains fragmented sentences with unclear meaning."
+  },
+  "evidence_evaluations": [
+    {
+      "id": "E1",
+      "polarity_correct": false,
+      "is_relevant": false,
+      "issue": "Evidence is empty and cannot support or refute the claim."
+    }
+  ],
+  "overall_score": 1,
+  "summary": "The claim is poorly constructed and the evidence is missing, making evaluation impossible.",
+  "paper_id": "34259663",
+  "topic": "symptoms_diagnosis",
+  "model": "arcee-ai/trinity-large-preview:free"
+}
